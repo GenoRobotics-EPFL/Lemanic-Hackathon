@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>psbA-trnH</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1623be6a-afba-4107-857b-e7c29370a79d LN:i:849 RC:i:1884 XC:f:1.000000</BlastOutput_query-def>
+  <BlastOutput_query-len>849</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1623be6a-afba-4107-857b-e7c29370a79d LN:i:849 RC:i:1884 XC:f:1.000000</Iteration_query-def>
+  <Iteration_query-len>849</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>emb|HF572800.1|</Hit_id>
+  <Hit_def>Allium ursinum chloroplast DNA containing psbA-trnH IGS, specimen voucher MIB:ZPL:06922</Hit_def>
+  <Hit_accession>HF572800</Hit_accession>
+  <Hit_len>613</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1051.86</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>687</Hsp_query-to>
+      <Hsp_hit-from>579</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>576</Hsp_identity>
+      <Hsp_positive>576</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>579</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAATAACGGGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGAC-AATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTGAAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAATAACGGGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACGAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|KC704223.1|</Hit_id>
+  <Hit_def>Allium senescens isolate PDBK2005-0707 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; plastid</Hit_def>
+  <Hit_accession>KC704223</Hit_accession>
+  <Hit_len>638</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>985.385</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>705</Hsp_query-to>
+      <Hsp_hit-from>590</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>598</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAATAAC--GGGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCGACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G--AAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCGGGAGCTATACCCAATATCTATTAGGTATAGCCCCTTCGTTCGACGATTCTTAATACATTAAGACGAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||  |||||||||||||||||  ||||||||| ||| |||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|KC704224.1|</Hit_id>
+  <Hit_def>Allium senescens isolate PDBK2012-0635 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; plastid</Hit_def>
+  <Hit_accession>KC704224</Hit_accession>
+  <Hit_len>638</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>985.385</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>705</Hsp_query-to>
+      <Hsp_hit-from>590</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>598</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAATAAC--GGGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCGACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G--AAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCGGGAGCTATACCCAATATCTATTAGGTATAGCCCCTTCGTTCGACGATTCTTAATACATTAAGACGAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||  |||||||||||||||||  ||||||||| ||| |||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|KC704225.1|</Hit_id>
+  <Hit_def>Allium senescens isolate PDBK2012-0636 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; plastid</Hit_def>
+  <Hit_accession>KC704225</Hit_accession>
+  <Hit_len>638</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>985.385</Hsp_bit-score>
+      <Hsp_score>533</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>705</Hsp_query-to>
+      <Hsp_hit-from>590</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>578</Hsp_identity>
+      <Hsp_positive>578</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>598</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAATAAC--GGGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCGACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G--AAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCGGGAGCTATACCCAATATCTATTAGGTATAGCCCCTTCGTTCGACGATTCTTAATACATTAAGACGAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||  |||||||||||||||||  ||||||||| ||| |||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|KC704213.1|</Hit_id>
+  <Hit_def>Allium macrostemon isolate PDBK2004-0765 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; plastid</Hit_def>
+  <Hit_accession>KC704213</Hit_accession>
+  <Hit_len>648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>966.918</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>705</Hsp_query-to>
+      <Hsp_hit-from>600</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>582</Hsp_identity>
+      <Hsp_positive>582</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>607</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAA----T-AA---CG---GGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCGACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G-AAAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCAAATTCGAGTGGAGCTATACCCAATAGATATTAGGTATAGCCCCTTCGTTCGACGATTCTTAATACATTAAGACGAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||  | |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||    | ||   ||   ||||||||||||||||||||||||||| ||| |||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|KC704214.1|</Hit_id>
+  <Hit_def>Allium macrostemon isolate PDBK2006-0814 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; plastid</Hit_def>
+  <Hit_accession>KC704214</Hit_accession>
+  <Hit_len>648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>966.918</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>705</Hsp_query-to>
+      <Hsp_hit-from>600</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>582</Hsp_identity>
+      <Hsp_positive>582</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>607</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAA----T-AA---CG---GGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCGACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G-AAAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCAAATTCGAGTGGAGCTATACCCAATAGATATTAGGTATAGCCCCTTCGTTCGACGATTCTTAATACATTAAGACGAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||  | |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||    | ||   ||   ||||||||||||||||||||||||||| ||| |||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|KC704215.1|</Hit_id>
+  <Hit_def>Allium macrostemon isolate PDBK2011-0661 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; plastid</Hit_def>
+  <Hit_accession>KC704215</Hit_accession>
+  <Hit_len>648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>966.918</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>705</Hsp_query-to>
+      <Hsp_hit-from>600</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>582</Hsp_identity>
+      <Hsp_positive>582</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>607</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAA----T-AA---CG---GGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCGACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G-AAAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCAAATTCGAGTGGAGCTATACCCAATAGATATTAGGTATAGCCCCTTCGTTCGACGATTCTTAATACATTAAGACGAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||  | |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||    | ||   ||   ||||||||||||||||||||||||||| ||| |||||||||||| ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MH197411.1|</Hit_id>
+  <Hit_def>Allium macrostemon isolate p389 psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MH197411</Hit_accession>
+  <Hit_len>648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>948.452</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>705</Hsp_query-to>
+      <Hsp_hit-from>599</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>579</Hsp_identity>
+      <Hsp_positive>579</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>607</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAA----T-AA---CG---GGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAAGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCGACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G--AAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCAAATGCGAGTGGAGCTATACCCAATAGATATTAGGTATAGCCCCTTCGTTCGACGATTCTTACTACATTAAGACGAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||    | ||   ||   ||||||||||||||||||||||||||| ||| |||||||||||| ||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|KC704235.1|</Hit_id>
+  <Hit_def>Allium victorialis isolate PDBK2005-0600 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; plastid</Hit_def>
+  <Hit_accession>KC704235</Hit_accession>
+  <Hit_len>647</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>948.452</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>705</Hsp_query-to>
+      <Hsp_hit-from>599</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>579</Hsp_identity>
+      <Hsp_positive>579</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>607</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAA----T-AA---CG---GGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATGGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G--AAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCAAATTCGAGTGGAGCTATACCCAATAAATATTGGGTATAGCTCCTTCGTTCGACGATTCTTACTACATTAAGACGAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||    | ||   ||   |||||||||||||||| ||||| |||| |||||||||||||||| ||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|KC704236.1|</Hit_id>
+  <Hit_def>Allium victorialis isolate PDBK2009-0577 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; plastid</Hit_def>
+  <Hit_accession>KC704236</Hit_accession>
+  <Hit_len>647</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>948.452</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>705</Hsp_query-to>
+      <Hsp_hit-from>599</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>579</Hsp_identity>
+      <Hsp_positive>579</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>607</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAA----T-AA---CG---GGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATGGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G--AAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCAAATTCGAGTGGAGCTATACCCAATAAATATTGGGTATAGCTCCTTCGTTCGACGATTCTTACTACATTAAGACGAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||    | ||   ||   |||||||||||||||| ||||| |||| |||||||||||||||| ||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|KP659193.1|</Hit_id>
+  <Hit_def>Allium ampeloprasum subsp. ampeloprasum isolate NMK3230 photosystem II protein D1 (psbA) gene, partial cds; and tRNA-His (trnH) gene, partial sequence; plastid</Hit_def>
+  <Hit_accession>KP659193</Hit_accession>
+  <Hit_len>633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>937.372</Hsp_bit-score>
+      <Hsp_score>507</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>705</Hsp_query-to>
+      <Hsp_hit-from>598</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>577</Hsp_identity>
+      <Hsp_positive>577</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>607</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAA----T-AA---CG---GGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCGACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G---AAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCAAATTCGAGTGGAGCTATACCCAATAGATATTAGGTATAGCCCCTTCGTTCGACGATTCTTAATACATTAAGACTTTCGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||  |   |||||||||||||||||||||||||||||||| |||||||||||||||||||||||    | ||   ||   ||||||||||||||||||||||||||| ||| |||||||||||| |||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>dbj|LC707895.1|</Hit_id>
+  <Hit_def>Allium schoenoprasum var. idzuense P3106 chloroplast psbA, trnH-GUG, genes for photosystem II protein D1, psbA-trnH IGS, tRNA-His</Hit_def>
+  <Hit_accession>LC707895</Hit_accession>
+  <Hit_len>653</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>920.752</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>705</Hsp_query-to>
+      <Hsp_hit-from>605</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>579</Hsp_identity>
+      <Hsp_positive>579</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>613</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAA----T-AA---CG---GGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAAT------ACATTAAGACAAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCCTTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCGACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G--AAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCAAATTCGAGTGGAGCTATACCCAATAGATATTAGGTATAGCCCCTTTGTTCGACGATTCTTAATCTTAATACATTAAGACGAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||    | ||   ||   ||||||||||||||||||||||||||| ||| |||| ||||||| |||||||||      |||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|KP221834.1|</Hit_id>
+  <Hit_def>Allium vineale isolate AV photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; plastid</Hit_def>
+  <Hit_accession>KP221834</Hit_accession>
+  <Hit_len>644</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>907.825</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>707</Hsp_query-to>
+      <Hsp_hit-from>595</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>574</Hsp_identity>
+      <Hsp_positive>574</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>609</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAA----T-AA---CG-G-G-AGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTATGA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCGACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G---AAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCAAATTCGAGTGGAGCTATACCC-----ATATTAGGTATAGCCCCTTCGTTCGACGATTCTTAATACATTAAGACTTTCGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTAGAGGGAAGTTATGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||  |   |||||||||||||||||||||||||||||||| |||||||||||||||||||||||    | ||   || | | ||||||||||     |||||||||| ||| |||||||||||| |||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|GQ434905.1|</Hit_id>
+  <Hit_def>Allium senescens voucher PS0054MT01 psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>GQ434905</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>887.512</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>652</Hsp_query-to>
+      <Hsp_hit-from>537</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>525</Hsp_identity>
+      <Hsp_positive>525</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>545</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAATAAC--GGGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTC</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCGACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G--AAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCGGGAGCTATACCCAATATCTATTAGGTATAGCCCCTTCGTTCGACGATTCTTAATACATTAAGACGAAAGTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||  |||||||||||||||||  ||||||||| ||| |||||||||||| ||||||||||||||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|KU253475.1|</Hit_id>
+  <Hit_def>Allium anisopodium voucher Aa2009008 psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>KU253475</Hit_accession>
+  <Hit_len>613</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>887.512</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>669</Hsp_query-to>
+      <Hsp_hit-from>563</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>544</Hsp_identity>
+      <Hsp_positive>544</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>571</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAA----T-AA---CG---GGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGATG</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAAGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCGACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G--AAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCAAATGCGAGTGGAGCTATACCCAATAGATATTAGGTATAGCCCCTTCGTTCGACGATTCTTAATACATTAAGACGAAAGTCTTATCCATTTGTAGATG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||    | ||   ||   ||||||||||||||||||||||||||| ||| |||||||||||| ||||||||||||||||||| |||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|KP221839.1|</Hit_id>
+  <Hit_def>Allium chamaespathum isolate A31 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; plastid</Hit_def>
+  <Hit_accession>KP221839</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>881.972</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>693</Hsp_query-to>
+      <Hsp_hit-from>581</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>560</Hsp_identity>
+      <Hsp_positive>560</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>595</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAA----T-AA---CG-G-G-AGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCGACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G---AAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCAAATTCGAGTGGAGCTATACCC-----ATATTAGGTATAGCCCCTTCGTTCGACGATTCTTAATACATTAAGACTTTCGTCTTATCCATTTGTAGATGGAACTTCTACAGCAGCCAGGTCTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||  |   |||||||||||||||||||||||||||||||| |||||||||||||||||||||||    | ||   || | | ||||||||||     |||||||||| ||| |||||||||||| |||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|KX675342.1|</Hit_id>
+  <Hit_def>Allium victorialis var. platyphyllum isolate AVP-1 photosystem II protein D1 (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>KX675342</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>878.279</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>667</Hsp_query-to>
+      <Hsp_hit-from>561</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>541</Hsp_identity>
+      <Hsp_positive>541</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>569</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAA----T-AA---CG---GGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATGGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G--AAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCAAATTCGAGTGGAGCTATACCCAATAAATATTGGGTATAGCTCCTTCGTTCGACGATTCTTACTACATTAAGACGAAAGTCTTATCCATTTGTAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||    | ||   ||   |||||||||||||||| ||||| |||| |||||||||||||||| ||||||| ||||||||||| |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|KX675344.1|</Hit_id>
+  <Hit_def>Allium victorialis var. platyphyllum isolate AVP-3 photosystem II protein D1 (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>KX675344</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>878.279</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>667</Hsp_query-to>
+      <Hsp_hit-from>561</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>541</Hsp_identity>
+      <Hsp_positive>541</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>569</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAA----T-AA---CG---GGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATGGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G--AAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCAAATTCGAGTGGAGCTATACCCAATAAATATTGGGTATAGCTCCTTCGTTCGACGATTCTTACTACATTAAGACGAAAGTCTTATCCATTTGTAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||    | ||   ||   |||||||||||||||| ||||| |||| |||||||||||||||| ||||||| ||||||||||| |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|KX675345.1|</Hit_id>
+  <Hit_def>Allium victorialis var. platyphyllum isolate AVP-4 photosystem II protein D1 (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>KX675345</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>878.279</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>667</Hsp_query-to>
+      <Hsp_hit-from>561</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>541</Hsp_identity>
+      <Hsp_positive>541</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>569</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAA----T-AA---CG---GGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATGGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G--AAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCAAATTCGAGTGGAGCTATACCCAATAAATATTGGGTATAGCTCCTTCGTTCGACGATTCTTACTACATTAAGACGAAAGTCTTATCCATTTGTAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||    | ||   ||   |||||||||||||||| ||||| |||| |||||||||||||||| ||||||| ||||||||||| |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|KX675346.1|</Hit_id>
+  <Hit_def>Allium victorialis var. platyphyllum isolate AVP-5 photosystem II protein D1 (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>KX675346</Hit_accession>
+  <Hit_len>618</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>878.279</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>667</Hsp_query-to>
+      <Hsp_hit-from>561</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>541</Hsp_identity>
+      <Hsp_positive>541</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>569</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTTTGAAAAAAAAAATAGATACTTATCATTCATTGGCGGGGGATAACCTTATGATAAAGAAAAA----T-AA---CG---GGAGCTATACCCAATAGATATTAGGTACAGCTCCTTCGTTCGACAATTCTTAATACATTAAGACAAAAGTCTTATCCATTTGTAGA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATT-----CTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATGGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTTG-G--AAAAAAAATAGATACTTATCATTCATTGGCGGGAGATAACCTTATGATAAAGAAAAAGAACTCAAATTCGAGTGGAGCTATACCCAATAAATATTGGGTATAGCTCCTTCGTTCGACGATTCTTACTACATTAAGACGAAAGTCTTATCCATTTGTAGA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||    | ||   ||   |||||||||||||||| ||||| |||| |||||||||||||||| ||||||| ||||||||||| |||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>66534</Statistics_db-num>
+      <Statistics_db-len>34277752</Statistics_db-len>
+      <Statistics_hsp-len>25</Statistics_hsp-len>
+      <Statistics_eff-space>26874267248</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

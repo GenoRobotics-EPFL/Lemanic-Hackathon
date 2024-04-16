@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>rbcL</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>989abb53-8fa2-4f41-a6ed-052ccfb9dc27 LN:i:599 RC:i:59 XC:f:1.000000</BlastOutput_query-def>
+  <BlastOutput_query-len>599</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>989abb53-8fa2-4f41-a6ed-052ccfb9dc27 LN:i:599 RC:i:59 XC:f:1.000000</Iteration_query-def>
+  <Iteration_query-len>599</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MW582610.1|</Hit_id>
+  <Hit_def>Asarum arifolium isolate DNAS-569-7021 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds</Hit_def>
+  <Hit_accession>MW582610</Hit_accession>
+  <Hit_len>614</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>780.406</Hsp_bit-score>
+      <Hsp_score>422</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>599</Hsp_query-to>
+      <Hsp_hit-from>504</Hsp_hit-from>
+      <Hsp_hit-to>22</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>471</Hsp_identity>
+      <Hsp_positive>471</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>491</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACCAGCTTTGAATCCAACACCTGCTTTAGTCTCTGT</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACCAGCTTTGAATCCAACACCTGCTTTAGTCTCTGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MW960568.1|</Hit_id>
+  <Hit_def>Asarum heterotropoides isolate XX-FS1 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MW960568</Hit_accession>
+  <Hit_len>715</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>771.173</Hsp_bit-score>
+      <Hsp_score>417</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>597</Hsp_query-to>
+      <Hsp_hit-from>481</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>468</Hsp_identity>
+      <Hsp_positive>468</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>489</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACCAGCTTTGAATCCAACACCTGCTTTAGTCTCT</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACCAGCTTTGAATCCAACACCTGCTTTAGTTTCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|HQ589965.1|</Hit_id>
+  <Hit_def>Asarum canadense voucher AP009 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>HQ589965</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>754.553</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>469</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>457</Hsp_identity>
+      <Hsp_positive>457</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>477</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACCAGCTTTGAATCCAACACCT</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACCAGCTTTGAATCCAACACCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|KF724354.1|</Hit_id>
+  <Hit_def>Asarum canadense voucher Atha 6285 (NY) ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; plastid</Hit_def>
+  <Hit_accession>KF724354</Hit_accession>
+  <Hit_len>607</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>754.553</Hsp_bit-score>
+      <Hsp_score>408</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>585</Hsp_query-to>
+      <Hsp_hit-from>469</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>457</Hsp_identity>
+      <Hsp_positive>457</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>477</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACCAGCTTTGAATCCAACACCT</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACCAGCTTTGAATCCAACACCT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|JF940902.1|</Hit_id>
+  <Hit_def>Asarum caudigerellum voucher Liuzh0054 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940902</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|JF940903.1|</Hit_id>
+  <Hit_def>Asarum caudigerellum voucher Liuzh0053 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940903</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|JF940904.1|</Hit_id>
+  <Hit_def>Asarum caudigerellum voucher Liuzh0012 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940904</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|JF940905.1|</Hit_id>
+  <Hit_def>Asarum caudigerellum voucher Liuzh0011 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940905</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|JF940906.1|</Hit_id>
+  <Hit_def>Asarum caudigerellum voucher Liuzh0010 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940906</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|JF940907.1|</Hit_id>
+  <Hit_def>Asarum caudigerum voucher Liuzh0089 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940907</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|JF940908.1|</Hit_id>
+  <Hit_def>Asarum caudigerum voucher Liuzh0080 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940908</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|JF940909.1|</Hit_id>
+  <Hit_def>Asarum caudigerum voucher Liuzh0071 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940909</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|JF940910.1|</Hit_id>
+  <Hit_def>Asarum caudigerum voucher Liuzh0048 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940910</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|JF940911.1|</Hit_id>
+  <Hit_def>Asarum caudigerum voucher Liuzh0047 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940911</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|JF940912.1|</Hit_id>
+  <Hit_def>Asarum caudigerum voucher Liuzh0017 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940912</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|JF940913.1|</Hit_id>
+  <Hit_def>Asarum caudigerum voucher Liuzh0016 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940913</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|JF940914.1|</Hit_id>
+  <Hit_def>Asarum caudigerum voucher GBOWS502 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940914</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|JF940915.1|</Hit_id>
+  <Hit_def>Asarum caudigerum var. cardiophyllum voucher Liuzh0079 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940915</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|JF940916.1|</Hit_id>
+  <Hit_def>Asarum caudigerum var. cardiophyllum voucher Liuzh0050 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940916</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|JF940917.1|</Hit_id>
+  <Hit_def>Asarum caudigerum var. cardiophyllum voucher Liuzh0049 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF940917</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>719.467</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>566</Hsp_query-to>
+      <Hsp_hit-from>450</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>458</Hsp_align-len>
+      <Hsp_qseq>ATACTTGTTCAATTTATCTCT-TCAACTCTTGATACCAAGGCGGGGGAGTGACCTT-G-AAGTTTT--AACAAGCAGGAGGAATT-GTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATC---CTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTTTTCATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_qseq>
+      <Hsp_hseq>ATACTTGTTCAATTTATCTCTCTCAACT-TGGATACC-A---TGGGGAG-GACCTTGGAAAGTTTTGGAATAAGCAGGAGGAATTCGTAGATCCTCCAGACGTAGAGCTCGTAGGGCTTTGAATCCAAATACATTACCCACAATAGAAGTAAACATGTTAGTAACAGAACCTTCTTCAAAAAGGTCTAAAGGGTAAGCTACATAAGCAATAAATTGACTTTCCTCCCCAGCAACAGGCTCGATATGGTAGCATCGTCCTTTGTAACGATCAAGGCTGGTAAGTCCATCGGTCCACACAGTTGTCCATGTACCAGTAGAAGATTCGGCAGCTACCGCAGCCCCTGCTTCCTCAGGCGGAACTCCGGGTTGCGGAGTTACTCGGAATGCTGCCAAGATATCAGTAGCTAAGGTTT--CATAGTCAGGAGTATAATAAGTCAATTTGTAATCTTTAACACC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||| |||||| | |||||| |    |||||| |||||| | |||||||  || |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>73316</Statistics_db-num>
+      <Statistics_db-len>52882424</Statistics_db-len>
+      <Statistics_hsp-len>25</Statistics_hsp-len>
+      <Statistics_eff-space>29302426776</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

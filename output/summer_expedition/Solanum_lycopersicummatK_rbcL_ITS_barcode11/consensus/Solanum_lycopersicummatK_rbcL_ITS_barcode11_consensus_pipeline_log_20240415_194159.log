@@ -1,0 +1,119 @@
+2024-04-15 19:41:59,866 INFO: Running consensus pipeline...
+2024-04-15 19:41:59,866 INFO: Running consensus pipeline with 80_20_best_sequence method...
+2024-04-15 19:41:59,920 INFO: Running minimap2 on top 20% sequences...
+2024-04-15 19:41:59,920 INFO: Running command: minimap2 -x ava-ont output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20.fastq output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20.fastq > output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20_reads.paf
+2024-04-15 19:41:59,975 INFO: Command 'minimap2 -x ava-ont output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20.fastq output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20.fastq > output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20_reads.paf' took 0.05 seconds to run.
+2024-04-15 19:41:59,975 ERROR: Error: [M::mm_idx_gen::0.007*0.28] collected minimizers
+[M::mm_idx_gen::0.011*1.03] sorted minimizers
+[M::main::0.011*1.03] loaded/built the index for 212 target sequence(s)
+[M::mm_mapopt_update::0.012*1.03] mid_occ = 108
+[M::mm_idx_stat] kmer size: 15; skip: 5; is_hpc: 0; #seq: 212
+[M::mm_idx_stat::0.012*1.03] distinct minimizers: 24851 (86.43% are singletons); average occurrences: 1.897; average spacing: 3.022; total length: 142428
+[M::worker_pipeline::0.050*1.87] mapped 212 sequences
+[M::main] Version: 2.27-r1193
+[M::main] CMD: minimap2 -x ava-ont output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20.fastq output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20.fastq
+[M::main] Real time: 0.052 sec; CPU: 0.095 sec; Peak RSS: 0.007 GB
+
+2024-04-15 19:41:59,975 INFO: Minimap2 on 20% longest reads took 0.05 seconds.
+2024-04-15 19:41:59,975 INFO: Generating consensus with racon on top 20% sequences...
+2024-04-15 19:41:59,975 INFO: Running command: racon -m 8 -x -6 -g -8 -w 500 output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20.fastq output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20_reads.paf output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20.fastq > output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20_consensus.fasta
+2024-04-15 19:42:00,141 INFO: Command 'racon -m 8 -x -6 -g -8 -w 500 output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20.fastq output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20_reads.paf output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20.fastq > output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20_consensus.fasta' took 0.17 seconds to run.
+2024-04-15 19:42:00,141 ERROR: Error: [racon::Polisher::initialize] loaded target sequences 0.001379 s
+[racon::Polisher::initialize] loaded sequences 0.001454 s
+[racon::Polisher::initialize] loaded overlaps 0.007063 s
+[racon::Polisher::initialize] aligning overlaps [=>                  ] 0.001496 s
+[racon::Polisher::initialize] aligning overlaps [==>                 ] 0.002513 s
+[racon::Polisher::initialize] aligning overlaps [===>                ] 0.003390 s
+[racon::Polisher::initialize] aligning overlaps [====>               ] 0.004388 s
+[racon::Polisher::initialize] aligning overlaps [=====>              ] 0.005162 s
+[racon::Polisher::initialize] aligning overlaps [======>             ] 0.006131 s
+[racon::Polisher::initialize] aligning overlaps [=======>            ] 0.007278 s
+[racon::Polisher::initialize] aligning overlaps [========>           ] 0.008514 s
+[racon::Polisher::initialize] aligning overlaps [=========>          ] 0.009672 s
+[racon::Polisher::initialize] aligning overlaps [==========>         ] 0.011237 s
+[racon::Polisher::initialize] aligning overlaps [===========>        ] 0.012416 s
+[racon::Polisher::initialize] aligning overlaps [============>       ] 0.013507 s
+[racon::Polisher::initialize] aligning overlaps [=============>      ] 0.014509 s
+[racon::Polisher::initialize] aligning overlaps [==============>     ] 0.016058 s
+[racon::Polisher::initialize] aligning overlaps [===============>    ] 0.017197 s
+[racon::Polisher::initialize] aligning overlaps [================>   ] 0.018124 s
+[racon::Polisher::initialize] aligning overlaps [=================>  ] 0.019064 s
+[racon::Polisher::initialize] aligning overlaps [==================> ] 0.019875 s
+[racon::Polisher::initialize] aligning overlaps [===================>] 0.020806 s
+[racon::Polisher::initialize] aligning overlaps [====================] 0.023620 s
+[racon::Polisher::initialize] transformed data into windows 0.000461 s
+[racon::Polisher::polish] generating consensus [=>                  ] 0.032884 s
+[racon::Polisher::polish] generating consensus [==>                 ] 0.065097 s
+[racon::Polisher::polish] generating consensus [===>                ] 0.083886 s
+[racon::Polisher::polish] generating consensus [====>               ] 0.089394 s
+[racon::Polisher::polish] generating consensus [=====>              ] 0.093223 s
+[racon::Polisher::polish] generating consensus [======>             ] 0.096236 s
+[racon::Polisher::polish] generating consensus [=======>            ] 0.106520 s
+[racon::Polisher::polish] generating consensus [========>           ] 0.108444 s
+[racon::Polisher::polish] generating consensus [=========>          ] 0.118020 s
+[racon::Polisher::polish] generating consensus [==========>         ] 0.120017 s
+[racon::Polisher::polish] generating consensus [===========>        ] 0.121324 s
+[racon::Polisher::polish] generating consensus [============>       ] 0.124142 s
+[racon::Polisher::polish] generating consensus [=============>      ] 0.124244 s
+[racon::Polisher::polish] generating consensus [==============>     ] 0.125426 s
+[racon::Polisher::polish] generating consensus [===============>    ] 0.125439 s
+[racon::Polisher::polish] generating consensus [================>   ] 0.125447 s
+[racon::Polisher::polish] generating consensus [=================>  ] 0.125454 s
+[racon::Polisher::polish] generating consensus [==================> ] 0.125482 s
+[racon::Polisher::polish] generating consensus [===================>] 0.125495 s
+[racon::Polisher::polish] generating consensus [====================] 0.125507 s
+[racon::Polisher::] total = 0.159842 s
+
+2024-04-15 19:42:00,141 INFO: Racon on 20% longest reads took 0.17 seconds.
+2024-04-15 19:42:00,141 INFO: Multiple sequences found in output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20_consensus.fasta. Selecting the best alignment...
+2024-04-15 19:42:01,508 INFO: Running minimap2 on remaining 80% sequences...
+2024-04-15 19:42:01,508 INFO: Running command: minimap2 -x map-ont output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20_consensus.fasta output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_remaining80.fastq > output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_remaining80_reads.paf
+2024-04-15 19:42:01,519 INFO: Command 'minimap2 -x map-ont output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20_consensus.fasta output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_remaining80.fastq > output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_remaining80_reads.paf' took 0.01 seconds to run.
+2024-04-15 19:42:01,519 ERROR: Error: [M::mm_idx_gen::0.002*1.27] collected minimizers
+[M::mm_idx_gen::0.002*1.19] sorted minimizers
+[M::main::0.003*1.19] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.003*1.19] mid_occ = 10
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.003*1.18] distinct minimizers: 136 (100.00% are singletons); average occurrences: 1.000; average spacing: 5.919; total length: 805
+[M::worker_pipeline::0.008*0.70] mapped 852 sequences
+[M::main] Version: 2.27-r1193
+[M::main] CMD: minimap2 -x map-ont output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20_consensus.fasta output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_remaining80.fastq
+[M::main] Real time: 0.008 sec; CPU: 0.006 sec; Peak RSS: 0.004 GB
+
+2024-04-15 19:42:01,519 INFO: Minimap2 on 80% shortest reads took 0.01 seconds.
+2024-04-15 19:42:01,520 INFO: Generating final consensus with racon...
+2024-04-15 19:42:01,520 INFO: Running command: racon -m 8 -x -6 -g -8 -w 500 output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_remaining80.fastq output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_remaining80_reads.paf output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20_consensus.fasta > output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_final_consensus.fasta
+2024-04-15 19:42:01,650 INFO: Command 'racon -m 8 -x -6 -g -8 -w 500 output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_remaining80.fastq output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_remaining80_reads.paf output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_top20_consensus.fasta > output/summer_expedition/Solanum_lycopersicummatK_rbcL_ITS_barcode11/consensus/Solanum_lycopersicummatK_rbcL_ITS_barcode11_final_consensus.fasta' took 0.13 seconds to run.
+2024-04-15 19:42:01,650 ERROR: Error: [racon::Polisher::initialize] loaded target sequences 0.000053 s
+[racon::Polisher::initialize] loaded sequences 0.004259 s
+[racon::Polisher::initialize] loaded overlaps 0.001116 s
+[racon::Polisher::initialize] aligning overlaps [=>                  ] 0.004218 s
+[racon::Polisher::initialize] aligning overlaps [==>                 ] 0.005303 s
+[racon::Polisher::initialize] aligning overlaps [===>                ] 0.006259 s
+[racon::Polisher::initialize] aligning overlaps [====>               ] 0.007232 s
+[racon::Polisher::initialize] aligning overlaps [=====>              ] 0.008143 s
+[racon::Polisher::initialize] aligning overlaps [======>             ] 0.009066 s
+[racon::Polisher::initialize] aligning overlaps [=======>            ] 0.009504 s
+[racon::Polisher::initialize] aligning overlaps [========>           ] 0.010137 s
+[racon::Polisher::initialize] aligning overlaps [=========>          ] 0.010693 s
+[racon::Polisher::initialize] aligning overlaps [==========>         ] 0.011207 s
+[racon::Polisher::initialize] aligning overlaps [===========>        ] 0.011690 s
+[racon::Polisher::initialize] aligning overlaps [============>       ] 0.012197 s
+[racon::Polisher::initialize] aligning overlaps [=============>      ] 0.012510 s
+[racon::Polisher::initialize] aligning overlaps [==============>     ] 0.012924 s
+[racon::Polisher::initialize] aligning overlaps [===============>    ] 0.013392 s
+[racon::Polisher::initialize] aligning overlaps [================>   ] 0.013750 s
+[racon::Polisher::initialize] aligning overlaps [=================>  ] 0.014215 s
+[racon::Polisher::initialize] aligning overlaps [==================> ] 0.014508 s
+[racon::Polisher::initialize] aligning overlaps [===================>] 0.014708 s
+[racon::Polisher::initialize] aligning overlaps [====================] 0.015131 s
+[racon::Polisher::initialize] transformed data into windows 0.000237 s
+[racon::Polisher::polish] generated consensus 0.102737 s
+[racon::Polisher::] total = 0.124039 s
+
+2024-04-15 19:42:01,650 INFO: Racon on 80% shortest reads took 0.13 seconds.
+2024-04-15 19:42:01,650 INFO: Deleting intermediate files...
+2024-04-15 19:42:01,650 INFO: Minimap2 alignment took 0.07 seconds.
+2024-04-15 19:42:01,650 INFO: Total Racon iterations took 0.30 seconds.
+2024-04-15 19:42:01,650 INFO: Total time taken for the consensus pipeline: 0.36 seconds.
+2024-04-15 19:42:01,650 INFO: Consensus pipeline completed. Total time taken: 0.36 seconds.

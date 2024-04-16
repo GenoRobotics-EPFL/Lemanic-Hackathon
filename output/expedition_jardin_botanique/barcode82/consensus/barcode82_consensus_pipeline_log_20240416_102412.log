@@ -1,0 +1,119 @@
+2024-04-16 10:24:12,001 INFO: Running consensus pipeline...
+2024-04-16 10:24:12,001 INFO: Running consensus pipeline with 80_20_best_sequence method...
+2024-04-16 10:24:12,331 INFO: Running minimap2 on top 20% sequences...
+2024-04-16 10:24:12,331 INFO: Running command: minimap2 -x ava-ont output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20.fastq output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20.fastq > output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20_reads.paf
+2024-04-16 10:24:15,857 INFO: Command 'minimap2 -x ava-ont output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20.fastq output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20.fastq > output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20_reads.paf' took 3.53 seconds to run.
+2024-04-16 10:24:15,857 ERROR: Error: [M::mm_idx_gen::0.021*0.82] collected minimizers
+[M::mm_idx_gen::0.034*1.41] sorted minimizers
+[M::main::0.035*1.41] loaded/built the index for 835 target sequence(s)
+[M::mm_mapopt_update::0.036*1.39] mid_occ = 526
+[M::mm_idx_stat] kmer size: 15; skip: 5; is_hpc: 0; #seq: 835
+[M::mm_idx_stat::0.037*1.38] distinct minimizers: 57963 (80.48% are singletons); average occurrences: 3.634; average spacing: 2.972; total length: 626101
+[M::worker_pipeline::3.518*2.83] mapped 835 sequences
+[M::main] Version: 2.27-r1193
+[M::main] CMD: minimap2 -x ava-ont output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20.fastq output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20.fastq
+[M::main] Real time: 3.521 sec; CPU: 9.944 sec; Peak RSS: 0.050 GB
+
+2024-04-16 10:24:15,857 INFO: Minimap2 on 20% longest reads took 3.53 seconds.
+2024-04-16 10:24:15,857 INFO: Generating consensus with racon on top 20% sequences...
+2024-04-16 10:24:15,857 INFO: Running command: racon -m 8 -x -6 -g -8 -w 500 output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20.fastq output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20_reads.paf output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20.fastq > output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20_consensus.fasta
+2024-04-16 10:24:17,255 INFO: Command 'racon -m 8 -x -6 -g -8 -w 500 output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20.fastq output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20_reads.paf output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20.fastq > output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20_consensus.fasta' took 1.40 seconds to run.
+2024-04-16 10:24:17,255 ERROR: Error: [racon::Polisher::initialize] loaded target sequences 0.006288 s
+[racon::Polisher::initialize] loaded sequences 0.006680 s
+[racon::Polisher::initialize] loaded overlaps 0.316400 s
+[racon::Polisher::initialize] aligning overlaps [=>                  ] 0.032486 s
+[racon::Polisher::initialize] aligning overlaps [==>                 ] 0.038202 s
+[racon::Polisher::initialize] aligning overlaps [===>                ] 0.043607 s
+[racon::Polisher::initialize] aligning overlaps [====>               ] 0.049324 s
+[racon::Polisher::initialize] aligning overlaps [=====>              ] 0.055238 s
+[racon::Polisher::initialize] aligning overlaps [======>             ] 0.060499 s
+[racon::Polisher::initialize] aligning overlaps [=======>            ] 0.065917 s
+[racon::Polisher::initialize] aligning overlaps [========>           ] 0.072102 s
+[racon::Polisher::initialize] aligning overlaps [=========>          ] 0.078136 s
+[racon::Polisher::initialize] aligning overlaps [==========>         ] 0.083305 s
+[racon::Polisher::initialize] aligning overlaps [===========>        ] 0.089113 s
+[racon::Polisher::initialize] aligning overlaps [============>       ] 0.094024 s
+[racon::Polisher::initialize] aligning overlaps [=============>      ] 0.099716 s
+[racon::Polisher::initialize] aligning overlaps [==============>     ] 0.105238 s
+[racon::Polisher::initialize] aligning overlaps [===============>    ] 0.110145 s
+[racon::Polisher::initialize] aligning overlaps [================>   ] 0.115332 s
+[racon::Polisher::initialize] aligning overlaps [=================>  ] 0.120328 s
+[racon::Polisher::initialize] aligning overlaps [==================> ] 0.125134 s
+[racon::Polisher::initialize] aligning overlaps [===================>] 0.130131 s
+[racon::Polisher::initialize] aligning overlaps [====================] 0.136006 s
+[racon::Polisher::initialize] transformed data into windows 0.001737 s
+[racon::Polisher::polish] generating consensus [=>                  ] 0.736159 s
+[racon::Polisher::polish] generating consensus [==>                 ] 0.811356 s
+[racon::Polisher::polish] generating consensus [===>                ] 0.850502 s
+[racon::Polisher::polish] generating consensus [====>               ] 0.858323 s
+[racon::Polisher::polish] generating consensus [=====>              ] 0.869531 s
+[racon::Polisher::polish] generating consensus [======>             ] 0.874112 s
+[racon::Polisher::polish] generating consensus [=======>            ] 0.881075 s
+[racon::Polisher::polish] generating consensus [========>           ] 0.885011 s
+[racon::Polisher::polish] generating consensus [=========>          ] 0.888428 s
+[racon::Polisher::polish] generating consensus [==========>         ] 0.893073 s
+[racon::Polisher::polish] generating consensus [===========>        ] 0.910401 s
+[racon::Polisher::polish] generating consensus [============>       ] 0.910478 s
+[racon::Polisher::polish] generating consensus [=============>      ] 0.910520 s
+[racon::Polisher::polish] generating consensus [==============>     ] 0.913979 s
+[racon::Polisher::polish] generating consensus [===============>    ] 0.915657 s
+[racon::Polisher::polish] generating consensus [================>   ] 0.918496 s
+[racon::Polisher::polish] generating consensus [=================>  ] 0.918610 s
+[racon::Polisher::polish] generating consensus [==================> ] 0.920242 s
+[racon::Polisher::polish] generating consensus [===================>] 0.920348 s
+[racon::Polisher::polish] generating consensus [====================] 0.920468 s
+[racon::Polisher::] total = 1.388355 s
+
+2024-04-16 10:24:17,255 INFO: Racon on 20% longest reads took 1.40 seconds.
+2024-04-16 10:24:17,256 INFO: Multiple sequences found in output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20_consensus.fasta. Selecting the best alignment...
+2024-04-16 10:24:21,082 INFO: Running minimap2 on remaining 80% sequences...
+2024-04-16 10:24:21,082 INFO: Running command: minimap2 -x map-ont output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20_consensus.fasta output/expedition_jardin_botanique/barcode82/consensus/barcode82_remaining80.fastq > output/expedition_jardin_botanique/barcode82/consensus/barcode82_remaining80_reads.paf
+2024-04-16 10:24:21,127 INFO: Command 'minimap2 -x map-ont output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20_consensus.fasta output/expedition_jardin_botanique/barcode82/consensus/barcode82_remaining80.fastq > output/expedition_jardin_botanique/barcode82/consensus/barcode82_remaining80_reads.paf' took 0.04 seconds to run.
+2024-04-16 10:24:21,127 ERROR: Error: [M::mm_idx_gen::0.001*1.36] collected minimizers
+[M::mm_idx_gen::0.002*1.07] sorted minimizers
+[M::main::0.002*1.07] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.002*1.07] mid_occ = 10
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.002*1.07] distinct minimizers: 185 (97.84% are singletons); average occurrences: 1.022; average spacing: 5.698; total length: 1077
+[M::worker_pipeline::0.042*2.31] mapped 3344 sequences
+[M::main] Version: 2.27-r1193
+[M::main] CMD: minimap2 -x map-ont output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20_consensus.fasta output/expedition_jardin_botanique/barcode82/consensus/barcode82_remaining80.fastq
+[M::main] Real time: 0.043 sec; CPU: 0.098 sec; Peak RSS: 0.007 GB
+
+2024-04-16 10:24:21,127 INFO: Minimap2 on 80% shortest reads took 0.04 seconds.
+2024-04-16 10:24:21,127 INFO: Generating final consensus with racon...
+2024-04-16 10:24:21,127 INFO: Running command: racon -m 8 -x -6 -g -8 -w 500 output/expedition_jardin_botanique/barcode82/consensus/barcode82_remaining80.fastq output/expedition_jardin_botanique/barcode82/consensus/barcode82_remaining80_reads.paf output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20_consensus.fasta > output/expedition_jardin_botanique/barcode82/consensus/barcode82_final_consensus.fasta
+2024-04-16 10:24:25,594 INFO: Command 'racon -m 8 -x -6 -g -8 -w 500 output/expedition_jardin_botanique/barcode82/consensus/barcode82_remaining80.fastq output/expedition_jardin_botanique/barcode82/consensus/barcode82_remaining80_reads.paf output/expedition_jardin_botanique/barcode82/consensus/barcode82_top20_consensus.fasta > output/expedition_jardin_botanique/barcode82/consensus/barcode82_final_consensus.fasta' took 4.47 seconds to run.
+2024-04-16 10:24:25,594 ERROR: Error: [racon::Polisher::initialize] loaded target sequences 0.000077 s
+[racon::Polisher::initialize] loaded sequences 0.016676 s
+[racon::Polisher::initialize] loaded overlaps 0.004753 s
+[racon::Polisher::initialize] aligning overlaps [=>                  ] 0.016682 s
+[racon::Polisher::initialize] aligning overlaps [==>                 ] 0.025377 s
+[racon::Polisher::initialize] aligning overlaps [===>                ] 0.034439 s
+[racon::Polisher::initialize] aligning overlaps [====>               ] 0.043175 s
+[racon::Polisher::initialize] aligning overlaps [=====>              ] 0.051110 s
+[racon::Polisher::initialize] aligning overlaps [======>             ] 0.058980 s
+[racon::Polisher::initialize] aligning overlaps [=======>            ] 0.066786 s
+[racon::Polisher::initialize] aligning overlaps [========>           ] 0.074243 s
+[racon::Polisher::initialize] aligning overlaps [=========>          ] 0.081246 s
+[racon::Polisher::initialize] aligning overlaps [==========>         ] 0.088132 s
+[racon::Polisher::initialize] aligning overlaps [===========>        ] 0.094659 s
+[racon::Polisher::initialize] aligning overlaps [============>       ] 0.101016 s
+[racon::Polisher::initialize] aligning overlaps [=============>      ] 0.107975 s
+[racon::Polisher::initialize] aligning overlaps [==============>     ] 0.113237 s
+[racon::Polisher::initialize] aligning overlaps [===============>    ] 0.117370 s
+[racon::Polisher::initialize] aligning overlaps [================>   ] 0.121609 s
+[racon::Polisher::initialize] aligning overlaps [=================>  ] 0.125473 s
+[racon::Polisher::initialize] aligning overlaps [==================> ] 0.129032 s
+[racon::Polisher::initialize] aligning overlaps [===================>] 0.131930 s
+[racon::Polisher::initialize] aligning overlaps [====================] 0.135140 s
+[racon::Polisher::initialize] transformed data into windows 0.001787 s
+[racon::Polisher::polish] generated consensus 4.298917 s
+[racon::Polisher::] total = 4.459110 s
+
+2024-04-16 10:24:25,594 INFO: Racon on 80% shortest reads took 4.47 seconds.
+2024-04-16 10:24:25,594 INFO: Deleting intermediate files...
+2024-04-16 10:24:25,601 INFO: Minimap2 alignment took 3.57 seconds.
+2024-04-16 10:24:25,601 INFO: Total Racon iterations took 5.86 seconds.
+2024-04-16 10:24:25,601 INFO: Total time taken for the consensus pipeline: 9.43 seconds.
+2024-04-16 10:24:25,601 INFO: Consensus pipeline completed. Total time taken: 9.43 seconds.

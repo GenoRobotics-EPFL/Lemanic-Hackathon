@@ -1,0 +1,1344 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>psbA-trnH</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>82d4e0e8-cf3a-4eed-8c9e-1269a4e9d7f7 LN:i:469 RC:i:430 XC:f:1.000000</BlastOutput_query-def>
+  <BlastOutput_query-len>469</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>82d4e0e8-cf3a-4eed-8c9e-1269a4e9d7f7 LN:i:469 RC:i:430 XC:f:1.000000</Iteration_query-def>
+  <Iteration_query-len>469</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|EF590700.1|</Hit_id>
+  <Hit_def>Heliconia bihai voucher NMNH RY50 PsbA (psbA) gene and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>EF590700</Hit_accession>
+  <Hit_len>416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.491</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>4.68387e-62</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAGTAAGATATGGGGTATTGCTACTTTGTTTGATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>154.392</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>4.85251e-37</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGTTGTGCGCAAAAAAACACTATTGCATCAAACAAAGTAGCAATACCCCATATCTTACTAAAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||  ||||||||||||||||| |||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|GQ248312.1|</Hit_id>
+  <Hit_def>Heliconia caribaea voucher Kress 04-7533 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>GQ248312</Hit_accession>
+  <Hit_len>436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.491</Hsp_bit-score>
+      <Hsp_score>128</Hsp_score>
+      <Hsp_evalue>4.68387e-62</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAGTAAGATATGGGGTATTGCTACTTTGTTTGATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>154.392</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>4.85251e-37</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>38</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGTTGTGCGCAAAAAAACACTATTGCATCAAACAAAGTAGCAATACCCCATATCTTACTAAAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||  ||||||||||||||||| |||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>128.539</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.94119e-29</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>435</Hsp_query-to>
+      <Hsp_hit-from>361</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAAGGGG</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGGAAAAAAGATAAAATCCTTTAGCTCGAAAAGGGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|OL312129.1|</Hit_id>
+  <Hit_def>Heliconia aurantiaca voucher MO:Carlsen3206 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH-GUG) gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>OL312129</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.952</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>2.17919e-60</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAGTAAGATATGGGGTATTGCTACTTTGTTTGATGCAATAGTGTTTTTTTGCGCACAGCATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>185.785</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.72075e-46</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAAGGGGCGGATGTAGCCAAGTGGATCAAGGCAGT</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGGAAAAAAGAGAAAATCCTTTAGCTCGAAAAGGGGCGGATGTAGCCAAGTGGATCAAGGCAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>148.852</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>2.25765e-35</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGCTGTGCGCAAAAAAACACTATTGCATCAAACAAAGTAGCAATACCCCATATCTTACTAAAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||  ||||||||||||||||| |||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|GQ248311.1|</Hit_id>
+  <Hit_def>Heliconia bihai voucher NMNH RY50 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>GQ248311</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.412</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.01388e-58</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTACTAAAACAAGATATGGGGTATTGCTACTTTGTTTGATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||  |  |||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>167.319</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>6.23287e-41</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>455</Hsp_query-to>
+      <Hsp_hit-from>405</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAAGGGGCGGATGTAGCCAAGTGGATC</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGGAAAAAAGAGAAAATCCTTTAGCTCGAAAAGGGGCGGATGTANCCAAGTGGATC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>165.472</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>2.24174e-40</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGTTGTGCGCAAAAAAACACTATTGCATCAAACAAAGTAGCAATACCCCATATCTTGTTTTAGTAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||  ||||||||||||||||| |||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|DQ006192.1|</Hit_id>
+  <Hit_def>Heliconia clinophila voucher Kress 86-2016 US PsbA (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>DQ006192</Hit_accession>
+  <Hit_len>500</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.412</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.01388e-58</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAGTAAGATATGGGGTATTGCTACTTTGTTTGATGCAATAGTGTTTTTTTGCGCACAGCATACATATAAACTAAATACATAACATAAGTATAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>178.399</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>2.87943e-44</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>459</Hsp_query-to>
+      <Hsp_hit-from>401</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAAGGGGCGGATGTAGCCAAGTGGATCAAGG</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGGAAAAAAGAGAAAATCCTTTAGCTCGAAAAGGGGCGGATGTAGCCAAGTGGATCAAGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>148.852</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>2.25765e-35</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGCTGTGCGCAAAAAAACACTATTGCATCAAACAAAGTAGCAATACCCCATATCTTACTAAAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||  ||||||||||||||||| |||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|DQ006193.1|</Hit_id>
+  <Hit_def>Heliconia nutans voucher Kress 94-3703 US PsbA (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>DQ006193</Hit_accession>
+  <Hit_len>497</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.412</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>1.01388e-58</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAGTAAGATATGGGGTATTGCTACTTTGTTTGATGCAATAGTGTTTTTTTGCGCACAGCATACATATAAACTAAATACATAACATAAGTATAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>174.705</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>3.72478e-43</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>460</Hsp_query-to>
+      <Hsp_hit-from>397</Hsp_hit-from>
+      <Hsp_hit-to>497</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAAGGGGCGGATGTAGCCAAGTGGATCAAGGC</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGGAAAAAAGATAAAATCCTTTAGCTCGAAAAGGGGCGGATGTAGCCAAGTGGATCAAGGC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>148.852</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>2.25765e-35</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGCTGTGCGCAAAAAAACACTATTGCATCAAACAAAGTAGCAATACCCCATATCTTACTAAAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||  ||||||||||||||||| |||||||||||||||||||||||||||  |  ||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>emb|HG963850.1|</Hit_id>
+  <Hit_def>Heliconia collinsiana chloroplast DNA containing psbA-trnH IGS, specimen voucher NPL0553</Hit_def>
+  <Hit_accession>HG963850</Hit_accession>
+  <Hit_len>494</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.332</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>2.19466e-55</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTACTAAAACAAGATATGGGGTATTGCTACTTTGTTTGATGCAATAGTGTTTTTTTGCGCACAGCATACATATAAACTAAATACATAACATAAGTATAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||  |  |||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>185.785</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>1.72075e-46</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>463</Hsp_query-to>
+      <Hsp_hit-from>391</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAAGGGGCGGATGTAGCCAAGTGGATCAAGGCAGT</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGGAAAAAAGAGAAAATCCTTTAGCTCGAAAAGGGGCGGATGTAGCCAAGTGGATCAAGGCAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>159.932</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>1.04298e-38</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>87</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGCTGTGCGCAAAAAAACACTATTGCATCAAACAAAGTAGCAATACCCCATATCTTGTTTTAGTAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||  ||||||||||||||||| |||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|OQ310117.1|</Hit_id>
+  <Hit_def>UNVERIFIED: Heliconia schiedeana voucher Canek Ledesma 20568 (MEXU, US) psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>OQ310117</Hit_accession>
+  <Hit_len>544</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.332</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>2.19466e-55</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTACTAAACCAAGATATGGGGTATTGCTACTTTGTTTGATGCAATAGTGTTTTTTTGCGCACAGCATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||  |  | |||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>189.479</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>1.33022e-47</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>465</Hsp_query-to>
+      <Hsp_hit-from>418</Hsp_hit-from>
+      <Hsp_hit-to>523</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAAGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGG</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGGAAAAAAGAGAAAATCCTTTAGCTCGAAAAGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>154.392</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>4.85251e-37</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGCTGTGCGCAAAAAAACACTATTGCATCAAACAAAGTAGCAATACCCCATATCTTGGTTTAGTAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||  ||||||||||||||||| |||||||||||||||||||||||||||| ||||  |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|OQ310526.1|</Hit_id>
+  <Hit_def>UNVERIFIED: Heliconia schiedeana voucher Anastasio Sotero 21059 (MEXU, US) psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>OQ310526</Hit_accession>
+  <Hit_len>545</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.332</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>2.19466e-55</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>99</Hsp_hit-from>
+      <Hsp_hit-to>235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTACTAAACCAAGATATGGGGTATTGCTACTTTGTTTGATGCAATAGTGTTTTTTTGCGCACAGCATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||  |  | |||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>189.479</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>1.33022e-47</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>465</Hsp_query-to>
+      <Hsp_hit-from>417</Hsp_hit-from>
+      <Hsp_hit-to>522</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAAGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGG</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGGAAAAAAGAGAAAATCCTTTAGCTCGAAAAGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>154.392</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>4.85251e-37</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>203</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGCTGTGCGCAAAAAAACACTATTGCATCAAACAAAGTAGCAATACCCCATATCTTGGTTTAGTAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||  ||||||||||||||||| |||||||||||||||||||||||||||| ||||  |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|FJ871890.1|</Hit_id>
+  <Hit_def>Musa rubinea isolate T37 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>FJ871890</Hit_accession>
+  <Hit_len>765</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.865</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>7.94945e-50</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTATGGAGGTCAGAATAA-ATA</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTGCTTTAGCAAGATATGGGGTATTGCTACTTTGTTTGATACAATATTGTTTTTTTGCGCACAGCGTACATATAAACTAAACAGATAACATAAATTTTAGAGTTAAGTATAGAGTTAAGTATAAGATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||| || ||||| |||||||||||||||| | ||||||||||||||||| ||||||||| | | |||||||||||| ||| | || |||| |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>132.232</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.27368e-30</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTACGCTGTGCGCAAAAAAACAATATTGTATCAAACAAAGTAGCAATACCCCATATCTTGCTAAAGCAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| | ||||||  |||||||| ||||| || |||||||||||||||||||||||||||| |  | ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>115.613</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.28982e-25</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>431</Hsp_query-to>
+      <Hsp_hit-from>694</Hsp_hit-from>
+      <Hsp_hit-to>765</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAA</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTAAGAATAAATACAATAATGATGAATGGAAAAAAGAGAAAATCCTTTAGCTAGAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|FJ871919.1|</Hit_id>
+  <Hit_def>Musa nagensium isolate T66 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>FJ871919</Hit_accession>
+  <Hit_len>765</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.865</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>7.94945e-50</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTATGGAGGTCAGAATAA-ATA</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTGCTTTAGCAAGATATGGGGTATTGCTACTTTGTTTGATACAATATTGTTTTTTTGCGCACAGCGTACATATAAACTAAACAGATAACATAAATTTTAGAGTTAAGTATAGAGTTAAGTATAAGATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||| || ||||| |||||||||||||||| | ||||||||||||||||| ||||||||| | | |||||||||||| ||| | || |||| |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>132.232</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.27368e-30</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTACGCTGTGCGCAAAAAAACAATATTGTATCAAACAAAGTAGCAATACCCCATATCTTGCTAAAGCAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| | ||||||  |||||||| ||||| || |||||||||||||||||||||||||||| |  | ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>115.613</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.28982e-25</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>431</Hsp_query-to>
+      <Hsp_hit-from>694</Hsp_hit-from>
+      <Hsp_hit-to>765</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAA</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTAAGAATAAATACAATAATGATGAATGGAAAAAAGAGAAAATCCTTTAGCTAGAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|FJ871920.1|</Hit_id>
+  <Hit_def>Musa nagensium isolate T67 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>FJ871920</Hit_accession>
+  <Hit_len>765</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.865</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>7.94945e-50</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>155</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTATGGAGGTCAGAATAA-ATA</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTGCTTTAGCAAGATATGGGGTATTGCTACTTTGTTTGATACAATATTGTTTTTTTGCGCACAGCGTACATATAAACTAAACAGATAACATAAATTTTAGAGTTAAGTATAGAGTTAAGTATAAGATA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||| || ||||| |||||||||||||||| | ||||||||||||||||| ||||||||| | | |||||||||||| ||| | || |||| |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>132.232</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>2.27368e-30</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTACGCTGTGCGCAAAAAAACAATATTGTATCAAACAAAGTAGCAATACCCCATATCTTGCTAAAGCAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||| | ||||||  |||||||| ||||| || |||||||||||||||||||||||||||| |  | ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>115.613</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.28982e-25</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>431</Hsp_query-to>
+      <Hsp_hit-from>694</Hsp_hit-from>
+      <Hsp_hit-to>765</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAA</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTAAGAATAAATACAATAATGATGAATGGAAAAAAGAGAAAATCCTTTAGCTAGAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|FJ871874.1|</Hit_id>
+  <Hit_def>Musa balbisiana isolate T21 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>FJ871874</Hit_accession>
+  <Hit_len>783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.172</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>1.02833e-48</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTGCTTAAGCAAGATATGGGGTATTGCTACTTTGTTTGATACAATATTGTTTTTTTGCGCACAGCATACATATAAACTAAAAAGATAACATAAATTTAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| || | |||||||||||||||||||||||||||| || ||||| |||||||||||||||| ||||||||||||||||| | ||||||||| | ||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>143.312</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.05038e-33</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGCTGTGCGCAAAAAAACAATATTGTATCAAACAAAGTAGCAATACCCCATATCTTGCTTAAGCAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||  |||||||| ||||| || |||||||||||||||||||||||||||| || | ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>115.613</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.28982e-25</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>431</Hsp_query-to>
+      <Hsp_hit-from>712</Hsp_hit-from>
+      <Hsp_hit-to>783</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAA</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTAAGAATAAATACAATAATGATGAATGGAAAAAAGAGAAAATCCTTTAGCTAGAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|FJ871876.1|</Hit_id>
+  <Hit_def>Musa balbisiana isolate T23 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>FJ871876</Hit_accession>
+  <Hit_len>783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.172</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>1.02833e-48</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTGCTTAAGCAAGATATGGGGTATTGCTACTTTGTTTGATACAATATTGTTTTTTTGCGCACAGCATACATATAAACTAAAAAGATAACATAAATTTAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| || | |||||||||||||||||||||||||||| || ||||| |||||||||||||||| ||||||||||||||||| | ||||||||| | ||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>143.312</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.05038e-33</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGCTGTGCGCAAAAAAACAATATTGTATCAAACAAAGTAGCAATACCCCATATCTTGCTTAAGCAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||  |||||||| ||||| || |||||||||||||||||||||||||||| || | ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>115.613</Hsp_bit-score>
+      <Hsp_score>62</Hsp_score>
+      <Hsp_evalue>2.28982e-25</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>431</Hsp_query-to>
+      <Hsp_hit-from>712</Hsp_hit-from>
+      <Hsp_hit-to>783</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAA</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTAAGAATAAATACAATAATGATGAATGGAAAAAAGAGAAAATCCTTTAGCTAGAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|EF590701.1|</Hit_id>
+  <Hit_def>Heliconia caribaea voucher NMNH 04-7533 PsbA (psbA) gene and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>EF590701</Hit_accession>
+  <Hit_len>440</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.479</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>1.33022e-47</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>139</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAG-AGTTAAGTATG</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTACTAAAACAAGATATGGGGTATTGCTACTTTGTTTGATGCAATAGTGTTTTTTTGCGCACAAGATACATATAAACTAAACTCATAACATAA-TAGCAGCAGTTTAGTATG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||  |  |||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||| |||||||||| ||  || |||| ||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>169.165</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>1.73297e-41</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>454</Hsp_query-to>
+      <Hsp_hit-from>346</Hsp_hit-from>
+      <Hsp_hit-to>440</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>95</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAAGGGGCGGATGTAGCCAAGTGGAT</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGGAAAAAAGAGAAAATCCTTTAGCTCGAAAAGGGGCGGATGTAGCCAAGTGGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>159.932</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>1.04298e-38</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>127</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATCTTGTGCGCAAAAAAACACTATTGCATCAAACAAAGTAGCAATACCCCATATCTTGTTTTAGTAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |||||||  ||||||||||||||||| |||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|FJ871854.1|</Hit_id>
+  <Hit_def>Musa acuminata isolate T1 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>FJ871854</Hit_accession>
+  <Hit_len>776</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.632</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>4.78434e-47</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTGCTTTAGCAAGATATGGGGTATTGCTGCTTTGTTGGATACAATATTGTTTTTTTGCGCACAGCATACATATAAACTAAAAAGATAACATAAATTTAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||| ||||||||||||||||||| |||||||  || ||||| |||||||||||||||| ||||||||||||||||| | ||||||||| | ||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>126.692</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.05784e-28</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGCTGTGCGCAAAAAAACAATATTGTATCCAACAAAGCAGCAATACCCCATATCTTGCTAAAGCAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||  |||||||| ||||| ||  ||||||| ||||||||||||||||||| |  | ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>110.073</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.06535e-23</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>431</Hsp_query-to>
+      <Hsp_hit-from>705</Hsp_hit-from>
+      <Hsp_hit-to>776</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAA</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTAAGAATAAATACAATAATGATGAATGGAAAAAAGATAAAATCCTTTAGCTAGAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||||||||||||||||||||||||| ||||||| |||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|FJ871855.1|</Hit_id>
+  <Hit_def>Musa acuminata isolate T2 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>FJ871855</Hit_accession>
+  <Hit_len>776</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.632</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>4.78434e-47</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTG-TTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTGCTTTAGCAAGATATGGGGTATTGCTGCTTTGTTTGATACAATATTGTTTTTTTTGCGCACAGCATACATATAAACTAAAAAGATAACATAAATTTAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||| ||||||||||||||||||| |||||||| || ||||| || |||||||||||||| ||||||||||||||||| | ||||||||| | ||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>128.539</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.94119e-29</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG--TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGCTGTGCGCAAAAAAAACAATATTGTATCAAACAAAGCAGCAATACCCCATATCTTGCTAAAGCAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||   |||||||| ||||| || |||||||| ||||||||||||||||||| |  | ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>110.073</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.06535e-23</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>431</Hsp_query-to>
+      <Hsp_hit-from>705</Hsp_hit-from>
+      <Hsp_hit-to>776</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAA</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTAAGAATAAATACAATAATGATGAATGGAAAAAAGATAAAATCCTTTAGCTAGAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||||||||||||||||||||||||| ||||||| |||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|FJ871857.1|</Hit_id>
+  <Hit_def>Musa acuminata isolate T4 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>FJ871857</Hit_accession>
+  <Hit_len>775</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.632</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>4.78434e-47</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTGTTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTGCTTTAGCAAGATATGGGGTATTGCTGCTTTGTTGGATACAATATTGTTTTTTTGCGCACAGCATACATATAAACTAAAAAGATAACATAAATTTAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||| ||||||||||||||||||| |||||||  || ||||| |||||||||||||||| ||||||||||||||||| | ||||||||| | ||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>126.692</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>1.05784e-28</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG-TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGCTGTGCGCAAAAAAACAATATTGTATCCAACAAAGCAGCAATACCCCATATCTTGCTAAAGCAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||  |||||||| ||||| ||  ||||||| ||||||||||||||||||| |  | ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>110.073</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.06535e-23</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>431</Hsp_query-to>
+      <Hsp_hit-from>704</Hsp_hit-from>
+      <Hsp_hit-to>775</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAA</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTAAGAATAAATACAATAATGATGAATGGAAAAAAGATAAAATCCTTTAGCTAGAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||||||||||||||||||||||||| ||||||| |||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|FJ871858.1|</Hit_id>
+  <Hit_def>Musa acuminata isolate T5 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>FJ871858</Hit_accession>
+  <Hit_len>776</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.632</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>4.78434e-47</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTG-TTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTGCTTTAGCAAGATATGGGGTATTGCTGCTTTGTTTGATACAATATTGTTTTTTTTGCGCACAGCATACATATAAACTAAAAAGATAACATAAATTTAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||| ||||||||||||||||||| |||||||| || ||||| || |||||||||||||| ||||||||||||||||| | ||||||||| | ||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>128.539</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.94119e-29</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG--TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGCTGTGCGCAAAAAAAACAATATTGTATCAAACAAAGCAGCAATACCCCATATCTTGCTAAAGCAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||   |||||||| ||||| || |||||||| ||||||||||||||||||| |  | ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>110.073</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.06535e-23</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>431</Hsp_query-to>
+      <Hsp_hit-from>705</Hsp_hit-from>
+      <Hsp_hit-to>776</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAA</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTAAGAATAAATACAATAATGATGAATGGAAAAAAGATAAAATCCTTTAGCTAGAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||||||||||||||||||||||||| ||||||| |||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|FJ871859.1|</Hit_id>
+  <Hit_def>Musa acuminata isolate T6 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>FJ871859</Hit_accession>
+  <Hit_len>776</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.632</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>4.78434e-47</Hsp_evalue>
+      <Hsp_query-from>234</Hsp_query-from>
+      <Hsp_query-to>370</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>186</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>TGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCATGCAATAGTG-TTTTTTTGCGCACAACATACATATAAACTAAACACATAACATAAGTATAAGAGTTAAGTAT</Hsp_qseq>
+      <Hsp_hseq>TGAAACAAAGTAGCAATACCCCATATCTTGCTTTAGCAAGATATGGGGTATTGCTGCTTTGTTTGATACAATATTGTTTTTTTTGCGCACAGCATACATATAAACTAAAAAGATAACATAAATTTAAGAGTTAAGTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||| |||| ||||||||||||||||||| |||||||| || ||||| || |||||||||||||| ||||||||||||||||| | ||||||||| | ||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>128.539</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.94119e-29</Hsp_evalue>
+      <Hsp_query-from>196</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>49</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>AGTTTATATGTATGTTGTGCG--TAAAAAACACTATTGCATGAAACAAAGTAGCAATACCCCATATCTTGTTTTAACAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_qseq>
+      <Hsp_hseq>AGTTTATATGTATGCTGTGCGCAAAAAAAACAATATTGTATCAAACAAAGCAGCAATACCCCATATCTTGCTAAAGCAAGATATGGGGTATTGCTACTTTGTTTCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||| ||||||   |||||||| ||||| || |||||||| ||||||||||||||||||| |  | ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>110.073</Hsp_bit-score>
+      <Hsp_score>59</Hsp_score>
+      <Hsp_evalue>1.06535e-23</Hsp_evalue>
+      <Hsp_query-from>361</Hsp_query-from>
+      <Hsp_query-to>431</Hsp_query-to>
+      <Hsp_hit-from>705</Hsp_hit-from>
+      <Hsp_hit-to>776</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>AGTTAAGTATGGAGGTCAGAATAAATACAATAATGATGAATGG-AAAAAGAGAAAATCCTTTAGCTCGAAAA</Hsp_qseq>
+      <Hsp_hseq>AGTTAAGTATGGAGGTAAGAATAAATACAATAATGATGAATGGAAAAAAGATAAAATCCTTTAGCTAGAAAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||| |||||||||||||||||||||||||| ||||||| |||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>66534</Statistics_db-num>
+      <Statistics_db-len>34277752</Statistics_db-len>
+      <Statistics_hsp-len>24</Statistics_hsp-len>
+      <Statistics_eff-space>14543016520</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

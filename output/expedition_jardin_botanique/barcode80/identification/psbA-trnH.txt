@@ -1,0 +1,983 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>psbA-trnH</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>4b292e4c-94e7-47be-afa0-674d33457658 LN:i:710 RC:i:1183 XC:f:1.000000</BlastOutput_query-def>
+  <BlastOutput_query-len>710</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>4b292e4c-94e7-47be-afa0-674d33457658 LN:i:710 RC:i:1183 XC:f:1.000000</Iteration_query-def>
+  <Iteration_query-len>710</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|JX106129.1|</Hit_id>
+  <Hit_def>Pseudopanax ferox voucher Wen 19992225 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>JX106129</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>660.374</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>698</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>386</Hsp_identity>
+      <Hsp_positive>386</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>399</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAA-AAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGC</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATACCGCCCTCTTGATAGAACAAG-AAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTTTTTAAACTTATTTAAAGAAACATCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTTTTTTTTTTTAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAATTTTAATC-TTTTGAAACGTAAGGAAAAGAATAATAGGGGGGCGGATGTAGCCAAGTGGATCAAGGC</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||| ||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>340.904</Hsp_bit-score>
+      <Hsp_score>184</Hsp_score>
+      <Hsp_evalue>5.33116e-93</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>311</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>247</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTT-TAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTAAAAAAAAAAACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGATGTTTCTTTAAATAAGTTTAAAAAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGAGG-GCGG-TATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||  ||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||| |||||||||||||||||||||||||||||||||| |||||||| ||| |  ||||| |  | |||||   | || ||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>emb|FN687521.1|</Hit_id>
+  <Hit_def>Hedera helix chloroplast psbA gene (partial), psbA-trnH IGS and tRNA-His gene (partial), country Italy Umbria</Hit_def>
+  <Hit_accession>FN687521</Hit_accession>
+  <Hit_len>525</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>509</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>353</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|HQ220570.1|</Hit_id>
+  <Hit_def>Hedera helix voucher AFG-Ca07-E2a psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ220570</Hit_accession>
+  <Hit_len>531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|HQ220573.1|</Hit_id>
+  <Hit_def>Hedera colchica voucher American Ivy Society #94-058 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ220573</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|HQ220575.1|</Hit_id>
+  <Hit_def>Hedera helix subsp. helix voucher American Ivy Society #87-139 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ220575</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|HQ220576.1|</Hit_id>
+  <Hit_def>Hedera helix subsp. helix voucher American Ivy Society #83-063 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ220576</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|HQ220580.1|</Hit_id>
+  <Hit_def>Hedera hibernica var. hibernica voucher TFR-L94 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ220580</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|HQ220581.1|</Hit_id>
+  <Hit_def>Hedera hibernica var. hibernica voucher American Ivy Society #06-023 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ220581</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|HQ220582.1|</Hit_id>
+  <Hit_def>Hedera hibernica var. hibernica voucher AFG-I91-G1 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ220582</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|HQ220587.1|</Hit_id>
+  <Hit_def>Hedera sinensis voucher American Ivy Society #88-259 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ220587</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|HQ220588.1|</Hit_id>
+  <Hit_def>Hedera nepalensis var. nepalensis voucher American Ivy Society #88-258 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ220588</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|HQ220589.1|</Hit_id>
+  <Hit_def>Hedera pastuchovii voucher American Ivy Society #82-118 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ220589</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|HQ220590.1|</Hit_id>
+  <Hit_def>Hedera pastuchovii voucher American Ivy Society #82-264 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ220590</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|HQ220591.1|</Hit_id>
+  <Hit_def>Hedera rhombea voucher American Ivy Society #88-260 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ220591</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|HQ220592.1|</Hit_id>
+  <Hit_def>Hedera rhombea voucher American Ivy Society #88-149 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ220592</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>422</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>emb|HE966656.1|</Hit_id>
+  <Hit_def>Hedera helix chloroplast DNA containing psbA-trnH IGS, specimen voucher MIB:ZPL:03037, sample i</Hit_def>
+  <Hit_accession>HE966656</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>509</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>353</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>emb|HE966657.1|</Hit_id>
+  <Hit_def>Hedera helix chloroplast DNA containing psbA-trnH IGS, specimen voucher MIB:ZPL:03037, sample ii</Hit_def>
+  <Hit_accession>HE966657</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>509</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>353</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>emb|HE966658.1|</Hit_id>
+  <Hit_def>Hedera helix chloroplast DNA containing psbA-trnH IGS, specimen voucher MIB:ZPL:03037, sample iii</Hit_def>
+  <Hit_accession>HE966658</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>106</Hsp_hit-from>
+      <Hsp_hit-to>509</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>353</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|JN994639.1|</Hit_id>
+  <Hit_def>Hedera algeriensis isolate CA07-A-7a photosystem II protein D1 (psbA) gene, partial cds; and psbA-trnH intergenic spacer and tRNA-His (trnH) gene, complete sequence; chloroplast</Hit_def>
+  <Hit_accession>JN994639</Hit_accession>
+  <Hit_len>549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>476</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|JN994642.1|</Hit_id>
+  <Hit_def>Hedera hibernica isolate CA07-CC-1a photosystem II protein D1 (psbA) gene, partial cds; and psbA-trnH intergenic spacer and tRNA-His (trnH) gene, complete sequence; chloroplast</Hit_def>
+  <Hit_accession>JN994642</Hit_accession>
+  <Hit_len>549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>651.141</Hsp_bit-score>
+      <Hsp_score>352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>301</Hsp_query-from>
+      <Hsp_query-to>708</Hsp_query-to>
+      <Hsp_hit-from>73</Hsp_hit-from>
+      <Hsp_hit-to>476</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>391</Hsp_identity>
+      <Hsp_positive>391</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>409</Hsp_align-len>
+      <Hsp_qseq>AAATAAAAAAGGAGCAAT-ACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTAAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAGAAAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATCTTTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGT</Hsp_qseq>
+      <Hsp_hseq>AAAT-AAAAAGGAGCAATAACCTCTTTCTTGTTCTATCAAGA-GGGCGG-TATTGCTCCTTTTTTTATTTAGTAGTATTTGACTTACCTAGTTTCTTTAAATTTATTTAAAGAAACGTCGTTTTCTTTTTATCGGTTGGTTCATGAGTGAGTATCATGCTTTCGTTCTGTATTAATCATTAATCTAGAATTTAGCTACTTCTTCCCAATCTTTTGGGAAGTATTTTTTTAAAAGAAAAGATAAAAATGTTGGACTTTTTACTTAGTTAATACTTAATATTTTTATCTCGAAAATAAG-AAAGATAAGAAAGAAATAATGATGAATGGTAAAAGTTTAATC-TTTTGAAACGTAAGGAAAAGAATAGTAGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||| ||| |  ||||| |  | |||||   | || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>440.623</Hsp_bit-score>
+      <Hsp_score>238</Hsp_score>
+      <Hsp_evalue>5.1096e-123</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>363</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>77</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>243</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAA-GGAGCAATACCGCCCTCTTGATAGAACAAGAAAAGAGGTTATTGCTCCTTTTT</Hsp_qseq>
+      <Hsp_hseq>CAACATTTTTATCTTTTCTTTTAAAAAAATACTTCCCAAAAGATTGGGAAGAAGTAGCTAAATTCTAGATTAATGATTAATACAGAACGAAAGCATGATACTCACTCATGAACCAACCGATAAAAAGAAAACGACGTTTCTTTAAATAAATTTAAAGAAACTAGGTAAGTCAAATACTACTAAATAAAAAAAGGAGCAATACCGCCCTCTTGATAGAACAAGAAA-GAGGTTATTGCTCCTTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>66534</Statistics_db-num>
+      <Statistics_db-len>34277752</Statistics_db-len>
+      <Statistics_hsp-len>25</Statistics_hsp-len>
+      <Statistics_eff-space>22340865370</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

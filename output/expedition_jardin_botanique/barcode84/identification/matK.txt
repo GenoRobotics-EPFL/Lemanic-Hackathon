@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>matK</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1623be6a-afba-4107-857b-e7c29370a79d LN:i:849 RC:i:1884 XC:f:1.000000</BlastOutput_query-def>
+  <BlastOutput_query-len>849</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1623be6a-afba-4107-857b-e7c29370a79d LN:i:849 RC:i:1884 XC:f:1.000000</Iteration_query-def>
+  <Iteration_query-len>849</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MF944732.1|</Hit_id>
+  <Hit_def>Gymnadenia orchidis isolate psbA-trnH106 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944732</Hit_accession>
+  <Hit_len>752</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>599.435</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>3.13867e-170</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>736</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>377</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTACCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTTAAAAATGTAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||  ||||   | |   ||||||||||||||||||||| || |||||||||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MF944733.1|</Hit_id>
+  <Hit_def>Gymnadenia emeiensis isolate psbA-trnH107 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944733</Hit_accession>
+  <Hit_len>758</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>599.435</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>3.13867e-170</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>742</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>377</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTACCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTTAAAAATGTAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||  ||||   | |   ||||||||||||||||||||| || |||||||||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MF944743.1|</Hit_id>
+  <Hit_def>Gymnadenia sp. Raskoti 201431 isolate psbA-trnH117 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944743</Hit_accession>
+  <Hit_len>764</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>599.435</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>3.13867e-170</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>748</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>377</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTACCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTTAAAAATGTAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||  ||||   | |   ||||||||||||||||||||| || |||||||||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MF944760.1|</Hit_id>
+  <Hit_def>Gymnadenia conopsea isolate psbA-trnH134 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944760</Hit_accession>
+  <Hit_len>764</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>599.435</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>3.13867e-170</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>748</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>377</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTACCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTTAAAAATGTAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||  ||||   | |   ||||||||||||||||||||| || |||||||||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MF944627.1|</Hit_id>
+  <Hit_def>Gennaria griffithii isolate psbA-trnH1 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944627</Hit_accession>
+  <Hit_len>766</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>595.741</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>4.06013e-169</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>750</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>377</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGT-AAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTACCCTCATACTTCAGATTAAGAT-CGATA---TATTGGACATAGAATGCCAATTTCAAAAATGTAAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||  ||||   |||   ||||||||||||||||||||| |  ||||||| ||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MF944794.1|</Hit_id>
+  <Hit_def>Platanthera stenochila isolate psbA-trnH168 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944794</Hit_accession>
+  <Hit_len>950</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>595.741</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>4.06013e-169</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>934</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>377</Hsp_identity>
+      <Hsp_positive>377</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAA-GGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTAGCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTTTAAAATGTAAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||| | |||||||| ||||  ||||   | |   ||||||||||||||||||||| ||||||||||||||||| |||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MF944661.1|</Hit_id>
+  <Hit_def>Ponerorchis limprichtii isolate psbA-trnH35 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944661</Hit_accession>
+  <Hit_len>768</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.202</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.88899e-167</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>752</Hsp_hit-from>
+      <Hsp_hit-to>354</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>376</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGT-AAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTACCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTCAAAAATGTAAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||  ||||   | |   ||||||||||||||||||||| |  ||||||| ||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MF944691.1|</Hit_id>
+  <Hit_def>Hemipilia cordifolia isolate psbA-trnH65 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944691</Hit_accession>
+  <Hit_len>761</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.202</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.88899e-167</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>745</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>376</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGT-AAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTACCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTCAAAAATGTAAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||  ||||   | |   ||||||||||||||||||||| |  ||||||| ||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MF944700.1|</Hit_id>
+  <Hit_def>Hemipilia cruciata isolate psbA-trnH74 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944700</Hit_accession>
+  <Hit_len>761</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.202</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.88899e-167</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>745</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>376</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGT-AAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTACCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTCAAAAATGTAAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||  ||||   | |   ||||||||||||||||||||| |  ||||||| ||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MF944710.1|</Hit_id>
+  <Hit_def>Ponerorchis oblonga isolate psbA-trnH84 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944710</Hit_accession>
+  <Hit_len>799</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.202</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.88899e-167</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>796</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>376</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGT-AAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTACCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTCAAAAATGTAAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||  ||||   | |   ||||||||||||||||||||| |  ||||||| ||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|MF944714.1|</Hit_id>
+  <Hit_def>Hemipilia cruciata isolate psbA-trnH88 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944714</Hit_accession>
+  <Hit_len>761</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.202</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.88899e-167</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>745</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>376</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGT-AAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTACCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTCAAAAATGTAAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||  ||||   | |   ||||||||||||||||||||| |  ||||||| ||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MF944766.1|</Hit_id>
+  <Hit_def>Hemipilia forrestii isolate psbA-trnH140 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944766</Hit_accession>
+  <Hit_len>761</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.202</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.88899e-167</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>745</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>376</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGT-AAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTACCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTCAAAAATGTAAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||  ||||   | |   ||||||||||||||||||||| |  ||||||| ||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|MF944767.1|</Hit_id>
+  <Hit_def>Hemipilia cf. flabellata Jin XH &amp; al. 13330 isolate psbA-trnH141 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944767</Hit_accession>
+  <Hit_len>761</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.202</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.88899e-167</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>745</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>376</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGT-AAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTACCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTCAAAAATGTAAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||  ||||   | |   ||||||||||||||||||||| |  ||||||| ||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MF944787.1|</Hit_id>
+  <Hit_def>Platanthera sp. Jin XH &amp; Zhang L 11278 isolate psbA-trnH161 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944787</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.202</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.88899e-167</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>763</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>376</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAA-GGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTAGCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTTTAAAATGTAAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATTGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||| | |||||||| ||||  ||||   | |   ||||||||||||||||||||| ||||||||||||||||| |||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MF944802.1|</Hit_id>
+  <Hit_def>Hemipilia kwangsiensis isolate psbA-trnH176 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944802</Hit_accession>
+  <Hit_len>764</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.202</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.88899e-167</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>748</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>376</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGT-AAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTACCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTCAAAAATGTAAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||  ||||   | |   ||||||||||||||||||||| |  ||||||| ||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MF944803.1|</Hit_id>
+  <Hit_def>Hemipilia calophylla isolate psbA-trnH177 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944803</Hit_accession>
+  <Hit_len>764</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>590.202</Hsp_bit-score>
+      <Hsp_score>319</Hsp_score>
+      <Hsp_evalue>1.88899e-167</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>748</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>376</Hsp_identity>
+      <Hsp_positive>376</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>403</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGT-AAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTGATTCTTACCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTCAAAAATGTAAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||| ||||||||| |||||||| ||||  ||||   | |   ||||||||||||||||||||| |  ||||||| ||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|MF944635.1|</Hit_id>
+  <Hit_def>Platanthera chlorantha isolate psbA-trnH9 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944635</Hit_accession>
+  <Hit_len>752</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>588.355</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>6.79403e-167</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>749</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>375</Hsp_identity>
+      <Hsp_positive>375</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTATCTTTTTTCCATTCATCATTATTGTATTGATTCTTAGCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTTAAAAATGTAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||| ||||||| | |||||||| ||||  ||||   | |   ||||||||||||||||||||| || |||||||||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MF944637.1|</Hit_id>
+  <Hit_def>Platanthera bifolia isolate psbA-trnH11 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944637</Hit_accession>
+  <Hit_len>751</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>588.355</Hsp_bit-score>
+      <Hsp_score>318</Hsp_score>
+      <Hsp_evalue>6.79403e-167</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>749</Hsp_hit-from>
+      <Hsp_hit-to>352</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>375</Hsp_identity>
+      <Hsp_positive>375</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTATCTTTTTTCCATTCATCATTATTGTATTGATTCTTAGCCTCATACTTCAGATTAAGAT-CGAGA---TATTGGACATAGAATGCCAATTTTAAAAATGTAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>|||| |||||||||||||||||||||||||||| ||||||| | |||||||| ||||  ||||   | |   ||||||||||||||||||||| || |||||||||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|MF944818.1|</Hit_id>
+  <Hit_def>Habenaria josephi isolate psbA-trnH192 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944818</Hit_accession>
+  <Hit_len>759</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>586.508</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>2.44357e-166</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>759</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>378</Hsp_identity>
+      <Hsp_positive>378</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>406</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGT----AAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCCTCATACTTCAGATTAAGAT-CGATA---TATTGGACATAGAATGCCAATTTCAAAAATGTAAAAAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||  ||||   |||   ||||||||||||||||||||| |  |||||||    ||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MF944831.1|</Hit_id>
+  <Hit_def>Habenaria josephi isolate psbA-trnH205 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MF944831</Hit_accession>
+  <Hit_len>772</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>586.508</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>2.44357e-166</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>510</Hsp_query-to>
+      <Hsp_hit-from>759</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>378</Hsp_identity>
+      <Hsp_positive>378</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>406</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTT-AGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGT----AAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_qseq>
+      <Hsp_hseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCCTCATACTTCAGATTAAGAT-CGATA---TATTGGACATAGAATGCCAATTTCAAAAATGTAAAAAAAAAAAGGAGTAATCAGCCGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTGACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTCGGTCACAAATTGGGAGAATTCGCACCTACTCTCACTTTCGTGAGACATGCGAGAAACGATAATAAATCTCGTCGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||  ||||   |||   ||||||||||||||||||||| |  |||||||    ||||||||||||||||||| ||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>121236</Statistics_db-num>
+      <Statistics_db-len>110105739</Statistics_db-len>
+      <Statistics_hsp-len>26</Statistics_hsp-len>
+      <Statistics_eff-space>88022815269</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

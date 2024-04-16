@@ -1,0 +1,7 @@
+Input name: barcode73
+Databases used: ITS, psbA-trnH, matK, rbcL
+
+Best species for ITS is Solanum nigrum with alignment 83.3095577746077 and evalue 2.40139e-169
+Best species for psbA-trnH is UNVERIFIED: Holmskioldia with alignment 80.04246284501062 and evalue 7.61743e-82
+Best species for matK is Margaritaria discoidea with alignment 79.77777777777779 and evalue 8.9724e-81
+Best species for rbcL is None with alignment 0 and evalue inf

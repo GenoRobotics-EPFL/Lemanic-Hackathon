@@ -1,0 +1,9 @@
+2024-04-15 19:43:40,869 INFO: Running consensus pipeline... 
+
+2024-04-15 19:43:40,869 INFO: Running identification pipeline with blastn method... 
+
+2024-04-15 19:43:40,870 INFO: Running command: bash -l -c "blastn -query output/summer_expedition/Ailanthus_altissimarbcL_barcode1/consensus/Ailanthus_altissimarbcL_barcode1_final_consensus.fasta -db rbcL -out output/summer_expedition/Ailanthus_altissimarbcL_barcode1/identification/rbcL.txt -max_target_seqs 20 -outfmt 5"
+2024-04-15 19:43:42,049 INFO: Command 'bash -l -c "blastn -query output/summer_expedition/Ailanthus_altissimarbcL_barcode1/consensus/Ailanthus_altissimarbcL_barcode1_final_consensus.fasta -db rbcL -out output/summer_expedition/Ailanthus_altissimarbcL_barcode1/identification/rbcL.txt -max_target_seqs 20 -outfmt 5"' took 1.18 seconds to run.
+2024-04-15 19:43:42,049 INFO: BLASTn command for database rbcL took 1.18 seconds.
+2024-04-15 19:43:42,049 INFO: XML files : [('output/summer_expedition/Ailanthus_altissimarbcL_barcode1/identification/rbcL.txt', 'rbcL')]
+2024-04-15 19:43:42,054 INFO: Best species for rbcL is Ailanthus altissimus with alignment 99.85574732914756 and evalue 0.0
