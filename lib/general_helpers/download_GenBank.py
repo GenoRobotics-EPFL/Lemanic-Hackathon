@@ -1,7 +1,7 @@
 from Bio import Entrez
 Entrez.email = "ghassan.abboud@epfl.ch"
 
-def download_sequence(species, gene_name, dst, start_length=None, stop_length= None, id = None, permissive_search = True):
+def download_sequence(species, gene_name, dst, start_length=None, stop_length= None, permissive_search = True):
     """
     download sequence from GenBank through the Entrez database. 
 
@@ -24,19 +24,13 @@ def download_sequence(species, gene_name, dst, start_length=None, stop_length= N
     search_result = Entrez.read(handle)
     handle.close()
     id = search_result["IdList"]
-    n=0
-    for i in id:
-        n+=1
-    if n==0 and permissive_search:
+    if len(id)==0 and permissive_search:
         search_term = f"{gene_name} {species} {start_length}:{stop_length}[Sequence Length]"
         handle = Entrez.esearch(db = "nucleotide", term = search_term, retmax = 1, idtype = "acc")
         search_result = Entrez.read(handle)
         handle.close()
         id = search_result["IdList"]
-    n=0
-    for i in id:
-        n+=1
-    if n==1:
+    if len(id)==1:
         download_sequence_from_id(id,dst)
 
 def download_sequence_from_id(id: list, dst):
