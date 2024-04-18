@@ -1,0 +1,5 @@
+Input name: barcode2
+Databases used: psbA-trnH, rbcL
+
+Best species for psbA-trnH is Macrosolen tricolor with alignment 89.45686900958466 and evalue 0.0
+Best species for rbcL is Carex brunnea with alignment 99.68404423380727 and evalue 0.0

@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>matK</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>c5f27c3d-f62f-4692-a6c5-ae41a8bdd1cb LN:i:827 RC:i:79 XC:f:1.000000</BlastOutput_query-def>
+  <BlastOutput_query-len>827</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>c5f27c3d-f62f-4692-a6c5-ae41a8bdd1cb LN:i:827 RC:i:79 XC:f:1.000000</Iteration_query-def>
+  <Iteration_query-len>827</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|AF297363.1|</Hit_id>
+  <Hit_def>Corylus avellana clone Cave1matK maturase K (matK) gene, partial cds; chloroplast gene for chloroplast product</Hit_def>
+  <Hit_accession>AF297363</Hit_accession>
+  <Hit_len>1231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1279</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>1157</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>711</Hsp_identity>
+      <Hsp_positive>711</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|AF297364.1|</Hit_id>
+  <Hit_def>Corylus avellana clone Cave2matK maturase K (matK) gene, partial cds; chloroplast gene for chloroplast product</Hit_def>
+  <Hit_accession>AF297364</Hit_accession>
+  <Hit_len>1231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1279</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>1157</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>711</Hsp_identity>
+      <Hsp_positive>711</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|AF297365.1|</Hit_id>
+  <Hit_def>Corylus avellana clone Cave3matK maturase K (matK) gene, partial cds; chloroplast gene for chloroplast product</Hit_def>
+  <Hit_accession>AF297365</Hit_accession>
+  <Hit_len>1231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1279</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>1157</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>711</Hsp_identity>
+      <Hsp_positive>711</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AF297366.1|</Hit_id>
+  <Hit_def>Corylus maxima clone Cmax1matK maturase K (matK) gene, partial cds; chloroplast gene for chloroplast product</Hit_def>
+  <Hit_accession>AF297366</Hit_accession>
+  <Hit_len>1231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1279</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>1157</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>711</Hsp_identity>
+      <Hsp_positive>711</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AF297367.1|</Hit_id>
+  <Hit_def>Corylus maxima clone Cmax2matK maturase K (matK) gene, partial cds; chloroplast gene for chloroplast product</Hit_def>
+  <Hit_accession>AF297367</Hit_accession>
+  <Hit_len>1231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1279</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>1157</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>711</Hsp_identity>
+      <Hsp_positive>711</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|AF297389.1|</Hit_id>
+  <Hit_def>Corylus papyracea clone Cpap1matK maturase K (matK) gene, partial cds; chloroplast gene for chloroplast product</Hit_def>
+  <Hit_accession>AF297389</Hit_accession>
+  <Hit_len>1231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1279</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>1157</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>711</Hsp_identity>
+      <Hsp_positive>711</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|KX677487.1|</Hit_id>
+  <Hit_def>Corylus avellana voucher MF107 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>KX677487</Hit_accession>
+  <Hit_len>793</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1279</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>788</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>711</Hsp_identity>
+      <Hsp_positive>711</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|KX677575.1|</Hit_id>
+  <Hit_def>Corylus avellana voucher ERM1326 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>KX677575</Hit_accession>
+  <Hit_len>793</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1279</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>788</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>711</Hsp_identity>
+      <Hsp_positive>711</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>dbj|AB015461.1|</Hit_id>
+  <Hit_def>Ostryopsis davidiana chloroplast gene for maturase, partial cds</Hit_def>
+  <Hit_accession>AB015461</Hit_accession>
+  <Hit_len>1260</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1273.46</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>519</Hsp_hit-from>
+      <Hsp_hit-to>1235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>710</Hsp_identity>
+      <Hsp_positive>710</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTACCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|JN894157.1|</Hit_id>
+  <Hit_def>Corylus avellana isolate NMW6163 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JN894157</Hit_accession>
+  <Hit_len>781</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1273.46</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>727</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>710</Hsp_identity>
+      <Hsp_positive>710</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTACCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|JN895020.1|</Hit_id>
+  <Hit_def>Corylus avellana isolate NMW6197 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JN895020</Hit_accession>
+  <Hit_len>773</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1273.46</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>724</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>710</Hsp_identity>
+      <Hsp_positive>710</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTACCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|JN895886.1|</Hit_id>
+  <Hit_def>Corylus avellana isolate NMW891 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JN895886</Hit_accession>
+  <Hit_len>829</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1273.46</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>748</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>710</Hsp_identity>
+      <Hsp_positive>710</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTACCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|HM850898.1|</Hit_id>
+  <Hit_def>Corylus avellana maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>HM850898</Hit_accession>
+  <Hit_len>813</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1273.46</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>802</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>710</Hsp_identity>
+      <Hsp_positive>710</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTACCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|KF419041.1|</Hit_id>
+  <Hit_def>Corylus mandshurica maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>KF419041</Hit_accession>
+  <Hit_len>984</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1273.46</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>227</Hsp_hit-from>
+      <Hsp_hit-to>943</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>710</Hsp_identity>
+      <Hsp_positive>710</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTACCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|AY212002.1|</Hit_id>
+  <Hit_def>Corylus chinensis maturase K (matK) gene, partial cds</Hit_def>
+  <Hit_accession>AY212002</Hit_accession>
+  <Hit_len>1231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1273.46</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>1157</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>710</Hsp_identity>
+      <Hsp_positive>710</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTACCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|AY263917.1|</Hit_id>
+  <Hit_def>Ostryopsis davidiana maturase (matK) gene, partial cds; chloroplast gene for chloroplast product</Hit_def>
+  <Hit_accession>AY263917</Hit_accession>
+  <Hit_len>1254</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1273.46</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>519</Hsp_hit-from>
+      <Hsp_hit-to>1235</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>710</Hsp_identity>
+      <Hsp_positive>710</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTACCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|KX229870.1|</Hit_id>
+  <Hit_def>Corylus avellana voucher OMH0056M maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>KX229870</Hit_accession>
+  <Hit_len>839</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1273.46</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>755</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>710</Hsp_identity>
+      <Hsp_positive>710</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTACCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|KX229871.1|</Hit_id>
+  <Hit_def>Corylus avellana voucher OMH0057M maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>KX229871</Hit_accession>
+  <Hit_len>839</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1273.46</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>755</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>710</Hsp_identity>
+      <Hsp_positive>710</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTACCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|KX229872.1|</Hit_id>
+  <Hit_def>Corylus avellana voucher OMH0061M maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>KX229872</Hit_accession>
+  <Hit_len>839</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1273.46</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>755</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>710</Hsp_identity>
+      <Hsp_positive>710</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTACCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|KX229873.1|</Hit_id>
+  <Hit_def>Corylus avellana voucher OMH0068M maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>KX229873</Hit_accession>
+  <Hit_len>839</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1273.46</Hsp_bit-score>
+      <Hsp_score>689</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>755</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>710</Hsp_identity>
+      <Hsp_positive>710</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>719</Hsp_align-len>
+      <Hsp_qseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTC-TTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATT-TTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTGCCTTGTCAGTTTATGGCAAATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCT-CTAAGAAACTCGATACAATAGTTTCAATCATTCCTCTGATTGAATCATTGGCTAAAGCGAAAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>ACATTTATTGCGGTTCTTTCTTCATGAGTATTCTAATGGTAATATTCTTTTTATTCTAAATAAATCTATTTCTTTTTTTTCAAAAAGTAATTCAAGATTATTATTATTCCTATATAATTCTTATATATGTGAATACGAATCCCTTTTCCTTTTTCTCCGTAACCAATCTTCTCATTTACGATTAACATCTTCTGGAGTCCTTTTTGAGCGAATCTATTTACATAGAAAAATGGAGGATCTTGCCGAAGTTTTTGTTAATGATTTTCGGGGCATCCTATGCTTCCTCAAGGATCCTTTCATTCATTATGTTAGATATCAAGGAAAATCAATTCTGTCTTCAAAAGATACGCCTCTTCTGATGAATAAATGGAAATATTACCTTGTCAGTTTATGGC-AATGTCATTTTTATGTATGGTCTCACCCAGGAAGGATCTATATAAACCAATTATCCAAGCATTCCCTCGACTTTTTGGGTTATTTTTCAAGTGTGCCACTAAATCCTTCAATGGTGCCGAGTCAAATGCTAGAAAATTCATTTGTAATAAATAATGCTCCTAAGAAACTCGATACAATAGTTCCAATTATTCCTCTGATTGAATCATTGGCTAAAGCG-AAATTTTGTAACGCATTAGGGCATCCCATTAGTAAGCCGACTTGGGCCGATTTATCGGATTTTGATATTATAAATCGATTTGTGCGTATATGCACAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>121340</Statistics_db-num>
+      <Statistics_db-len>110193972</Statistics_db-len>
+      <Statistics_hsp-len>26</Statistics_hsp-len>
+      <Statistics_eff-space>85738344732</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

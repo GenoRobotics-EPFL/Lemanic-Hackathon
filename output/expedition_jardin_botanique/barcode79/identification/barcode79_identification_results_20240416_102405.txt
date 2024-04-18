@@ -1,7 +1,0 @@
-Input name: barcode79
-Databases used: ITS, psbA-trnH, matK, rbcL
-
-Best species for ITS is Hedera helix with alignment 95.96274394833472 and evalue 2.8138430692e-146
-Best species for psbA-trnH is Eleutherococcus henryi with alignment 91.30299764970252 and evalue 1.8914e-121
-Best species for matK is Hieracium murorum with alignment 95.1086956521739 and evalue 2.83898e-77
-Best species for rbcL is None with alignment 0 and evalue inf

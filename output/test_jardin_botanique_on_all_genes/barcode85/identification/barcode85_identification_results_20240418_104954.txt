@@ -1,0 +1,7 @@
+Input name: barcode85
+Databases used: psbA-trnH, matK, rbcL, ITS
+
+Best species for psbA-trnH is Erythrophleum fordii with alignment 94.10774410774411 and evalue 0.0
+Best species for matK is Polygala serpyllifolia with alignment 94.43507588532883 and evalue 0.0
+Best species for rbcL is Stranvaesia davidiana with alignment 99.83136593591905 and evalue 0.0
+Best species for ITS is Rubus chamaemorus with alignment 95.64459930313589 and evalue 0.0

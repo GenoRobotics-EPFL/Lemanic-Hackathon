@@ -1,0 +1,4 @@
+Input name: barcode89
+Databases used: psbA-trnH
+
+Best species for psbA-trnH is UNVERIFIED: Callicarpa with alignment 85.6008981945762 and evalue 6.267729015e-87

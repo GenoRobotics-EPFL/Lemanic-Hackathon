@@ -1,0 +1,21 @@
+2024-04-18 09:53:06,021 INFO: Running consensus pipeline... 
+
+2024-04-18 09:53:06,021 INFO: Running identification pipeline with blastn method... 
+
+2024-04-18 09:53:06,021 INFO: Running command: bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode8/consensus/barcode8_final_consensus.fasta -db matK -out output/test_summer_expedition_multiplexed/barcode8/identification/matK.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 09:53:06,113 INFO: Command 'bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode8/consensus/barcode8_final_consensus.fasta -db matK -out output/test_summer_expedition_multiplexed/barcode8/identification/matK.txt -max_target_seqs 20 -outfmt 5"' took 0.09 seconds to run.
+2024-04-18 09:53:06,114 INFO: BLASTn command for database matK took 0.09 seconds.
+2024-04-18 09:53:06,114 INFO: Running command: bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode8/consensus/barcode8_final_consensus.fasta -db rbcL -out output/test_summer_expedition_multiplexed/barcode8/identification/rbcL.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 09:53:06,166 INFO: Command 'bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode8/consensus/barcode8_final_consensus.fasta -db rbcL -out output/test_summer_expedition_multiplexed/barcode8/identification/rbcL.txt -max_target_seqs 20 -outfmt 5"' took 0.05 seconds to run.
+2024-04-18 09:53:06,166 INFO: BLASTn command for database rbcL took 0.05 seconds.
+2024-04-18 09:53:06,166 INFO: Running command: bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode8/consensus/barcode8_final_consensus.fasta -db ITS -out output/test_summer_expedition_multiplexed/barcode8/identification/ITS.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 09:53:06,441 INFO: Command 'bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode8/consensus/barcode8_final_consensus.fasta -db ITS -out output/test_summer_expedition_multiplexed/barcode8/identification/ITS.txt -max_target_seqs 20 -outfmt 5"' took 0.27 seconds to run.
+2024-04-18 09:53:06,441 INFO: BLASTn command for database ITS took 0.27 seconds.
+2024-04-18 09:53:06,441 INFO: Running command: bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode8/consensus/barcode8_final_consensus.fasta -db psbA-trnH -out output/test_summer_expedition_multiplexed/barcode8/identification/psbA-trnH.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 09:53:06,506 INFO: Command 'bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode8/consensus/barcode8_final_consensus.fasta -db psbA-trnH -out output/test_summer_expedition_multiplexed/barcode8/identification/psbA-trnH.txt -max_target_seqs 20 -outfmt 5"' took 0.07 seconds to run.
+2024-04-18 09:53:06,506 INFO: BLASTn command for database psbA-trnH took 0.07 seconds.
+2024-04-18 09:53:06,506 INFO: XML files : [('output/test_summer_expedition_multiplexed/barcode8/identification/matK.txt', 'matK'), ('output/test_summer_expedition_multiplexed/barcode8/identification/rbcL.txt', 'rbcL'), ('output/test_summer_expedition_multiplexed/barcode8/identification/ITS.txt', 'ITS'), ('output/test_summer_expedition_multiplexed/barcode8/identification/psbA-trnH.txt', 'psbA-trnH')]
+2024-04-18 09:53:06,509 INFO: Best species for matK is Abutilon indicum with alignment 79.82195845697329 and evalue 3.26226e-125
+2024-04-18 09:53:06,509 INFO: Best species for rbcL is None with alignment 0 and evalue inf
+2024-04-18 09:53:06,511 INFO: Best species for ITS is Tilia cordata with alignment 99.56896551724138 and evalue 0.0
+2024-04-18 09:53:06,514 INFO: Best species for psbA-trnH is Pyrus pyrifolia with alignment 86.19528619528619 and evalue 1.76236e-83

@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>ITS</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>b7e13d06-ac2a-42f3-8b41-14df441c3ba4 LN:i:860 RC:i:33 XC:f:1.000000</BlastOutput_query-def>
+  <BlastOutput_query-len>860</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>b7e13d06-ac2a-42f3-8b41-14df441c3ba4 LN:i:860 RC:i:33 XC:f:1.000000</Iteration_query-def>
+  <Iteration_query-len>860</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|JF956212.1|</Hit_id>
+  <Hit_def>Schisandra chinensis voucher WangW-S18 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF956212</Hit_accession>
+  <Hit_len>1140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.022</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.00894e-138</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>860</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>1121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>596</Hsp_identity>
+      <Hsp_positive>596</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>755</Hsp_align-len>
+      <Hsp_qseq>CTTCGCTACTGGGTAAAAGATGCTTCTTCTTTGCATTTATTACGATTCTTTCTCCACGAGTATTGTAATTGGAATA--CTCAA-A-T--AAAG----CCGGTTCTTCTTTTTCAAAA-AGAAATCAAAGACTATTCTTCTTCCTATATAATTCTCATCTATGTGAATACGAATCCATCTTCATCTTTCTCCGTAACCAATCTTCTCATTTACGCTCAACATCTTCTGGAACCCTTCTTGAACGAATATATTTCTATGGAAAAAATAAAATATCTTGTAAAAGTCTTTGTTAAGGCTTTTCAAGTCAATCTATTGTTGTTGAAGGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCAATTCTCGCTTCAAAAGGGACGCCCTTTTTGATGAAAAAATGGACATATTACTTTGTTAATTTATGGCAATGTCATTTTTACCTGTGGTCTCAACCGGGAAGGATCTGTATAAACCAATTATACAATCATTCCCTCGACCTTCTGGGCTATCTATCAAGTGCG--CGGCTAAACCCTTCAATGGTACGCGGTCAAATGCTAGAAAATGCATTTCTAATTGATAATGCTATTAATAAGTTCGATACTATTGTTCCAATTATTCCTCTGATTGGATCATTGGCTAAAGCGAAATTTTGTAACGTATTGGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATATTATTGACCGATTTGGGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>CTTCGCCGCTGGATACCTGACGCTCCTTCTTTGCATTTATTACGATTCTTTCTCCATGGGCATCATAATTGGAATAGTCTCATTACTCCAAAAAAAACCATTTCTCTTTTTTCAAAAGAGAA-TCCAAGATTTTGCTTGTTCCTATATAATTCGTATGTATATGAATACGAATCCATCTTAGTTTTCCTCCATAAACAATCTTCTCATTTACGATCGATCTCTTCTGGAGCCTTTCTTGAGCGAACAAATTTCTATGGAAAAAC-AGAACATCTTCTAGTAGTGCTTCATAATGATTTGCAAAAGACCTTATGCTTGTTCAAAGATCCTTTCATGCATTATGCCAGGTATCAAGGAAAATCCATTATGGCTTCAAAAGGTACTCATCTTCTGATGAAGAAATGGAAATATCACCTTGTTAATTTCTGGCAATTTCATTTTAACTTGTGGTCTCAACCGAGCAGGATCCATATAAATGAATTATCCAATCATTTCTTCTATTTTCCGGGCTATCTTTCA-G-GCATACGACTAAATCTTTCGGTGGTAAGGGTTCGAATGATAGAGAATTCATTTATGATAGATACTGGTATTAAGAAATTCGATATGATAGTCCCAATTATTCCTTTGATTGGATCATTGGCTAAAGCAAAATTCTGTAATGTATCCGGATATCCCATTAGTAAGTCGGTTCGGGCCGATTCGTCAGATTCTG--ATATTATTAATCGATTTGGGCGGATATGCAGAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>||||||  |||| ||   || ||| ||||||||||||||||||||||||||||||| | | ||  |||||||||||  ||||  | |  |||     ||  ||||  |||||||||| |||| || |||| | | ||| ||||||||||||||  || ||| ||||||||||||||||||  | || |||| ||| ||||||||||||||||| || |  ||||||||| || ||||||| |||| | |||||||||||||||  | || ||||| ||  |||  ||  ||| | ||| |||   |   |||  ||||| || |||||||||||||||||||  ||||||||||||||||| ||| | ||||||||||| || |   || ||||||| ||||||| |||| || |||||||||| ||||||| ||||||| || |||||||||||||| | ||||||  ||||||  |||||| |||||||| | || |  ||| ||||||||| ||| | ||   || ||||| | |||  ||||| | | || |||| |||| ||| ||||| | || |||| || |||||| || |||||||  || || |||||||||||| |||||||||||||||||||||| ||||| ||||| ||||  ||  |||| ||||||||| ||||| || ||||||  ||||||||||  |||||||| | ||||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|JF956213.1|</Hit_id>
+  <Hit_def>Schisandra chinensis voucher WangW-S17 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF956213</Hit_accession>
+  <Hit_len>1140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.022</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.00894e-138</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>860</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>1121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>596</Hsp_identity>
+      <Hsp_positive>596</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>755</Hsp_align-len>
+      <Hsp_qseq>CTTCGCTACTGGGTAAAAGATGCTTCTTCTTTGCATTTATTACGATTCTTTCTCCACGAGTATTGTAATTGGAATA--CTCAA-A-T--AAAG----CCGGTTCTTCTTTTTCAAAA-AGAAATCAAAGACTATTCTTCTTCCTATATAATTCTCATCTATGTGAATACGAATCCATCTTCATCTTTCTCCGTAACCAATCTTCTCATTTACGCTCAACATCTTCTGGAACCCTTCTTGAACGAATATATTTCTATGGAAAAAATAAAATATCTTGTAAAAGTCTTTGTTAAGGCTTTTCAAGTCAATCTATTGTTGTTGAAGGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCAATTCTCGCTTCAAAAGGGACGCCCTTTTTGATGAAAAAATGGACATATTACTTTGTTAATTTATGGCAATGTCATTTTTACCTGTGGTCTCAACCGGGAAGGATCTGTATAAACCAATTATACAATCATTCCCTCGACCTTCTGGGCTATCTATCAAGTGCG--CGGCTAAACCCTTCAATGGTACGCGGTCAAATGCTAGAAAATGCATTTCTAATTGATAATGCTATTAATAAGTTCGATACTATTGTTCCAATTATTCCTCTGATTGGATCATTGGCTAAAGCGAAATTTTGTAACGTATTGGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATATTATTGACCGATTTGGGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>CTTCGCCGCTGGATACCTGACGCTCCTTCTTTGCATTTATTACGATTCTTTCTCCATGGGCATCATAATTGGAATAGTCTCATTACTCCAAAAAAAACCATTTCTCTTTTTTCAAAAGAGAA-TCCAAGATTTTGCTTGTTCCTATATAATTCGTATGTATATGAATACGAATCCATCTTAGTTTTCCTCCATAAACAATCTTCTCATTTACGATCGATCTCTTCTGGAGCCTTTCTTGAGCGAACAAATTTCTATGGAAAAAC-AGAACATCTTCTAGTAGTGCTTCATAATGATTTGCAAAAGACCTTATGCTTGTTCAAAGATCCTTTCATGCATTATGCCAGGTATCAAGGAAAATCCATTATGGCTTCAAAAGGTACTCATCTTCTGATGAAGAAATGGAAATATCACCTTGTTAATTTCTGGCAATTTCATTTTAACTTGTGGTCTCAACCGAGCAGGATCCATATAAATGAATTATCCAATCATTTCTTCTATTTTCCGGGCTATCTTTCA-G-GCATACGACTAAATCTTTCGGTGGTAAGGGTTCGAATGATAGAGAATTCATTTATGATAGATACTGGTATTAAGAAATTCGATATGATAGTCCCAATTATTCCTTTGATTGGATCATTGGCTAAAGCAAAATTCTGTAATGTATCCGGATATCCCATTAGTAAGTCGGTTCGGGCCGATTCGTCAGATTCTG--ATATTATTAATCGATTTGGGCGGATATGCAGAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>||||||  |||| ||   || ||| ||||||||||||||||||||||||||||||| | | ||  |||||||||||  ||||  | |  |||     ||  ||||  |||||||||| |||| || |||| | | ||| ||||||||||||||  || ||| ||||||||||||||||||  | || |||| ||| ||||||||||||||||| || |  ||||||||| || ||||||| |||| | |||||||||||||||  | || ||||| ||  |||  ||  ||| | ||| |||   |   |||  ||||| || |||||||||||||||||||  ||||||||||||||||| ||| | ||||||||||| || |   || ||||||| ||||||| |||| || |||||||||| ||||||| ||||||| || |||||||||||||| | ||||||  ||||||  |||||| |||||||| | || |  ||| ||||||||| ||| | ||   || ||||| | |||  ||||| | | || |||| |||| ||| ||||| | || |||| || |||||| || |||||||  || || |||||||||||| |||||||||||||||||||||| ||||| ||||| ||||  ||  |||| ||||||||| ||||| || ||||||  ||||||||||  |||||||| | ||||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|JF956214.1|</Hit_id>
+  <Hit_def>Schisandra chinensis voucher WangW-S13 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF956214</Hit_accession>
+  <Hit_len>1140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>496.022</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>1.00894e-138</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>860</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>1121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>596</Hsp_identity>
+      <Hsp_positive>596</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>755</Hsp_align-len>
+      <Hsp_qseq>CTTCGCTACTGGGTAAAAGATGCTTCTTCTTTGCATTTATTACGATTCTTTCTCCACGAGTATTGTAATTGGAATA--CTCAA-A-T--AAAG----CCGGTTCTTCTTTTTCAAAA-AGAAATCAAAGACTATTCTTCTTCCTATATAATTCTCATCTATGTGAATACGAATCCATCTTCATCTTTCTCCGTAACCAATCTTCTCATTTACGCTCAACATCTTCTGGAACCCTTCTTGAACGAATATATTTCTATGGAAAAAATAAAATATCTTGTAAAAGTCTTTGTTAAGGCTTTTCAAGTCAATCTATTGTTGTTGAAGGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCAATTCTCGCTTCAAAAGGGACGCCCTTTTTGATGAAAAAATGGACATATTACTTTGTTAATTTATGGCAATGTCATTTTTACCTGTGGTCTCAACCGGGAAGGATCTGTATAAACCAATTATACAATCATTCCCTCGACCTTCTGGGCTATCTATCAAGTGCG--CGGCTAAACCCTTCAATGGTACGCGGTCAAATGCTAGAAAATGCATTTCTAATTGATAATGCTATTAATAAGTTCGATACTATTGTTCCAATTATTCCTCTGATTGGATCATTGGCTAAAGCGAAATTTTGTAACGTATTGGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATATTATTGACCGATTTGGGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>CTTCGCCGCTGGATACCTGACGCTCCTTCTTTGCATTTATTACGATTCTTTCTCCATGGGCATCATAATTGGAATAGTCTCATTACTCCAAAAAAAACCATTTCTCTTTTTTCAAAAGAGAA-TCCAAGATTTTGCTTGTTCCTATATAATTCGTATGTATATGAATACGAATCCATCTTAGTTTTCCTCCATAAACAATCTTCTCATTTACGATCGATCTCTTCTGGAGCCTTTCTTGAGCGAACAAATTTCTATGGAAAAAC-AGAACATCTTCTAGTAGTGCTTCATAATGATTTGCAAAAGACCTTATGCTTGTTCAAAGATCCTTTCATGCATTATGCCAGGTATCAAGGAAAATCCATTATGGCTTCAAAAGGTACTCATCTTCTGATGAAGAAATGGAAATATCACCTTGTTAATTTCTGGCAATTTCATTTTAACTTGTGGTCTCAACCGAGCAGGATCCATATAAATGAATTATCCAATCATTTCTTCTATTTTCCGGGCTATCTTTCA-G-GCATACGACTAAATCTTTCGGTGGTAAGGGTTCGAATGATAGAGAATTCATTTATGATAGATACTGGTATTAAGAAATTCGATATGATAGTCCCAATTATTCCTTTGATTGGATCATTGGCTAAAGCAAAATTCTGTAATGTATCCGGATATCCCATTAGTAAGTCGGTTCGGGCCGATTCGTCAGATTCTG--ATATTATTAATCGATTTGGGCGGATATGCAGAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>||||||  |||| ||   || ||| ||||||||||||||||||||||||||||||| | | ||  |||||||||||  ||||  | |  |||     ||  ||||  |||||||||| |||| || |||| | | ||| ||||||||||||||  || ||| ||||||||||||||||||  | || |||| ||| ||||||||||||||||| || |  ||||||||| || ||||||| |||| | |||||||||||||||  | || ||||| ||  |||  ||  ||| | ||| |||   |   |||  ||||| || |||||||||||||||||||  ||||||||||||||||| ||| | ||||||||||| || |   || ||||||| ||||||| |||| || |||||||||| ||||||| ||||||| || |||||||||||||| | ||||||  ||||||  |||||| |||||||| | || |  ||| ||||||||| ||| | ||   || ||||| | |||  ||||| | | || |||| |||| ||| ||||| | || |||| || |||||| || |||||||  || || |||||||||||| |||||||||||||||||||||| ||||| ||||| ||||  ||  |||| ||||||||| ||||| || ||||||  ||||||||||  |||||||| | ||||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|JF956218.1|</Hit_id>
+  <Hit_def>Schisandra sphenanthera voucher WangW-S23 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF956218</Hit_accession>
+  <Hit_len>1140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>490.482</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>4.69415e-137</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>860</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>1121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>595</Hsp_identity>
+      <Hsp_positive>595</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>755</Hsp_align-len>
+      <Hsp_qseq>CTTCGCTACTGGGTAAAAGATGCTTCTTCTTTGCATTTATTACGATTCTTTCTCCACGAGTATTGTAATTGGAATA--CTCAA-A-T--AAAG----CCGGTTCTTCTTTTTCAAAA-AGAAATCAAAGACTATTCTTCTTCCTATATAATTCTCATCTATGTGAATACGAATCCATCTTCATCTTTCTCCGTAACCAATCTTCTCATTTACGCTCAACATCTTCTGGAACCCTTCTTGAACGAATATATTTCTATGGAAAAAATAAAATATCTTGTAAAAGTCTTTGTTAAGGCTTTTCAAGTCAATCTATTGTTGTTGAAGGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCAATTCTCGCTTCAAAAGGGACGCCCTTTTTGATGAAAAAATGGACATATTACTTTGTTAATTTATGGCAATGTCATTTTTACCTGTGGTCTCAACCGGGAAGGATCTGTATAAACCAATTATACAATCATTCCCTCGACCTTCTGGGCTATCTATCAAGTGCG--CGGCTAAACCCTTCAATGGTACGCGGTCAAATGCTAGAAAATGCATTTCTAATTGATAATGCTATTAATAAGTTCGATACTATTGTTCCAATTATTCCTCTGATTGGATCATTGGCTAAAGCGAAATTTTGTAACGTATTGGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATATTATTGACCGATTTGGGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>CTTCGCCGCTGGATACCTGACGCTCCTTCTTTGCATTTATTACGATTCTTTCTCCATGGGCATCATAATTGGAATAGTCTCATTACTCCAAAAAAAACCATTTCTCTTTTTTCAAAAGAGAA-TCCAAGATTTTGCTTGTTCCTATATAATTCGTATGTATATGAATACGAATCCATCTTAGTTTTCCTCCATAAAAAATCTTCTCATTTACGATCGATCTCTTCTGGAGCCTTTCTTGAGCGAACAAATTTCTATGGAAAAAC-AGAACATCTTCTAGTAGTGCTTCATAATGATTTGCAAAAGACCTTATGCTTGTTCAAAGATCCTTTCATGCATTATGCCAGGTATCAAGGAAAATCCATTATGGCTTCAAAAGGTACTCATCTTCTGATGAAGAAATGGAAATATCACCTTGTTAATTTCTGGCAATTTCATTTTAACTTGTGGTCTCAACCGAGCAGGATCCATATAAATGAATTATCCAATCATTTCTTCTATTTTCCGGGCTATCTTTCA-G-GCATACGACTAAATCTTTCGGTGGTAAGGGTTCGAATGATAGAGAATTCATTTATGATAGATACTGGTATTAAGAAATTCGATATGATAGTCCCAATTATTCCTTTGATTGGATCATTGGCTAAAGCAAAATTCTGTAATGTATCCGGATATCCCATTAGTAAGTCGGTTCGGGCCGATTCGTCAGATTCTG--ATATTATTAATCGATTTGGGCGGATATGCAGAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>||||||  |||| ||   || ||| ||||||||||||||||||||||||||||||| | | ||  |||||||||||  ||||  | |  |||     ||  ||||  |||||||||| |||| || |||| | | ||| ||||||||||||||  || ||| ||||||||||||||||||  | || |||| |||  |||||||||||||||| || |  ||||||||| || ||||||| |||| | |||||||||||||||  | || ||||| ||  |||  ||  ||| | ||| |||   |   |||  ||||| || |||||||||||||||||||  ||||||||||||||||| ||| | ||||||||||| || |   || ||||||| ||||||| |||| || |||||||||| ||||||| ||||||| || |||||||||||||| | ||||||  ||||||  |||||| |||||||| | || |  ||| ||||||||| ||| | ||   || ||||| | |||  ||||| | | || |||| |||| ||| ||||| | || |||| || |||||| || |||||||  || || |||||||||||| |||||||||||||||||||||| ||||| ||||| ||||  ||  |||| ||||||||| ||||| || ||||||  ||||||||||  |||||||| | ||||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|JF956219.1|</Hit_id>
+  <Hit_def>Schisandra sphenanthera voucher WangW-S19 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF956219</Hit_accession>
+  <Hit_len>1140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>490.482</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>4.69415e-137</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>860</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>1121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>595</Hsp_identity>
+      <Hsp_positive>595</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>755</Hsp_align-len>
+      <Hsp_qseq>CTTCGCTACTGGGTAAAAGATGCTTCTTCTTTGCATTTATTACGATTCTTTCTCCACGAGTATTGTAATTGGAATA--CTCAA-A-T--AAAG----CCGGTTCTTCTTTTTCAAAA-AGAAATCAAAGACTATTCTTCTTCCTATATAATTCTCATCTATGTGAATACGAATCCATCTTCATCTTTCTCCGTAACCAATCTTCTCATTTACGCTCAACATCTTCTGGAACCCTTCTTGAACGAATATATTTCTATGGAAAAAATAAAATATCTTGTAAAAGTCTTTGTTAAGGCTTTTCAAGTCAATCTATTGTTGTTGAAGGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCAATTCTCGCTTCAAAAGGGACGCCCTTTTTGATGAAAAAATGGACATATTACTTTGTTAATTTATGGCAATGTCATTTTTACCTGTGGTCTCAACCGGGAAGGATCTGTATAAACCAATTATACAATCATTCCCTCGACCTTCTGGGCTATCTATCAAGTGCG--CGGCTAAACCCTTCAATGGTACGCGGTCAAATGCTAGAAAATGCATTTCTAATTGATAATGCTATTAATAAGTTCGATACTATTGTTCCAATTATTCCTCTGATTGGATCATTGGCTAAAGCGAAATTTTGTAACGTATTGGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATATTATTGACCGATTTGGGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>CTTCGCCGCTGGATACCTGACGCTCCTTCTTTGCATTTATTACGATTCTTTCTCCATGGGCATCATAATTGGAATAGTCTCATTACTCCAAAAAAAACCATTTCTCTTTTTTCAAAAGAGAA-TCCAAGATTTTGCTTGTTCCTATATAATTCGTATGTATATGAATACGAATCCATCTTAGTTTTCCTCCATAAAAAATCTTCTCATTTACGATCGATCTCTTCTGGAGCCTTTCTTGAGCGAACAAATTTCTATGGAAAAAC-AGAACATCTTCTAGTAGTGCTTCATAATGATTTGCAAAAGACCTTATGCTTGTTCAAAGATCCTTTCATGCATTATGCCAGGTATCAAGGAAAATCCATTATGGCTTCAAAAGGTACTCATCTTCTGATGAAGAAATGGAAATATCACCTTGTTAATTTCTGGCAATTTCATTTTAACTTGTGGTCTCAACCGAGCAGGATCCATATAAATGAATTATCCAATCATTTCTTCTATTTTCCGGGCTATCTTTCA-G-GCATACGACTAAATCTTTCGGTGGTAAGGGTTCGAATGATAGAGAATTCATTTATGATAGATACTGGTATTAAGAAATTCGATATGATAGTCCCAATTATTCCTTTGATTGGATCATTGGCTAAAGCAAAATTCTGTAATGTATCCGGATATCCCATTAGTAAGTCGGTTCGGGCCGATTCGTCAGATTCTG--ATATTATTAATCGATTTGGGCGGATATGCAGAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>||||||  |||| ||   || ||| ||||||||||||||||||||||||||||||| | | ||  |||||||||||  ||||  | |  |||     ||  ||||  |||||||||| |||| || |||| | | ||| ||||||||||||||  || ||| ||||||||||||||||||  | || |||| |||  |||||||||||||||| || |  ||||||||| || ||||||| |||| | |||||||||||||||  | || ||||| ||  |||  ||  ||| | ||| |||   |   |||  ||||| || |||||||||||||||||||  ||||||||||||||||| ||| | ||||||||||| || |   || ||||||| ||||||| |||| || |||||||||| ||||||| ||||||| || |||||||||||||| | ||||||  ||||||  |||||| |||||||| | || |  ||| ||||||||| ||| | ||   || ||||| | |||  ||||| | | || |||| |||| ||| ||||| | || |||| || |||||| || |||||||  || || |||||||||||| |||||||||||||||||||||| ||||| ||||| ||||  ||  |||| ||||||||| ||||| || ||||||  ||||||||||  |||||||| | ||||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|JF956220.1|</Hit_id>
+  <Hit_def>Schisandra sphenanthera voucher WangW-S14 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF956220</Hit_accession>
+  <Hit_len>1140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>490.482</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>4.69415e-137</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>860</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>1121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>595</Hsp_identity>
+      <Hsp_positive>595</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>755</Hsp_align-len>
+      <Hsp_qseq>CTTCGCTACTGGGTAAAAGATGCTTCTTCTTTGCATTTATTACGATTCTTTCTCCACGAGTATTGTAATTGGAATA--CTCAA-A-T--AAAG----CCGGTTCTTCTTTTTCAAAA-AGAAATCAAAGACTATTCTTCTTCCTATATAATTCTCATCTATGTGAATACGAATCCATCTTCATCTTTCTCCGTAACCAATCTTCTCATTTACGCTCAACATCTTCTGGAACCCTTCTTGAACGAATATATTTCTATGGAAAAAATAAAATATCTTGTAAAAGTCTTTGTTAAGGCTTTTCAAGTCAATCTATTGTTGTTGAAGGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCAATTCTCGCTTCAAAAGGGACGCCCTTTTTGATGAAAAAATGGACATATTACTTTGTTAATTTATGGCAATGTCATTTTTACCTGTGGTCTCAACCGGGAAGGATCTGTATAAACCAATTATACAATCATTCCCTCGACCTTCTGGGCTATCTATCAAGTGCG--CGGCTAAACCCTTCAATGGTACGCGGTCAAATGCTAGAAAATGCATTTCTAATTGATAATGCTATTAATAAGTTCGATACTATTGTTCCAATTATTCCTCTGATTGGATCATTGGCTAAAGCGAAATTTTGTAACGTATTGGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATATTATTGACCGATTTGGGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>CTTCGCCGCTGGATACCTGACGCTCCTTCTTTGCATTTATTACGATTCTTTCTCCATGGGCATCATAATTGGAATAGTCTCATTACTCCAAAAAAAACCATTTCTCTTTTTTCAAAAGAGAA-TCCAAGATTTTGCTTGTTCCTATATAATTCGTATGTATATGAATACGAATCCATCTTAGTTTTCCTCCATAAAAAATCTTCTCATTTACGATCGATCTCTTCTGGAGCCTTTCTTGAGCGAACAAATTTCTATGGAAAAAC-AGAACATCTTCTAGTAGTGCTTCATAATGATTTGCAAAAGACCTTATGCTTGTTCAAAGATCCTTTCATGCATTATGCCAGGTATCAAGGAAAATCCATTATGGCTTCAAAAGGTACTCATCTTCTGATGAAGAAATGGAAATATCACCTTGTTAATTTCTGGCAATTTCATTTTAACTTGTGGTCTCAACCGAGCAGGATCCATATAAATGAATTATCCAATCATTTCTTCTATTTTCCGGGCTATCTTTCA-G-GCATACGACTAAATCTTTCGGTGGTAAGGGTTCGAATGATAGAGAATTCATTTATGATAGATACTGGTATTAAGAAATTCGATATGATAGTCCCAATTATTCCTTTGATTGGATCATTGGCTAAAGCAAAATTCTGTAATGTATCCGGATATCCCATTAGTAAGTCGGTTCGGGCCGATTCGTCAGATTCTG--ATATTATTAATCGATTTGGGCGGATATGCAGAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>||||||  |||| ||   || ||| ||||||||||||||||||||||||||||||| | | ||  |||||||||||  ||||  | |  |||     ||  ||||  |||||||||| |||| || |||| | | ||| ||||||||||||||  || ||| ||||||||||||||||||  | || |||| |||  |||||||||||||||| || |  ||||||||| || ||||||| |||| | |||||||||||||||  | || ||||| ||  |||  ||  ||| | ||| |||   |   |||  ||||| || |||||||||||||||||||  ||||||||||||||||| ||| | ||||||||||| || |   || ||||||| ||||||| |||| || |||||||||| ||||||| ||||||| || |||||||||||||| | ||||||  ||||||  |||||| |||||||| | || |  ||| ||||||||| ||| | ||   || ||||| | |||  ||||| | | || |||| |||| ||| ||||| | || |||| || |||||| || |||||||  || || |||||||||||| |||||||||||||||||||||| ||||| ||||| ||||  ||  |||| ||||||||| ||||| || ||||||  ||||||||||  |||||||| | ||||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|JF956221.1|</Hit_id>
+  <Hit_def>Schisandra sphenanthera voucher WangW-S12 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JF956221</Hit_accession>
+  <Hit_len>1140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>490.482</Hsp_bit-score>
+      <Hsp_score>265</Hsp_score>
+      <Hsp_evalue>4.69415e-137</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>860</Hsp_query-to>
+      <Hsp_hit-from>373</Hsp_hit-from>
+      <Hsp_hit-to>1121</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>595</Hsp_identity>
+      <Hsp_positive>595</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>755</Hsp_align-len>
+      <Hsp_qseq>CTTCGCTACTGGGTAAAAGATGCTTCTTCTTTGCATTTATTACGATTCTTTCTCCACGAGTATTGTAATTGGAATA--CTCAA-A-T--AAAG----CCGGTTCTTCTTTTTCAAAA-AGAAATCAAAGACTATTCTTCTTCCTATATAATTCTCATCTATGTGAATACGAATCCATCTTCATCTTTCTCCGTAACCAATCTTCTCATTTACGCTCAACATCTTCTGGAACCCTTCTTGAACGAATATATTTCTATGGAAAAAATAAAATATCTTGTAAAAGTCTTTGTTAAGGCTTTTCAAGTCAATCTATTGTTGTTGAAGGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCAATTCTCGCTTCAAAAGGGACGCCCTTTTTGATGAAAAAATGGACATATTACTTTGTTAATTTATGGCAATGTCATTTTTACCTGTGGTCTCAACCGGGAAGGATCTGTATAAACCAATTATACAATCATTCCCTCGACCTTCTGGGCTATCTATCAAGTGCG--CGGCTAAACCCTTCAATGGTACGCGGTCAAATGCTAGAAAATGCATTTCTAATTGATAATGCTATTAATAAGTTCGATACTATTGTTCCAATTATTCCTCTGATTGGATCATTGGCTAAAGCGAAATTTTGTAACGTATTGGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATATTATTGACCGATTTGGGCGTATATGCAGAAATCTTTC</Hsp_qseq>
+      <Hsp_hseq>CTTCGCCGCTGGATACCTGACGCTCCTTCTTTGCATTTATTACGATTCTTTCTCCATGGGCATCATAATTGGAATAGTCTCATTACTCCAAAAAAAACCATTTCTCTTTTTTCAAAAGAGAA-TCCAAGATTTTGCTTGTTCCTATATAATTCGTATGTATATGAATACGAATCCATCTTAGTTTTCCTCCATAAAAAATCTTCTCATTTACGATCGATCTCTTCTGGAGCCTTTCTTGAGCGAACAAATTTCTATGGAAAAAC-AGAACATCTTCTAGTAGTGCTTCATAATGATTTGCAAAAGACCTTATGCTTGTTCAAAGATCCTTTCATGCATTATGCCAGGTATCAAGGAAAATCCATTATGGCTTCAAAAGGTACTCATCTTCTGATGAAGAAATGGAAATATCACCTTGTTAATTTCTGGCAATTTCATTTTAACTTGTGGTCTCAACCGAGCAGGATCCATATAAATGAATTATCCAATCATTTCTTCTATTTTCCGGGCTATCTTTCA-G-GCATACGACTAAATCTTTCGGTGGTAAGGGTTCGAATGATAGAGAATTCATTTATGATAGATACTGGTATTAAGAAATTCGATATGATAGTCCCAATTATTCCTTTGATTGGATCATTGGCTAAAGCAAAATTCTGTAATGTATCCGGATATCCCATTAGTAAGTCGGTTCGGGCCGATTCGTCAGATTCTG--ATATTATTAATCGATTTGGGCGGATATGCAGAAATCTTTC</Hsp_hseq>
+      <Hsp_midline>||||||  |||| ||   || ||| ||||||||||||||||||||||||||||||| | | ||  |||||||||||  ||||  | |  |||     ||  ||||  |||||||||| |||| || |||| | | ||| ||||||||||||||  || ||| ||||||||||||||||||  | || |||| |||  |||||||||||||||| || |  ||||||||| || ||||||| |||| | |||||||||||||||  | || ||||| ||  |||  ||  ||| | ||| |||   |   |||  ||||| || |||||||||||||||||||  ||||||||||||||||| ||| | ||||||||||| || |   || ||||||| ||||||| |||| || |||||||||| ||||||| ||||||| || |||||||||||||| | ||||||  ||||||  |||||| |||||||| | || |  ||| ||||||||| ||| | ||   || ||||| | |||  ||||| | | || |||| |||| ||| ||||| | || |||| || |||||| || |||||||  || || |||||||||||| |||||||||||||||||||||| ||||| ||||| ||||  ||  |||| ||||||||| ||||| || ||||||  ||||||||||  |||||||| | ||||||||||| |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>142013</Statistics_db-num>
+      <Statistics_db-len>255510676</Statistics_db-len>
+      <Statistics_hsp-len>27</Statistics_hsp-len>
+      <Statistics_eff-space>209646378725</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

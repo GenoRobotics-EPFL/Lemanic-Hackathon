@@ -1,0 +1,4 @@
+Input name: barcode82
+Databases used: psbA-trnH
+
+Best species for psbA-trnH is Astragalus acutifolius with alignment 94.2665855143031 and evalue 5.5211988e-62

@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>matK</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>e5ca5a4a-2470-4540-a3a0-94ccaca71017 LN:i:817 RC:i:121 XC:f:1.000000</BlastOutput_query-def>
+  <BlastOutput_query-len>817</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>e5ca5a4a-2470-4540-a3a0-94ccaca71017 LN:i:817 RC:i:121 XC:f:1.000000</Iteration_query-def>
+  <Iteration_query-len>817</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|JN895389.1|</Hit_id>
+  <Hit_def>Viburnum opulus isolate NMW2348 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JN895389</Hit_accession>
+  <Hit_len>808</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1243.92</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>731</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|JN895890.1|</Hit_id>
+  <Hit_def>Viburnum opulus isolate NMW2347 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JN895890</Hit_accession>
+  <Hit_len>766</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1243.92</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>722</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|JN896159.1|</Hit_id>
+  <Hit_def>Viburnum opulus isolate NBGW3039 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JN896159</Hit_accession>
+  <Hit_len>822</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1243.92</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>747</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|EU749461.1|</Hit_id>
+  <Hit_def>Viburnum opulus voucher OAC:AP76 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>EU749461</Hit_accession>
+  <Hit_len>789</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1243.92</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>730</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MH658819.1|</Hit_id>
+  <Hit_def>Viburnum opulus voucher XA015 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MH658819</Hit_accession>
+  <Hit_len>820</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1243.92</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>768</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MH659670.1|</Hit_id>
+  <Hit_def>Viburnum opulus voucher Q231 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MH659670</Hit_accession>
+  <Hit_len>789</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1243.92</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>727</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MH660046.1|</Hit_id>
+  <Hit_def>Viburnum opulus voucher Q649 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MH660046</Hit_accession>
+  <Hit_len>796</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1243.92</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>739</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>dbj|LC678183.1|</Hit_id>
+  <Hit_def>Viburnum opulus var. sargentii TF&lt;JPN_:TW024968 chloroplast matK gene for maturase K, partial cds</Hit_def>
+  <Hit_accession>LC678183</Hit_accession>
+  <Hit_len>774</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1243.92</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>723</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>dbj|LC680377.1|</Hit_id>
+  <Hit_def>Viburnum opulus var. sargentii TF&lt;JPN_:gfsk0138 chloroplast matK gene for maturase K, partial cds</Hit_def>
+  <Hit_accession>LC680377</Hit_accession>
+  <Hit_len>785</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1243.92</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>727</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>dbj|LC680784.1|</Hit_id>
+  <Hit_def>Viburnum opulus var. sargentii TF&lt;JPN_:gfsk0073 chloroplast matK gene for maturase K, partial cds</Hit_def>
+  <Hit_accession>LC680784</Hit_accession>
+  <Hit_len>784</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1243.92</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>727</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|OQ929509.1|</Hit_id>
+  <Hit_def>Viburnum opulus isolate 13A maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>OQ929509</Hit_accession>
+  <Hit_len>767</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1243.92</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>764</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|OQ929518.1|</Hit_id>
+  <Hit_def>Viburnum opulus isolate 13QA maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>OQ929518</Hit_accession>
+  <Hit_len>776</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1243.92</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>55</Hsp_hit-from>
+      <Hsp_hit-to>770</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|MG225093.1|</Hit_id>
+  <Hit_def>Viburnum opulus voucher AP076 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MG225093</Hit_accession>
+  <Hit_len>879</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1243.92</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>816</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MG225288.1|</Hit_id>
+  <Hit_def>Viburnum opulus voucher MT00186604 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MG225288</Hit_accession>
+  <Hit_len>794</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1243.92</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>772</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|KX677353.1|</Hit_id>
+  <Hit_def>Viburnum opulus voucher HERB0107 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>KX677353</Hit_accession>
+  <Hit_len>811</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1243.92</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>85</Hsp_hit-from>
+      <Hsp_hit-to>800</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>705</Hsp_identity>
+      <Hsp_positive>705</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|KX230027.1|</Hit_id>
+  <Hit_def>Viburnum tinus voucher OMHC05M maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>KX230027</Hit_accession>
+  <Hit_len>825</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1238.38</Hsp_bit-score>
+      <Hsp_score>670</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>740</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>704</Hsp_identity>
+      <Hsp_positive>704</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGGCCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|HQ619809.1|</Hit_id>
+  <Hit_def>Viburnum tinus isolate LegMedMO_85 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>HQ619809</Hit_accession>
+  <Hit_len>837</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1238.38</Hsp_bit-score>
+      <Hsp_score>670</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>753</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>704</Hsp_identity>
+      <Hsp_positive>704</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGGCCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|KR531624.1|</Hit_id>
+  <Hit_def>Viburnum sp. BB0639 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>KR531624</Hit_accession>
+  <Hit_len>750</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1232.84</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>740</Hsp_hit-from>
+      <Hsp_hit-to>25</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>703</Hsp_identity>
+      <Hsp_positive>703</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTA--------AAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAA-GGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCGGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGGCCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  |||||||||||||||||||||||||||||||||||||||        |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|MK435821.1|</Hit_id>
+  <Hit_def>Viburnum cylindricum voucher YNS0563 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK435821</Hit_accession>
+  <Hit_len>832</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1232.84</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>51</Hsp_hit-from>
+      <Hsp_hit-to>766</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>703</Hsp_identity>
+      <Hsp_positive>703</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCGGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGGCCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MH658856.1|</Hit_id>
+  <Hit_def>Viburnum betulifolium voucher XA058 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MH658856</Hit_accession>
+  <Hit_len>840</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1232.84</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>817</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>768</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>703</Hsp_identity>
+      <Hsp_positive>703</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>718</Hsp_align-len>
+      <Hsp_qseq>GCATTTATT-TGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTT--------AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCACAGAAATCTTT</Hsp_qseq>
+      <Hsp_hseq>GCATTTATTACGAATCTTTCTCCACGGGTATCATAATTTGAATAGTCTTATTACTCCAAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGGCTTTTCGGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTCAAAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGGCCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATATGCA--GAAATCTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  ||||||||||||||||||||||||||||||||||||||        ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>121340</Statistics_db-num>
+      <Statistics_db-len>110193972</Statistics_db-len>
+      <Statistics_hsp-len>26</Statistics_hsp-len>
+      <Statistics_eff-space>84667953412</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

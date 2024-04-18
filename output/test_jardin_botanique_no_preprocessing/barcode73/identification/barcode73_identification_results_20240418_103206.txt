@@ -1,0 +1,4 @@
+Input name: barcode73
+Databases used: psbA-trnH
+
+Best species for psbA-trnH is UNVERIFIED: Holmskioldia with alignment 80.04246284501062 and evalue 7.61743e-82

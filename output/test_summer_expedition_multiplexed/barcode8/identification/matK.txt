@@ -1,0 +1,945 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>matK</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>92163a2c-4dfd-4ce9-a962-3ace5d238b23 LN:i:828 RC:i:243 XC:f:1.000000</BlastOutput_query-def>
+  <BlastOutput_query-len>828</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>92163a2c-4dfd-4ce9-a962-3ace5d238b23 LN:i:828 RC:i:243 XC:f:1.000000</Iteration_query-def>
+  <Iteration_query-len>828</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|KY645501.1|</Hit_id>
+  <Hit_def>Abutilon indicum voucher SOLS DBT IN S03 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>KY645501</Hit_accession>
+  <Hit_len>771</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.856</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>3.26226e-125</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>700</Hsp_hit-from>
+      <Hsp_hit-to>52</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>538</Hsp_identity>
+      <Hsp_positive>538</Hsp_positive>
+      <Hsp_gaps>45</Hsp_gaps>
+      <Hsp_align-len>674</Hsp_align-len>
+      <Hsp_qseq>AGCATTACCACCGATCGTCACGGCGCCATTCGTTGCCGAGGACTCGCGTTTGGGCCAACCGCAAGCTGGGAGCCTACGGGAGGCCATTTTCCGTCCCAGCAA-CGCCCTTAGCCTTTTGTTGGGCTAAGGGGTGGA-GGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTTAAATTTTCGCAAGAAAGGAGTCACGAGGCGGT-C-CGCGCGC--ACACCGCGAACGGGGCGGCAACTGCCGACGTGC--TCTTCTTCGTTATATGGTTCCTTGGCGCAATTCACGCCGGGGTTCGTTG-TTTGGCCACGG-GCG-ACGCGACCGCGCGTCTCACCCGCCC-AGAAGG-C-GAAGCGAAG-CCACGATAGCGCACGCCCAGGC-TCTGAGGAGGGCTCGGGGCACGAAGGCGTCCTCGCTCCCCCTCGGTGTTTAGT----TAACACGTTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>AGCATTCCCACCGATTGTCGCGGC-AC-TTCATCGCCGAAGACTATTATTTAGGCCAACCGCAGGCGATGAGCGCACGGGAAGCCAATTTCCG-CCCTCAAATTGCCCTGAG-C-TGAAATAAGCTCGAGGTTTGATGGGGGCGACGATGCGTGACACCCAGGCAGACGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCGCGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTTGTATTTTCACGACAAA--AGTAAC-AG-CGAAACTCTCGCCCAAACACCGCGAACGGGTCGGCGACAGTA-ACGTGCACTCTT-TTCATT-TAAA-TTCCTTGGCGCAATTCGCGCCGGGGGTTGTTGGTTTTGCCTTGGAGTGCATGGCACTT-GCAACTCTCCCTCACGAGGTGGGCTGAGGC-AAGACCA--A-A-CACAC-CA-ATGCATC-G-GGAGGGGTTGGGGCAATATTGCATCC--GCACCCTCTCGGTGTTTTGTATGATAACACATTCACGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||| ||| ||||  | ||| | ||||| ||||    ||| ||||||||||| ||   ||||  |||||| |||| |||||| |||   ||  ||||| || | |    |  |||   || | || ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||| | | |||  ||| || || ||   | | ||| |  |||||||||||||| |||| || |   ||||||  |||| ||| || ||   |||||||||||||||| |||||||| | |||| ||| |||  || | | | |  ||   ||  ||| ||| | | ||  || | || || ||| |||  | | | ||| |  | || || | |||||| | ||||||  |  || |||  || ||| |||||||||| ||    |||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|KY645507.1|</Hit_id>
+  <Hit_def>Sida spinosa voucher SOLS DBT IN S09 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KY645507</Hit_accession>
+  <Hit_len>784</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>438.776</Hsp_bit-score>
+      <Hsp_score>237</Hsp_score>
+      <Hsp_evalue>7.06156e-122</Hsp_evalue>
+      <Hsp_query-from>174</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>669</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>531</Hsp_identity>
+      <Hsp_positive>531</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>669</Hsp_align-len>
+      <Hsp_qseq>AGCATTACCACCGATCGTCACGGCGCCATTCGTTGCCGAGGACTCGCGTTTGGGCCAACCGCAAGCTGGGAGCCTACGGGAGGCCATTTTCCGTCCCAGCA--ACGCCCTTAGCCTTTTGTTGGGC-TAAGGGGTGGAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTTAAATTTTCGCAAGAAAGG-AGTC-ACGAGGCGGTCCGCGCGCACACCGCGAACGGGGCGGCAACTGCCGACGTGCTCTTCTT-CGTTATATGGTTCCTTGGCGCAATTCACGCCGGGGTTCGTT-GTTTGGCCACGGGCGACGC-G-ACCGCGCGTCTCACCCGCCCAG-AAGGCGAAGCGAAGCCACGATAGCGCACGCCCAGGC-TCTGAGGAGGGCTCGGGGCACGAAGGCGTCCTCGCTCCCCCTCGGTGTTTAGT----TAACACGTTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>AGCATTCCCACCGATCGTCGCGACGC--TTCATCAACGTTGACTTATATTTGGGCCAACCGCGAGCGGTGAGCGCACGGGAAGCCAATTTCCG-CCCA-CACTTCACCCTTCGCC----GAAAGGCTTGAGGTTTGATGGGGGCAACGATGCGTGACACCCAGGCAGACGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTTGTATGTTCACGACAAAGATAGGCCACGTCACTG-CCTCACATACACCGCGGACGGGTAGTCGACAGTA-ACGTGCCCTCCTTTCATTATAA--TTCCTTGGCGCAATTCGCGCCGGGGGTTGTTGGTTTCGTCTCGGG-GTGGTTGGAAC-CT-GTATCACACACCCGCTAAAGGGAGATGAGGCAA-GACCAAGCACACCAAGGCATC-GA-GAGGGGTTGGGGCAAGTCTGCGTCC--GCACCCTCCCGTTGTTTTGTATGATAACACATTCACGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>|||||| |||||||||||| || |||  ||| |   ||  ||||    |||||||||||||| ||| | ||||  |||||| |||| |||||| |||| ||   | ||||| |||    |   ||| | |||  ||  |||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  || ||| | | ||||  || | |||   | | || | |  |||||||| |||||  | | || |   |||||| || ||| | |||||   |||||||||||||||| |||||||| | ||| |||| | | |||| |  |  | | | |  || |||| | |||   || | ||   || || | ||    |||| || |||| || || ||||| | |||||| |   ||||||  || ||| | || ||||| ||    |||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|AY936662.1|</Hit_id>
+  <Hit_def>Lingelsheimia sp. Rabenantoandro et al. 1115 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY936662</Hit_accession>
+  <Hit_len>783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.817</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>7.47275e-82</Hsp_evalue>
+      <Hsp_query-from>299</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>516</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>AAGGGGT-GGAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_qseq>
+      <Hsp_hseq>AAGGGGTGGGAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCCGAAGGCTTTGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCG-TACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_hseq>
+      <Hsp_midline>||||||| ||||||||||||||||||||||||||||||||||||||||||||||  | ||||| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>154.392</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.86437e-36</Hsp_evalue>
+      <Hsp_query-from>736</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>TTAACACGTTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>TTAACTTGTTCGCGGGTCGTTCTGCTGGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>|||||  ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|AY936664.1|</Hit_id>
+  <Hit_def>Margaritaria discoidea 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY936664</Hit_accession>
+  <Hit_len>787</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.817</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>7.47275e-82</Hsp_evalue>
+      <Hsp_query-from>299</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>519</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>AAGGGGT-GGAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_qseq>
+      <Hsp_hseq>AAGGGGTGGGAGGGGGCGACGGTGCGTGACACCCAGGCAGACGTGCCCTCGGCCCGAAGGCTTCGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_hseq>
+      <Hsp_midline>||||||| ||||||||||||| |||||||||||||||||| |||||||||||||  | ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>154.392</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.86437e-36</Hsp_evalue>
+      <Hsp_query-from>736</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>TTAACACGTTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>TTAACCGGTTCGCGGGTCGTTCTGCTGGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>|||||  ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|AY936742.1|</Hit_id>
+  <Hit_def>Pseudolachnostylis maprouneifolia 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY936742</Hit_accession>
+  <Hit_len>768</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.817</Hsp_bit-score>
+      <Hsp_score>165</Hsp_score>
+      <Hsp_evalue>7.47275e-82</Hsp_evalue>
+      <Hsp_query-from>203</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>600</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>284</Hsp_align-len>
+      <Hsp_qseq>TCGTTGCCGAGGACTCGCGTTTGGGCCAACCGCAAGCTGGG--AGCCTACGGGAGGCCATTTTCCGTCCCAGCAACGCCCTTAGCCTTTTGTTGGGCTAAGGGGTGGAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_qseq>
+      <Hsp_hseq>TCGTCGCCGGGGACTCGTGTTTGGGCCAGCCGCGGACCGGGTAAGCCCACGGGAGGCCATTTTCCG-CCC--C-GCG-CC-GAGCC--ACG--GCG-T--GGTTTGG-GGGGGCGACGGTGCGTGACACCCAGGCAGGCGTGCCCTCGGCCCGAAGGCTTCGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_hseq>
+      <Hsp_midline>|||| |||| ||||||| |||||||||| ||||   | |||  |||| |||||||||||||||||| |||  |  || ||  ||||    |  | | |  ||  ||| |||||||||| ||||||||||||||||||||||||||||||||  | ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>152.546</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>1.03021e-35</Hsp_evalue>
+      <Hsp_query-from>743</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GTTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>GTTCGCGGGTCGTTCTGCTGGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|AY936663.1|</Hit_id>
+  <Hit_def>Margaritaria cyanosperma 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY936663</Hit_accession>
+  <Hit_len>783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.278</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>3.47673e-80</Hsp_evalue>
+      <Hsp_query-from>299</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>520</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>AAGGGGT-GGAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_qseq>
+      <Hsp_hseq>AAGGGGTGGGAGGGGGCGACGGTGCGTGACACCCAGGCAGACGTGCCCTCGGCCCGAGGGCTTCGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCGCGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_hseq>
+      <Hsp_midline>||||||| ||||||||||||| |||||||||||||||||| |||||||||||||  | ||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>154.392</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.86437e-36</Hsp_evalue>
+      <Hsp_query-from>736</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>149</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>TTAACACGTTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>TTAACCGGTTCGCGGGTCGTTCTGCTGGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>|||||  ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|AY936665.1|</Hit_id>
+  <Hit_def>Margaritaria rhomboidalis 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY936665</Hit_accession>
+  <Hit_len>782</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.278</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>3.47673e-80</Hsp_evalue>
+      <Hsp_query-from>299</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>519</Hsp_hit-from>
+      <Hsp_hit-to>333</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>AAGGGGT-GGAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_qseq>
+      <Hsp_hseq>AAGGGGTGGGAGGGGGCGACGGTGCGTGACACCCAGGCAGACGTGCCCTCGGCCCGAGGGCTTCGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCGCGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_hseq>
+      <Hsp_midline>||||||| ||||||||||||| |||||||||||||||||| |||||||||||||  | ||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>154.392</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>2.86437e-36</Hsp_evalue>
+      <Hsp_query-from>736</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>148</Hsp_hit-from>
+      <Hsp_hit-to>57</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>92</Hsp_align-len>
+      <Hsp_qseq>TTAACACGTTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>TTAACCGGTTCGCGGGTCGTTCTGCTGGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>|||||  ||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|AY936677.1|</Hit_id>
+  <Hit_def>Phyllanthus chacoensis 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY936677</Hit_accession>
+  <Hit_len>779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.431</Hsp_bit-score>
+      <Hsp_score>161</Hsp_score>
+      <Hsp_evalue>1.25045e-79</Hsp_evalue>
+      <Hsp_query-from>221</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>587</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>GTTTGGGCCAACCGCAAGCTGGGAGCCTACGGGAGGCCATTTTCCGTCCCAGCAACGCCCTTAGCCTTTTGTTGGGCTAAGGGGTG-GAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_qseq>
+      <Hsp_hseq>GTTTGGGCCAACCGCAATCACGAAGCTCACGGGAGGCCATTTTCCG-CCCCG-AATTCAC-GAGCC--CCG-T--G-TGAGGGGAGTGAGGGGGCGACGTTGCGTGACACCCAGGCGGACGTGCCCTCGACCCGAAGGCTTTGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |  | |||  |||||||||||||||||| ||| | ||  | |  ||||    | |  | | ||||| | |||||||||||| |||||||||||||||| | |||||||||| ||  | ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>139.619</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>8.02056e-32</Hsp_evalue>
+      <Hsp_query-from>738</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>AACACGTTCGCGGGTCGTTCTGCTAG-GCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>AACATGTTCACGGGTCGTACTGC-AGTGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>|||| |||| |||||||| |||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|AY936654.1|</Hit_id>
+  <Hit_def>Flueggea leucopyrus 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY936654</Hit_accession>
+  <Hit_len>783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.738</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.61757e-78</Hsp_evalue>
+      <Hsp_query-from>299</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>519</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>AAGGGGTGGAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_qseq>
+      <Hsp_hseq>AAGGGGTGGGAGGAGCGACGATGTGTGACACCCAGGCAGACGTGCCCTCGGCCCGAAGGCTTTGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  || ||||||||| ||||||||||||||| |||||||||||||  | ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>150.699</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>3.7053e-35</Hsp_evalue>
+      <Hsp_query-from>738</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>AACACGTTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>AACTCGTTCGCGGGTCGTACTGCTTGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|AY936656.1|</Hit_id>
+  <Hit_def>Flueggea virosa 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY936656</Hit_accession>
+  <Hit_len>771</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.738</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.61757e-78</Hsp_evalue>
+      <Hsp_query-from>299</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>519</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>AAGGGGTGGAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_qseq>
+      <Hsp_hseq>AAGGGGTGGGAGGAGCGACGATGTGTGACACCCAGGCAGACGTGCCCTCGGCCCGAAGGCTTTGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_hseq>
+      <Hsp_midline>|||||||||  || ||||||||| ||||||||||||||| |||||||||||||  | ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>150.699</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>3.7053e-35</Hsp_evalue>
+      <Hsp_query-from>738</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>AACACGTTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>AACTCGTTCGCGGGTCGTACTGCTGGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|AY936726.1|</Hit_id>
+  <Hit_def>Phyllanthus pulcher 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY936726</Hit_accession>
+  <Hit_len>758</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.738</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.61757e-78</Hsp_evalue>
+      <Hsp_query-from>299</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>493</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>AAGGGGTGGAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_qseq>
+      <Hsp_hseq>AAGGGTTGGAGGGAGCGACGTTGCGTGACACCCAGGCAGACGTGCCCTCGGCCCGAAGGCTTCGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_hseq>
+      <Hsp_midline>||||| ||||||| |||||| |||||||||||||||||| |||||||||||||  | ||||| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>135.926</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.03752e-30</Hsp_evalue>
+      <Hsp_query-from>743</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>GTTCGCGGGTCGTTCTGCTAG--GCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>GTTCGCGGGTCATTCTGC-AGTTGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||| ||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|AY936682.1|</Hit_id>
+  <Hit_def>Phyllanthus cinereus 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY936682</Hit_accession>
+  <Hit_len>758</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.891</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>5.8178e-78</Hsp_evalue>
+      <Hsp_query-from>300</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>494</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>AGGGG-TGGAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_qseq>
+      <Hsp_hseq>AGGGGTTGGAGGGAGCGACGTTGCGTGACACCCAGGCAGACGTGCCCTCGGCCCGAAGGCTTTGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_hseq>
+      <Hsp_midline>||||| ||||||| |||||| |||||||||||||||||| |||||||||||||  | ||||| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>135.926</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.03752e-30</Hsp_evalue>
+      <Hsp_query-from>743</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>143</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>87</Hsp_align-len>
+      <Hsp_qseq>GTTCGCGGGTCGTTCTGCTAG--GCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>GTTCGCGGGTCATTCTGC-AGTTGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||| ||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|AY936737.1|</Hit_id>
+  <Hit_def>Phyllanthus vakinankaratrae 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY936737</Hit_accession>
+  <Hit_len>778</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.891</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>5.8178e-78</Hsp_evalue>
+      <Hsp_query-from>300</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>516</Hsp_hit-from>
+      <Hsp_hit-to>331</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>AGGGGTG-GAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_qseq>
+      <Hsp_hseq>AGGGGAGTGAGGGAGCGACGTTGCGTGACACCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTTAGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_hseq>
+      <Hsp_midline>||||| | ||||| |||||| |||||||||||||||||| ||||||||||||| || |||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>130.386</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>4.82713e-29</Hsp_evalue>
+      <Hsp_query-from>743</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GTTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>GTTCACGGGTTGTACTGCAAAGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>|||| ||||| || |||| | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|JX124500.1|</Hit_id>
+  <Hit_def>Leptolobium sp. ML-2012 voucher R.D.Ribeiro 1097 (RB) small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JX124500</Hit_accession>
+  <Hit_len>755</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.891</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>5.8178e-78</Hsp_evalue>
+      <Hsp_query-from>310</Hsp_query-from>
+      <Hsp_query-to>488</Hsp_query-to>
+      <Hsp_hit-from>463</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>GGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTTAAAT</Hsp_qseq>
+      <Hsp_hseq>GGGGCAACGATGTGCGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTCGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCAAGAGCCGAGATATCCGTTGCCGAGAGTCGTTCTAGAT</Hsp_hseq>
+      <Hsp_midline>||||| |||||| | |||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>122.999</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.0775e-27</Hsp_evalue>
+      <Hsp_query-from>744</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>14</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>TTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>TTCGCGGGTCGCACTGCTCGTGAGGCTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||  ||||| |  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|JX124502.1|</Hit_id>
+  <Hit_def>Leptolobium tenuifolium voucher R.D.Ribeiro 811 (RB) small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JX124502</Hit_accession>
+  <Hit_len>753</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.891</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>5.8178e-78</Hsp_evalue>
+      <Hsp_query-from>310</Hsp_query-from>
+      <Hsp_query-to>488</Hsp_query-to>
+      <Hsp_hit-from>462</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>GGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTTAAAT</Hsp_qseq>
+      <Hsp_hseq>GGGGCAACGATGTGCGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTCGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCAAGAGCCGAGATATCCGTTGCCGAGAGTCGTTCTAGAT</Hsp_hseq>
+      <Hsp_midline>||||| |||||| | |||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>122.999</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.0775e-27</Hsp_evalue>
+      <Hsp_query-from>744</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>96</Hsp_hit-from>
+      <Hsp_hit-to>13</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>TTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>TTCGCGGGTCGCACTGCTCGTGAGGCTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||  ||||| |  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|JX124503.1|</Hit_id>
+  <Hit_def>Leptolobium tenuifolium voucher R.D.Ribeiro 809 (RB) small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>JX124503</Hit_accession>
+  <Hit_len>756</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.891</Hsp_bit-score>
+      <Hsp_score>158</Hsp_score>
+      <Hsp_evalue>5.8178e-78</Hsp_evalue>
+      <Hsp_query-from>310</Hsp_query-from>
+      <Hsp_query-to>488</Hsp_query-to>
+      <Hsp_hit-from>463</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>GGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTTAAAT</Hsp_qseq>
+      <Hsp_hseq>GGGGCAACGATGTGCGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTCGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCAAGAGCCGAGATATCCGTTGCCGAGAGTCGTTCTAGAT</Hsp_hseq>
+      <Hsp_midline>||||| |||||| | |||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| || ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>122.999</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>8.0775e-27</Hsp_evalue>
+      <Hsp_query-from>744</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>14</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>84</Hsp_align-len>
+      <Hsp_qseq>TTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>TTCGCGGGTCGCACTGCTCGTGAGGCTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>|||||||||||  ||||| |  ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|AY936714.1|</Hit_id>
+  <Hit_def>Phyllanthus nummulariifolius voucher Hoffmann et al. 217 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY936714</Hit_accession>
+  <Hit_len>782</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.044</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>2.09245e-77</Hsp_evalue>
+      <Hsp_query-from>221</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>591</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>GTTTGGGCCAACCGCAAGCTGGGAGCCTACGGGAGGCCATTTTCCGTCCCAGCAACGCCCTTAGCCTTTTGTTGGGCTAAGGG-GTGGAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_qseq>
+      <Hsp_hseq>GTTTGGGCCAACCGCAATCACGAAGTTCACGGGAGGCCATTTTCCG-CCCCG-AATTCACAT-GCC-----TCGAG-TGAGGGAGT-GAGGGAGCGACGTTGCGTGACACCCAGGCAGACGTGCCCTCGACCAAAAGGCTTCGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |  | ||   |||||||||||||||||| ||| | ||  | | | |||     | | | | |||| || ||||| |||||| |||||||||||||||||| |||||||||| || || ||||| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>135.926</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.03752e-30</Hsp_evalue>
+      <Hsp_query-from>743</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GTTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>GTTCGCGGGTCGTACTGCTGTGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTAAGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |||||  ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|AY936715.1|</Hit_id>
+  <Hit_def>Phyllanthus nummulariifolius voucher Hoffmann et al. 304 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY936715</Hit_accession>
+  <Hit_len>783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.044</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>2.09245e-77</Hsp_evalue>
+      <Hsp_query-from>221</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>591</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>GTTTGGGCCAACCGCAAGCTGGGAGCCTACGGGAGGCCATTTTCCGTCCCAGCAACGCCCTTAGCCTTTTGTTGGGCTAAGGG-GTGGAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_qseq>
+      <Hsp_hseq>GTTTGGGCCAACCGCAATCACGAAGTTCACGGGAGGCCATTTTCCG-CCCCG-AATTCACAT-GCC-----TCGAG-TGAGGGAGT-GAGGGAGCGACGTTGCGTGACACCCAGGCAGACGTGCCCTCGACCAAAAGGCTTCGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |  | ||   |||||||||||||||||| ||| | ||  | | | |||     | | | | |||| || ||||| |||||| |||||||||||||||||| |||||||||| || || ||||| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>130.386</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>4.82713e-29</Hsp_evalue>
+      <Hsp_query-from>743</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GTTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>GTTCGCGGGTCGTACTGCTGTGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACTTACGGAAACCTTGTTAAGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |||||  |||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|AY936716.1|</Hit_id>
+  <Hit_def>Phyllanthus nummulariifolius voucher Hoffmann et al. 310 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY936716</Hit_accession>
+  <Hit_len>783</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.044</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>2.09245e-77</Hsp_evalue>
+      <Hsp_query-from>221</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>591</Hsp_hit-from>
+      <Hsp_hit-to>337</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>GTTTGGGCCAACCGCAAGCTGGGAGCCTACGGGAGGCCATTTTCCGTCCCAGCAACGCCCTTAGCCTTTTGTTGGGCTAAGGG-GTGGAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_qseq>
+      <Hsp_hseq>GTTTGGGCCAACCGCAATCACGAAGTTCACGGGAGGCCATTTTCCG-CCCCG-AATTCACAT-GCC-----TCGAG-TGAGGGAGT-GAGGGAGCGACGTTGCGTGACACCCAGGCAGACGTGCCCTCGACCAAAAGGCTTCGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||| |  | ||   |||||||||||||||||| ||| | ||  | | | |||     | | | | |||| || ||||| |||||| |||||||||||||||||| |||||||||| || || ||||| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>135.926</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.03752e-30</Hsp_evalue>
+      <Hsp_query-from>743</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GTTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>GTTCGCGGGTCGTACTGCTGTGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTAAGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>||||||||||||| |||||  ||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|AY936655.1|</Hit_id>
+  <Hit_def>Flueggea tinctoria 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>AY936655</Hit_accession>
+  <Hit_len>785</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.198</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>7.5258e-77</Hsp_evalue>
+      <Hsp_query-from>299</Hsp_query-from>
+      <Hsp_query-to>484</Hsp_query-to>
+      <Hsp_hit-from>518</Hsp_hit-from>
+      <Hsp_hit-to>332</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>177</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>AAGGGGT-GGAGGGGGCGACGATGCGTGACACCCAGGCAGGCGTGCCCTCGGCCTAATGGCTTGGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_qseq>
+      <Hsp_hseq>AAGGGATGGGAGGGAGCGACGATGTGTGACACCCAGGCAGACGTGCCCTCGGCCCGAAGGCTTTGGGCGCAACTTGCGTTCAAAGACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCAATTCGCTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGCCGAGAGTCGTTTT</Hsp_hseq>
+      <Hsp_midline>||||| | |||||| ||||||||| ||||||||||||||| |||||||||||||  | ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>150.699</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>3.7053e-35</Hsp_evalue>
+      <Hsp_query-from>738</Hsp_query-from>
+      <Hsp_query-to>827</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>58</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>90</Hsp_align-len>
+      <Hsp_qseq>AACACGTTCGCGGGTCGTTCTGCTAGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_qseq>
+      <Hsp_hseq>AACTCGTTCGCGGGTCGTACTGCTGGGCAGGTTTCGACAATGATCCTTCCGCAGGTTCACCTACGGAAACCTTGTTACGACTTCTCCTTC</Hsp_hseq>
+      <Hsp_midline>||| |||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>121340</Statistics_db-num>
+      <Statistics_db-len>110193972</Statistics_db-len>
+      <Statistics_hsp-len>26</Statistics_hsp-len>
+      <Statistics_eff-space>85845383864</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

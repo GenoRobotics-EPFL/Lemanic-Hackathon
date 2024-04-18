@@ -1,0 +1,7 @@
+Input name: barcode95
+Databases used: psbA-trnH, matK, rbcL, ITS
+
+Best species for psbA-trnH is Ficus carica with alignment 93.7237163076377 and evalue 0.0
+Best species for matK is Pseudolachnostylis maprouneifolia with alignment 87.16691034287601 and evalue 4.15755819133e-74
+Best species for rbcL is None with alignment 0 and evalue inf
+Best species for ITS is Ficus natalensis with alignment 92.74436090225564 and evalue 0.0

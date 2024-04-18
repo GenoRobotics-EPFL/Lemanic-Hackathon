@@ -1,0 +1,4 @@
+Input name: barcode88
+Databases used: psbA-trnH
+
+Best species for psbA-trnH is None with alignment 0 and evalue inf

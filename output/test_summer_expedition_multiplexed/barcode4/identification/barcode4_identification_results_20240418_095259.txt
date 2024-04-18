@@ -1,0 +1,7 @@
+Input name: barcode4
+Databases used: matK, rbcL, ITS, psbA-trnH
+
+Best species for matK is Guamatela tuerckheimii with alignment 96.34146341463415 and evalue 0.0
+Best species for rbcL is Symphoricarpos orbiculatus with alignment 99.84423676012462 and evalue 0.0
+Best species for ITS is Woodfordia fruticosa with alignment 93.12977099236642 and evalue 0.0
+Best species for psbA-trnH is UNVERIFIED: Duranta with alignment 94.12650602409639 and evalue 0.0

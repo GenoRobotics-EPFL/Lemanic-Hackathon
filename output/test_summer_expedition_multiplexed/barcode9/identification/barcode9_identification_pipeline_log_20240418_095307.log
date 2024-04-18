@@ -1,0 +1,21 @@
+2024-04-18 09:53:07,232 INFO: Running consensus pipeline... 
+
+2024-04-18 09:53:07,232 INFO: Running identification pipeline with blastn method... 
+
+2024-04-18 09:53:07,232 INFO: Running command: bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode9/consensus/barcode9_final_consensus.fasta -db matK -out output/test_summer_expedition_multiplexed/barcode9/identification/matK.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 09:53:07,684 INFO: Command 'bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode9/consensus/barcode9_final_consensus.fasta -db matK -out output/test_summer_expedition_multiplexed/barcode9/identification/matK.txt -max_target_seqs 20 -outfmt 5"' took 0.45 seconds to run.
+2024-04-18 09:53:07,685 INFO: BLASTn command for database matK took 0.45 seconds.
+2024-04-18 09:53:07,685 INFO: Running command: bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode9/consensus/barcode9_final_consensus.fasta -db rbcL -out output/test_summer_expedition_multiplexed/barcode9/identification/rbcL.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 09:53:07,744 INFO: Command 'bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode9/consensus/barcode9_final_consensus.fasta -db rbcL -out output/test_summer_expedition_multiplexed/barcode9/identification/rbcL.txt -max_target_seqs 20 -outfmt 5"' took 0.06 seconds to run.
+2024-04-18 09:53:07,745 INFO: BLASTn command for database rbcL took 0.06 seconds.
+2024-04-18 09:53:07,745 INFO: Running command: bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode9/consensus/barcode9_final_consensus.fasta -db ITS -out output/test_summer_expedition_multiplexed/barcode9/identification/ITS.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 09:53:07,828 INFO: Command 'bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode9/consensus/barcode9_final_consensus.fasta -db ITS -out output/test_summer_expedition_multiplexed/barcode9/identification/ITS.txt -max_target_seqs 20 -outfmt 5"' took 0.08 seconds to run.
+2024-04-18 09:53:07,828 INFO: BLASTn command for database ITS took 0.08 seconds.
+2024-04-18 09:53:07,829 INFO: Running command: bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode9/consensus/barcode9_final_consensus.fasta -db psbA-trnH -out output/test_summer_expedition_multiplexed/barcode9/identification/psbA-trnH.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 09:53:07,889 INFO: Command 'bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode9/consensus/barcode9_final_consensus.fasta -db psbA-trnH -out output/test_summer_expedition_multiplexed/barcode9/identification/psbA-trnH.txt -max_target_seqs 20 -outfmt 5"' took 0.06 seconds to run.
+2024-04-18 09:53:07,890 INFO: BLASTn command for database psbA-trnH took 0.06 seconds.
+2024-04-18 09:53:07,890 INFO: XML files : [('output/test_summer_expedition_multiplexed/barcode9/identification/matK.txt', 'matK'), ('output/test_summer_expedition_multiplexed/barcode9/identification/rbcL.txt', 'rbcL'), ('output/test_summer_expedition_multiplexed/barcode9/identification/ITS.txt', 'ITS'), ('output/test_summer_expedition_multiplexed/barcode9/identification/psbA-trnH.txt', 'psbA-trnH')]
+2024-04-18 09:53:07,891 INFO: Best species for matK is Spiraea hirsuta with alignment 99.14772727272727 and evalue 0.0
+2024-04-18 09:53:07,892 INFO: Best species for rbcL is None with alignment 0 and evalue inf
+2024-04-18 09:53:07,892 INFO: Best species for ITS is None with alignment 0 and evalue inf
+2024-04-18 09:53:07,894 INFO: Best species for psbA-trnH is Chrysanthemum indicum with alignment 80.11634671320535 and evalue 2.5679430733333344e-116

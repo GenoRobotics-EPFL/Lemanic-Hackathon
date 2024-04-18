@@ -1,0 +1,7 @@
+Input name: barcode88
+Databases used: psbA-trnH, matK, rbcL, ITS
+
+Best species for psbA-trnH is None with alignment 0 and evalue inf
+Best species for matK is None with alignment 0 and evalue inf
+Best species for rbcL is None with alignment 0 and evalue inf
+Best species for ITS is None with alignment 0 and evalue inf

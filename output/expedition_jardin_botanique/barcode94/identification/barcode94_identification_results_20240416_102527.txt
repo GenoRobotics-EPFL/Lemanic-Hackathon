@@ -1,7 +1,0 @@
-Input name: barcode94
-Databases used: ITS, psbA-trnH, matK, rbcL
-
-Best species for ITS is Rubus chamaemorus with alignment 92.78846153846155 and evalue 0.0
-Best species for psbA-trnH is Erythrophleum fordii with alignment 93.7007874015748 and evalue 0.0
-Best species for matK is Nelumbo lutea with alignment 93.22834645669292 and evalue 0.0
-Best species for rbcL is Ficus microcarpa with alignment 98.4251968503937 and evalue 0.0

@@ -1,0 +1,6 @@
+Input name: barcode11
+Databases used: matK, rbcL, ITS
+
+Best species for matK is Mitragyna speciosa with alignment 93.85714285714286 and evalue 0.0
+Best species for rbcL is Solanum lycopersicum with alignment 99.82558863690849 and evalue 0.0
+Best species for ITS is Woodfordia fruticosa with alignment 91.90751445086705 and evalue 0.0

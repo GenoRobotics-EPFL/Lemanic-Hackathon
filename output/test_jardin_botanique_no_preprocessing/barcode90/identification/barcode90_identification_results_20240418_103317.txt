@@ -1,0 +1,4 @@
+Input name: barcode90
+Databases used: ITS
+
+Best species for ITS is None with alignment 0 and evalue inf
