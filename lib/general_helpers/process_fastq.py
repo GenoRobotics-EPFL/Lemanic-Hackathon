@@ -162,14 +162,3 @@ def damage_sequence(sequence, mutation_rate=0.05, deletion_rate=0.05, insertion_
         return insert
     sequence = "".join([sequence[i:i+1] + get_insert() if random.random() < insertion_rate else sequence[i:i+1] for i in range(len(sequence)+1)]) # insertion
     return sequence
-
-def sigmoid_primer(x):
-    # temporary function (ASUP later) -> used to give a probability to a primer score
-    x = 14 * x - 7
-    if x >= 100:
-        sig = 1.0
-    elif x <= -100:
-        sig = 0.0
-    else:
-        sig = 1/(1+np.exp(-x))
-    return sig
