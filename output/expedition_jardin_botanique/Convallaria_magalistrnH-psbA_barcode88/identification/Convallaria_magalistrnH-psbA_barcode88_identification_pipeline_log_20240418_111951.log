@@ -1,9 +1,0 @@
-2024-04-18 11:19:51,215 INFO: Running consensus pipeline... 
-
-2024-04-18 11:19:51,216 INFO: Running identification pipeline with blastn method... 
-
-2024-04-18 11:19:51,216 INFO: Running command: bash -l -c "blastn -query output/expedition_jardin_botanique/Convallaria_magalistrnH-psbA_barcode88/consensus/Convallaria_magalistrnH-psbA_barcode88_final_consensus.fasta -db psbA-trnH -out output/expedition_jardin_botanique/Convallaria_magalistrnH-psbA_barcode88/identification/psbA-trnH.txt -max_target_seqs 20 -outfmt 5"
-2024-04-18 11:19:51,284 INFO: Command 'bash -l -c "blastn -query output/expedition_jardin_botanique/Convallaria_magalistrnH-psbA_barcode88/consensus/Convallaria_magalistrnH-psbA_barcode88_final_consensus.fasta -db psbA-trnH -out output/expedition_jardin_botanique/Convallaria_magalistrnH-psbA_barcode88/identification/psbA-trnH.txt -max_target_seqs 20 -outfmt 5"' took 0.07 seconds to run.
-2024-04-18 11:19:51,285 INFO: BLASTn command for database psbA-trnH took 0.07 seconds.
-2024-04-18 11:19:51,285 INFO: XML files : [('output/expedition_jardin_botanique/Convallaria_magalistrnH-psbA_barcode88/identification/psbA-trnH.txt', 'psbA-trnH')]
-2024-04-18 11:19:51,285 INFO: Best species for psbA-trnH is None with alignment 0 and evalue inf
