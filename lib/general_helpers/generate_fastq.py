@@ -2,6 +2,8 @@ from Bio import SeqIO
 import random
 from Bio.Seq import Seq
 import numpy as np
+import os
+import os.path as ospath
 
 
 
@@ -16,7 +18,7 @@ def generate_weighted_sequence_variant(sequence, weights=[0.25, 0.25, 0.25, 0.25
     #4 different outputs : 3'->5'/5'->3' and fwd/rev
     variants = [sequence, sequence.reverse_complement(), sequence.complement(), sequence.reverse_complement().complement()]
     # Random weighted choice
-    selected_variant = random.choices(variants, weights=weights)[0]
+    selected_variant = random.choice(variants, weights=weights)
 
     return selected_variant
 
@@ -109,4 +111,39 @@ def assign_quality_scores(sequence, mutation_probability=0.1,mutation_mean = 16,
         base64_score = base64_table[int(round(quality_score))]
         quality_scores.append(base64_score)
     return ''.join(quality_scores)
+
+def multiplex(folder_paths: list, dst: str):
+    """
+    merge multiple fastq files into one, while writing in the description the origin of each read
+
+    Parameters
+    ----------
+    folder_paths: list of folder paths to look for fastq files for merging
+    dst: path of the output merged fastq file
+
+    """
+    parsers=dict()
+    for folder_path in folder_paths:
+        for root,_,files in os.walk(folder_path):
+            for file in files:
+                if file.endswith(".fastq"):
+                    file_path = ospath.join(root,file)
+                    parsers[file_path] = list(SeqIO.parse(file_path, "fastq"))
+    
+    with open(dst, "a") as writer:
+        while parsers:
+            parent_file_path = random.choice(list(parsers.keys()))
+            current_list=parsers[parent_file_path]
+            index= random.randint(0, len(current_list)-1)
+            seqrecord = current_list[index]
+            seqrecord.description = seqrecord.description + " source=" + parent_file_path
+            SeqIO.write(seqrecord, writer, "fastq")
+            current_list.pop(index)
+            if not current_list:
+                parsers.pop(parent_file_path)
+
+
+
+
+
 
