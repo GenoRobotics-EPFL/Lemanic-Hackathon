@@ -1,0 +1,7 @@
+Input name: barcode87
+Databases used: psbA-trnH, matK, rbcL, ITS
+
+Best species for psbA-trnH is UNVERIFIED: Ocotea with alignment 92.24489795918367 and evalue 0.0
+Best species for matK is Saruma henryi with alignment 95.77167019027483 and evalue 0.0
+Best species for rbcL is Asarum arifolium with alignment 95.9266802443992 and evalue 0.0
+Best species for ITS is Cuphea lanceolata with alignment 89.02691511387164 and evalue 1.85934e-164

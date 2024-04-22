@@ -1,0 +1,21 @@
+2024-04-18 10:50:31,862 INFO: Running consensus pipeline... 
+
+2024-04-18 10:50:31,862 INFO: Running identification pipeline with blastn method... 
+
+2024-04-18 10:50:31,862 INFO: Running command: bash -l -c "blastn -query output/test_jardin_botanique_on_all_genes/barcode95/consensus/barcode95_final_consensus.fasta -db psbA-trnH -out output/test_jardin_botanique_on_all_genes/barcode95/identification/psbA-trnH.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 10:50:31,956 INFO: Command 'bash -l -c "blastn -query output/test_jardin_botanique_on_all_genes/barcode95/consensus/barcode95_final_consensus.fasta -db psbA-trnH -out output/test_jardin_botanique_on_all_genes/barcode95/identification/psbA-trnH.txt -max_target_seqs 20 -outfmt 5"' took 0.09 seconds to run.
+2024-04-18 10:50:31,956 INFO: BLASTn command for database psbA-trnH took 0.09 seconds.
+2024-04-18 10:50:31,956 INFO: Running command: bash -l -c "blastn -query output/test_jardin_botanique_on_all_genes/barcode95/consensus/barcode95_final_consensus.fasta -db matK -out output/test_jardin_botanique_on_all_genes/barcode95/identification/matK.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 10:50:32,053 INFO: Command 'bash -l -c "blastn -query output/test_jardin_botanique_on_all_genes/barcode95/consensus/barcode95_final_consensus.fasta -db matK -out output/test_jardin_botanique_on_all_genes/barcode95/identification/matK.txt -max_target_seqs 20 -outfmt 5"' took 0.10 seconds to run.
+2024-04-18 10:50:32,053 INFO: BLASTn command for database matK took 0.10 seconds.
+2024-04-18 10:50:32,053 INFO: Running command: bash -l -c "blastn -query output/test_jardin_botanique_on_all_genes/barcode95/consensus/barcode95_final_consensus.fasta -db ITS -out output/test_jardin_botanique_on_all_genes/barcode95/identification/ITS.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 10:50:32,412 INFO: Command 'bash -l -c "blastn -query output/test_jardin_botanique_on_all_genes/barcode95/consensus/barcode95_final_consensus.fasta -db ITS -out output/test_jardin_botanique_on_all_genes/barcode95/identification/ITS.txt -max_target_seqs 20 -outfmt 5"' took 0.36 seconds to run.
+2024-04-18 10:50:32,412 INFO: BLASTn command for database ITS took 0.36 seconds.
+2024-04-18 10:50:32,412 INFO: Running command: bash -l -c "blastn -query output/test_jardin_botanique_on_all_genes/barcode95/consensus/barcode95_final_consensus.fasta -db rbcL -out output/test_jardin_botanique_on_all_genes/barcode95/identification/rbcL.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 10:50:32,479 INFO: Command 'bash -l -c "blastn -query output/test_jardin_botanique_on_all_genes/barcode95/consensus/barcode95_final_consensus.fasta -db rbcL -out output/test_jardin_botanique_on_all_genes/barcode95/identification/rbcL.txt -max_target_seqs 20 -outfmt 5"' took 0.07 seconds to run.
+2024-04-18 10:50:32,479 INFO: BLASTn command for database rbcL took 0.07 seconds.
+2024-04-18 10:50:32,479 INFO: XML files : [('output/test_jardin_botanique_on_all_genes/barcode95/identification/psbA-trnH.txt', 'psbA-trnH'), ('output/test_jardin_botanique_on_all_genes/barcode95/identification/matK.txt', 'matK'), ('output/test_jardin_botanique_on_all_genes/barcode95/identification/ITS.txt', 'ITS'), ('output/test_jardin_botanique_on_all_genes/barcode95/identification/rbcL.txt', 'rbcL')]
+2024-04-18 10:50:32,483 INFO: Best species for psbA-trnH is Ficus carica with alignment 93.7237163076377 and evalue 0.0
+2024-04-18 10:50:32,486 INFO: Best species for matK is Pseudolachnostylis maprouneifolia with alignment 87.16691034287601 and evalue 4.15755819133e-74
+2024-04-18 10:50:32,490 INFO: Best species for ITS is Ficus natalensis with alignment 92.74436090225564 and evalue 0.0
+2024-04-18 10:50:32,490 INFO: Best species for rbcL is None with alignment 0 and evalue inf

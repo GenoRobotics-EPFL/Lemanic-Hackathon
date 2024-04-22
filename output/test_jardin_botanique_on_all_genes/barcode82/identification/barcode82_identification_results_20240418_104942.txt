@@ -1,0 +1,7 @@
+Input name: barcode82
+Databases used: psbA-trnH, matK, rbcL, ITS
+
+Best species for psbA-trnH is Astragalus acutifolius with alignment 94.2665855143031 and evalue 5.5211988e-62
+Best species for matK is Hypochaeris apargioides with alignment 91.77182229699957 and evalue 7.022144999999999e-56
+Best species for rbcL is None with alignment 0 and evalue inf
+Best species for ITS is Allium ursinum with alignment 99.0036231884058 and evalue 0.0

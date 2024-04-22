@@ -1,0 +1,9 @@
+2024-04-18 10:32:44,746 INFO: Running consensus pipeline... 
+
+2024-04-18 10:32:44,746 INFO: Running identification pipeline with blastn method... 
+
+2024-04-18 10:32:44,747 INFO: Running command: bash -l -c "blastn -query output/test_jardin_botanique_no_preprocessing/barcode78/consensus/barcode78_final_consensus.fasta -db ITS -out output/test_jardin_botanique_no_preprocessing/barcode78/identification/ITS.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 10:32:45,182 INFO: Command 'bash -l -c "blastn -query output/test_jardin_botanique_no_preprocessing/barcode78/consensus/barcode78_final_consensus.fasta -db ITS -out output/test_jardin_botanique_no_preprocessing/barcode78/identification/ITS.txt -max_target_seqs 20 -outfmt 5"' took 0.44 seconds to run.
+2024-04-18 10:32:45,183 INFO: BLASTn command for database ITS took 0.44 seconds.
+2024-04-18 10:32:45,183 INFO: XML files : [('output/test_jardin_botanique_no_preprocessing/barcode78/identification/ITS.txt', 'ITS')]
+2024-04-18 10:32:45,189 INFO: Best species for ITS is Hedera helix with alignment 95.96274394833472 and evalue 2.8138430692e-146

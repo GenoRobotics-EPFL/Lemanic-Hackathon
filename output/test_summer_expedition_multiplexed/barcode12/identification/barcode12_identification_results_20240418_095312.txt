@@ -1,0 +1,7 @@
+Input name: barcode12
+Databases used: matK, rbcL, ITS, psbA-trnH
+
+Best species for matK is Hedera helix with alignment 99.43877107473186 and evalue 0.0
+Best species for rbcL is None with alignment 0 and evalue inf
+Best species for ITS is Schisandra chinensis with alignment 78.94039735099338 and evalue 1.0089399999999999e-138
+Best species for psbA-trnH is Chrysanthemum x with alignment 86.0082304526749 and evalue 0.0

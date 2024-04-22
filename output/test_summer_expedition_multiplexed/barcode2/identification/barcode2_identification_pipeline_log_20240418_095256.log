@@ -1,0 +1,13 @@
+2024-04-18 09:52:56,094 INFO: Running consensus pipeline... 
+
+2024-04-18 09:52:56,094 INFO: Running identification pipeline with blastn method... 
+
+2024-04-18 09:52:56,094 INFO: Running command: bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode2/consensus/barcode2_final_consensus.fasta -db psbA-trnH -out output/test_summer_expedition_multiplexed/barcode2/identification/psbA-trnH.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 09:52:56,157 INFO: Command 'bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode2/consensus/barcode2_final_consensus.fasta -db psbA-trnH -out output/test_summer_expedition_multiplexed/barcode2/identification/psbA-trnH.txt -max_target_seqs 20 -outfmt 5"' took 0.06 seconds to run.
+2024-04-18 09:52:56,157 INFO: BLASTn command for database psbA-trnH took 0.06 seconds.
+2024-04-18 09:52:56,157 INFO: Running command: bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode2/consensus/barcode2_final_consensus.fasta -db rbcL -out output/test_summer_expedition_multiplexed/barcode2/identification/rbcL.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 09:52:56,680 INFO: Command 'bash -l -c "blastn -query output/test_summer_expedition_multiplexed/barcode2/consensus/barcode2_final_consensus.fasta -db rbcL -out output/test_summer_expedition_multiplexed/barcode2/identification/rbcL.txt -max_target_seqs 20 -outfmt 5"' took 0.52 seconds to run.
+2024-04-18 09:52:56,680 INFO: BLASTn command for database rbcL took 0.52 seconds.
+2024-04-18 09:52:56,680 INFO: XML files : [('output/test_summer_expedition_multiplexed/barcode2/identification/psbA-trnH.txt', 'psbA-trnH'), ('output/test_summer_expedition_multiplexed/barcode2/identification/rbcL.txt', 'rbcL')]
+2024-04-18 09:52:56,683 INFO: Best species for psbA-trnH is Macrosolen tricolor with alignment 89.45686900958466 and evalue 0.0
+2024-04-18 09:52:56,684 INFO: Best species for rbcL is Carex brunnea with alignment 99.68404423380727 and evalue 0.0

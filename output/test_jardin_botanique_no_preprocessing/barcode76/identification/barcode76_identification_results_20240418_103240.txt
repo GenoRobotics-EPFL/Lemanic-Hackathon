@@ -1,0 +1,4 @@
+Input name: barcode76
+Databases used: ITS
+
+Best species for ITS is Actaea japonica with alignment 93.86445063694268 and evalue 6.3318674807500005e-65

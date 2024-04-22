@@ -1,0 +1,4 @@
+Input name: barcode78
+Databases used: ITS
+
+Best species for ITS is Hedera helix with alignment 95.96274394833472 and evalue 2.8138430692e-146

@@ -1,0 +1,13 @@
+,Barcode,Species,gene,Volume(ml),note
+0,1,Ailanthus altissima,rbcL,7.5,No Note
+1,2,Carex pendula,"rbcL, psbA-trnH",6.5,No Note
+2,3,Prunus laurocerasus,"rbcL, psbA-trnH",6.5,No Note
+3,4,Symphoricarpos orbiculatus,"matK, rbcL, psbA-trnH, ITS",8.0,No Note
+4,5,Berberis aquifolium,"matK, rbcL, psbA-trnH, ITS",8.0,No Note
+5,6,Viburnum opulus,"matK, rbcL, psbA-trnH, ITS",8.0,No Note
+6,7,Corylus avellana,"matK, rbcL, psbA-trnH, ITS",8.0,No Note
+7,8,Tilia cordata,"matK, rbcL, psbA-trnH, ITS",8.0,No Note
+8,9,Spiraea trilobata,"matK, rbcL, psbA-trnH, ITS",8.0,No Note
+9,10,Ficus benjamina,"rbcL, psbA-trnH, ITS",7.5,No Note
+10,11,Solanum lycopersicum,"matK, rbcL, ITS",7.5,No Note
+11,12,Hedera helix,"matK, rbcL, psbA-trnH, ITS",8.0,No Note

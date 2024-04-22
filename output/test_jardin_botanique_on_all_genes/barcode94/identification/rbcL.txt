@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>rbcL</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>f876922c-e40d-4e43-ba00-4474eae05bde LN:i:760 RC:i:714 XC:f:1.000000</BlastOutput_query-def>
+  <BlastOutput_query-len>760</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>f876922c-e40d-4e43-ba00-4474eae05bde LN:i:760 RC:i:714 XC:f:1.000000</Iteration_query-def>
+  <Iteration_query-len>760</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|JN407315.1|</Hit_id>
+  <Hit_def>Ficus microcarpa isolate shawpc0557L ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JN407315</Hit_accession>
+  <Hit_len>657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>652</Hsp_hit-from>
+      <Hsp_hit-to>21</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|JN407316.1|</Hit_id>
+  <Hit_def>Ficus microcarpa isolate shawpc0576L ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JN407316</Hit_accession>
+  <Hit_len>697</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>672</Hsp_hit-from>
+      <Hsp_hit-to>41</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|JN407317.1|</Hit_id>
+  <Hit_def>Ficus microcarpa isolate shawpc0687L ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JN407317</Hit_accession>
+  <Hit_len>653</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>653</Hsp_hit-from>
+      <Hsp_hit-to>22</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|JQ773645.1|</Hit_id>
+  <Hit_def>Ficus altissima voucher 2010124 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773645</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|JQ773646.1|</Hit_id>
+  <Hit_def>Ficus auriculata voucher 2010315 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773646</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|JQ773647.1|</Hit_id>
+  <Hit_def>Ficus auriculata voucher 2010083 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773647</Hit_accession>
+  <Hit_len>681</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|JQ773649.1|</Hit_id>
+  <Hit_def>Ficus benguetensis voucher 2010232 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773649</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|JQ773653.1|</Hit_id>
+  <Hit_def>Ficus binnendijkii voucher 2009322 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773653</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|JQ773654.1|</Hit_id>
+  <Hit_def>Ficus binnendijkii voucher 2010323 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773654</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|JQ773655.1|</Hit_id>
+  <Hit_def>Ficus binnendijkii voucher 2010279 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773655</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|JQ773656.1|</Hit_id>
+  <Hit_def>Ficus binnendijkii voucher 2009169 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773656</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|JQ773664.1|</Hit_id>
+  <Hit_def>Ficus curtipes voucher 2009176 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773664</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|JQ773669.1|</Hit_id>
+  <Hit_def>Ficus drupacea voucher 2009371 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773669</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|JQ773670.1|</Hit_id>
+  <Hit_def>Ficus drupacea voucher 2010352 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773670</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|JQ773671.1|</Hit_id>
+  <Hit_def>Ficus drupacea voucher 2010258 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773671</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|JQ773681.1|</Hit_id>
+  <Hit_def>Ficus fistulosa voucher 2010251 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773681</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|JQ773692.1|</Hit_id>
+  <Hit_def>Ficus heteropleura voucher 2010305 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773692</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|JQ773694.1|</Hit_id>
+  <Hit_def>Ficus hispida voucher 2010270 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773694</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|JQ773707.1|</Hit_id>
+  <Hit_def>Ficus microcarpa voucher 2010108 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773707</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|JQ773708.1|</Hit_id>
+  <Hit_def>Ficus microcarpa voucher 2010219 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>JQ773708</Hit_accession>
+  <Hit_len>700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1114.65</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>127</Hsp_query-from>
+      <Hsp_query-to>760</Hsp_query-to>
+      <Hsp_hit-from>678</Hsp_hit-from>
+      <Hsp_hit-to>47</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>625</Hsp_identity>
+      <Hsp_positive>625</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>635</Hsp_align-len>
+      <Hsp_qseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGG-CGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAAAGGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATACCAGTATCTTTGGTTTCATAGTCAGGAGTTTTAACTAAGT</Hsp_qseq>
+      <Hsp_hseq>CCTGTTTCAGCTTGTGCTTTATAAATTGCTTCGACACAAAATAAGAAACGGTCTCTCCAACGCATAAATGGTTGAGAATTCACGTTCTCATCATCTTTGGTAAAATCAAGCCCACCGCGAAGACATTCATAAACTGCTCTACCGTAATTCTTAGCGGATAACCCCAATTTAGGTTTAATAGTACATCCCAATAGGGGGCGGCCATACTTGTTCAATTTATCTCTCTCAACTTGGATACCATGAGGTGGTCCTTGGAAAGTTTTAGAATAAGAAGGAGGGATTCGCAAATCTTCCAGACGTAGCGCACGCAGGGCCTTGAACCCAAATACATTACCCACAATGGAAGTAAACAGATTAGTAACAGAACCCTCTTCAAAAAGGTCTAAA-GGGTAAGCTACATAAGCAATATATTGATTTTCTTCTCCAGCAACGGGCTCGATGTTGTAGCATCGACCTTTGTAGCGATCAAGACTGGTAAGTCCGTCAGTCCATACAGTTGTCCATGTACCAGTAGAAGATTCAGCAGCTACCGCTGCCCCTGCTTCTTCAGGAGGAACTCCAGGTTGAGGAGTTACTCGAAATGCTGCCAAGATATCACTATCTTTGACTTCATATTCAGGAGTGT-AA-TAAGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||  |||||| |||||||| | || |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>73316</Statistics_db-num>
+      <Statistics_db-len>52882424</Statistics_db-len>
+      <Statistics_hsp-len>25</Statistics_hsp-len>
+      <Statistics_eff-space>37521400140</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

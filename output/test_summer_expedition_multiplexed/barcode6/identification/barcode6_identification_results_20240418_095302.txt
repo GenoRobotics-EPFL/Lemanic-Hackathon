@@ -1,0 +1,7 @@
+Input name: barcode6
+Databases used: matK, rbcL, ITS, psbA-trnH
+
+Best species for matK is Viburnum opulus with alignment 98.18941504178271 and evalue 0.0
+Best species for rbcL is None with alignment 0 and evalue inf
+Best species for ITS is None with alignment 0 and evalue inf
+Best species for psbA-trnH is Chrysanthemum x with alignment 89.6604938271605 and evalue 0.0

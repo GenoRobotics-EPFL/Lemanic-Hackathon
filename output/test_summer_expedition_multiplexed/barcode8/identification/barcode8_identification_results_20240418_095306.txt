@@ -1,0 +1,7 @@
+Input name: barcode8
+Databases used: matK, rbcL, ITS, psbA-trnH
+
+Best species for matK is Abutilon indicum with alignment 79.82195845697329 and evalue 3.26226e-125
+Best species for rbcL is None with alignment 0 and evalue inf
+Best species for ITS is Tilia cordata with alignment 99.56896551724138 and evalue 0.0
+Best species for psbA-trnH is Pyrus pyrifolia with alignment 86.19528619528619 and evalue 1.76236e-83

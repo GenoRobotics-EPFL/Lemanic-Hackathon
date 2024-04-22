@@ -1,0 +1,502 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>ITS</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>1623be6a-afba-4107-857b-e7c29370a79d LN:i:849 RC:i:1884 XC:f:1.000000</BlastOutput_query-def>
+  <BlastOutput_query-len>849</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>1623be6a-afba-4107-857b-e7c29370a79d LN:i:849 RC:i:1884 XC:f:1.000000</Iteration_query-def>
+  <Iteration_query-len>849</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|JN045744.1|</Hit_id>
+  <Hit_def>Paris polyphylla var. stenophylla voucher JYH84B psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>JN045744</Hit_accession>
+  <Hit_len>1000</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>562.502</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>9.67839e-159</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>513</Hsp_query-to>
+      <Hsp_hit-from>1000</Hsp_hit-from>
+      <Hsp_hit-to>618</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>365</Hsp_identity>
+      <Hsp_positive>365</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>TTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATT</Hsp_qseq>
+      <Hsp_hseq>TTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAAATCGAGATATT----------GGACATAGAATGCCAATTTGAAAAATGTAAAAAAAGGAGTAATCCGCTGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATTATAGTAACTTGGTCTAGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCATAAATTGGGAGAATTCGCGCCTACTCTAACTTTCGCAAGACATGCAAGGAACGATAATCAATCTCGTCGTTAATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||||||||          ||||||||||||||||| |  ||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| |||||||| |||||||| || ||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|JN045758.1|</Hit_id>
+  <Hit_def>Paris quadrifolia voucher JYH79B psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>JN045758</Hit_accession>
+  <Hit_len>1000</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>562.502</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>9.67839e-159</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>513</Hsp_query-to>
+      <Hsp_hit-from>1000</Hsp_hit-from>
+      <Hsp_hit-to>618</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>365</Hsp_identity>
+      <Hsp_positive>365</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>TTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATT</Hsp_qseq>
+      <Hsp_hseq>TTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAAATCGAGATATT----------GGACATAGAATGCCAATTTGAAAAATGTAAAAAAAGGAGTAATCCGCTGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATTATAGTAACTTGGTCTAGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCATAAATTGGGAGAATTCGCGCCTACTCTAACTTTCGCAAGACATGCAAGGAACGATAATCAATCTCGTCGTTAATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||||||||          ||||||||||||||||| |  ||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| |||||||| |||||||| || ||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|JN045712.1|</Hit_id>
+  <Hit_def>Paris dulongensis voucher JYH38B psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>JN045712</Hit_accession>
+  <Hit_len>1004</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.422</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>2.095e-155</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>513</Hsp_query-to>
+      <Hsp_hit-from>1004</Hsp_hit-from>
+      <Hsp_hit-to>622</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>TTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATT</Hsp_qseq>
+      <Hsp_hseq>TTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAAATCGAGATATT----------GGACATAGAATGCCAATTTGAAAAATGTAAAAAAAGGAGTAATCCGCTGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATGGAAAAACTCAACATGAGGGAGGAGAAAGAAATTATAGTAACTTGGTCTAGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCATATGGTAGGTCATAAATTGGGAGAATTCGCGCCTACTCTAACTTTCGCAAGACATGCAAGGAACGATAATCAATCTCGTCGTTAATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||||||||          ||||||||||||||||| |  ||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||  ||||||| |||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| |||||||||||||||||||||||||| |||||||| |||||||| || ||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|JN045713.1|</Hit_id>
+  <Hit_def>Paris dulongensis voucher JYH38A psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>JN045713</Hit_accession>
+  <Hit_len>1004</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.422</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>2.095e-155</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>513</Hsp_query-to>
+      <Hsp_hit-from>1004</Hsp_hit-from>
+      <Hsp_hit-to>622</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>TTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATT</Hsp_qseq>
+      <Hsp_hseq>TTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAAATCGAGATATT----------GGACATAGAATGCCAATTTGAAAAATGTAAAAAAAGGAGTAATCCGCTGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATGGAAAAACTCAACATGAGGGAGGAGAAAGAAATTATAGTAACTTGGTCTAGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCATATGGTAGGTCATAAATTGGGAGAATTCGCGCCTACTCTAACTTTCGCAAGACATGCAAGGAACGATAATCAATCTCGTCGTTAATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||||||||          ||||||||||||||||| |  ||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||  ||||||| |||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| |||||||||||||||||||||||||| |||||||| |||||||| || ||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|JN045716.1|</Hit_id>
+  <Hit_def>Paris dunniana voucher JYH76A psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>JN045716</Hit_accession>
+  <Hit_len>1015</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>551.422</Hsp_bit-score>
+      <Hsp_score>298</Hsp_score>
+      <Hsp_evalue>2.095e-155</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>513</Hsp_query-to>
+      <Hsp_hit-from>1015</Hsp_hit-from>
+      <Hsp_hit-to>633</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>393</Hsp_align-len>
+      <Hsp_qseq>TTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATT</Hsp_qseq>
+      <Hsp_hseq>TTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAAATCGAGATATT----------GGACATAGAATGCCAATTTGAAAAATGTAAAAAAAGGAGTAATCCGCTGTGACACGTTCACTAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATGGAAAAACTCAACATGAGGGAGGAGAAAGAAATTATAGTAACTTGGTCTAGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCATATGGTAGGTCATAAATTGGGAGAATTCGCGCCTACTCTAACTTTCGCAAGACATGCAAGGAACGATAATCAATCTCGTCGTTAATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||||||||          ||||||||||||||||| |  ||||||||||||||||||||||| |||||| ||||||||||||||||||| |||||||||||||||||||||||  ||||||| |||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| |||||||||||||||||||||||||| |||||||| |||||||| || ||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|JN045715.1|</Hit_id>
+  <Hit_def>Paris dunniana voucher JYH76B psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>JN045715</Hit_accession>
+  <Hit_len>1016</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.882</Hsp_bit-score>
+      <Hsp_score>295</Hsp_score>
+      <Hsp_evalue>9.74711e-154</Hsp_evalue>
+      <Hsp_query-from>121</Hsp_query-from>
+      <Hsp_query-to>513</Hsp_query-to>
+      <Hsp_hit-from>1016</Hsp_hit-from>
+      <Hsp_hit-to>633</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>394</Hsp_align-len>
+      <Hsp_qseq>TTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAA-CCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATT</Hsp_qseq>
+      <Hsp_hseq>TTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAAATCGAGATATT----------GGACATAGAATGCCAATTTGAAAAATGTAAAAAAAGGAGTAATCCGCTGTGACACGTTCACTAAAAAAAAAATCCTTTTGTAGCTAATCATTTATCGGGAAAAATGGAAAAACTCAACATGAGGGAGGAGAAAGAAATTATAGTAACTTGGTCTAGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCATATGGTAGGTCATAAATTGGGAGAATTCGCGCCTACTCTAACTTTCGCAAGACATGCAAGGAACGATAATCAATCTCGTCGTTAATT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||| |||||||||||          ||||||||||||||||| |  ||||||||||||||||||||||| |||||| |||||||||||||||||||  |||||||||||||||||||||||  ||||||| |||||||||||||||||||||||||||||||| ||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||| |||||||||||||||||||||||||| |||||||| |||||||| || ||||||||| ||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|JN045498.1|</Hit_id>
+  <Hit_def>Musa basjoo voucher GXJ581 psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>JN045498</Hit_accession>
+  <Hit_len>1077</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.802</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.10988e-150</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>514</Hsp_query-to>
+      <Hsp_hit-from>1011</Hsp_hit-from>
+      <Hsp_hit-to>599</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>419</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAAT-------GT-AAAAAAAGGAGTAAT-CAGCTGTG----G-CACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTT</Hsp_qseq>
+      <Hsp_hseq>TTTTATCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTCCATACTTA-ACTTAGAT-CGAGA---TATTGGACATAGAATGCCAATCTTTAAAATAAAAAATGTAAAAAAAAGGAGTAATACA-CTGTGACATGACACGTTCGCTAAAAAAAAACCCTTTTGTAGCTAACCATTTATCGGAAAAAATGGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTTTTACTTTTGCGAGACATGCAAGAAACGATAATAAATCTCGTCGTTAAGTT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||||||||||| |||||||| |   ||||   | |   ||||||||||||||||||||||||||||||       || ||||||||||||||| || |||||    | ||||||| |||||||||||||||||||||||||| ||||||||   |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||| ||||||||||| ||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|JN045499.1|</Hit_id>
+  <Hit_def>Musa basjoo voucher GXJ580 psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>JN045499</Hit_accession>
+  <Hit_len>1077</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.802</Hsp_bit-score>
+      <Hsp_score>289</Hsp_score>
+      <Hsp_evalue>2.10988e-150</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>514</Hsp_query-to>
+      <Hsp_hit-from>1011</Hsp_hit-from>
+      <Hsp_hit-to>599</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>379</Hsp_identity>
+      <Hsp_positive>379</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>419</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAAT-------GT-AAAAAAAGGAGTAAT-CAGCTGTG----G-CACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAATTT</Hsp_qseq>
+      <Hsp_hseq>TTTTATCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTCCATACTTA-ACTTAGAT-CGAGA---TATTGGACATAGAATGCCAATCTTTAAAATAAAAAATGTAAAAAAAAGGAGTAATACA-CTGTGACATGACACGTTCGCTAAAAAAAAACCCTTTTGTAGCTAACCATTTATCGGAAAAAATGGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTTTTACTTTTGCGAGACATGCAAGAAACGATAATAAATCTCGTCGTTAAGTT</Hsp_hseq>
+      <Hsp_midline>|||| ||||||||||||||||||||||||||||||||||||||| |||||||| |   ||||   | |   ||||||||||||||||||||||||||||||       || ||||||||||||||| || |||||    | ||||||| |||||||||||||||||||||||||| ||||||||   |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ||||| ||||||||||| ||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|JN044308.1|</Hit_id>
+  <Hit_def>Commelina benghalensis voucher Z467 psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>JN044308</Hit_accession>
+  <Hit_len>1054</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>512.642</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>9.886e-144</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>511</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAA</Hsp_qseq>
+      <Hsp_hseq>TTTTATCCTTTTTCCATCCATCATTATTGTATTTATTCTTACCTCCATACTTA-ACTTAGAT-CGAGA---TATTGGACATAGAATGCCAAT----------TAAAAAAAGGAGTAATCTACTGTGACACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCGAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATTTTAACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAAGAACATTTACCTATTTATATAACAGATCGTATGGTGGGTCACAAATTGGGGGAATTCGCACCTACTCTTACTTTCGCGAGACATGCAAGAAACGATAATAAATCTCGTCGCTAA</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||| |||||||||||||||||||||||||| |||||||| |   ||||   | |   |||||||||||||||||||||          |||||||||||||||||  ||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||| |||||||| ||||||||||||||||| ||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6731</Hsp_bit-score>
+      <Hsp_score>29</Hsp_score>
+      <Hsp_evalue>7.20213e-06</Hsp_evalue>
+      <Hsp_query-from>646</Hsp_query-from>
+      <Hsp_query-to>674</Hsp_query-to>
+      <Hsp_hit-from>1026</Hsp_hit-from>
+      <Hsp_hit-to>1054</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>AAAAGTCTTATCCATTTGTAGATGGAACT</Hsp_qseq>
+      <Hsp_hseq>AAAAGTCTTATCCATTTGTAGATGGAACT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|JN044309.1|</Hit_id>
+  <Hit_def>Commelina benghalensis voucher Z466 psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>JN044309</Hit_accession>
+  <Hit_len>1054</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>512.642</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>9.886e-144</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>511</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAA</Hsp_qseq>
+      <Hsp_hseq>TTTTATCCTTTTTCCATCCATCATTATTGTATTTATTCTTACCTCCATACTTA-ACTTAGAT-CGAGA---TATTGGACATAGAATGCCAAT----------TAAAAAAAGGAGTAATCTACTGTGACACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCGAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATTTTAACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAAGAACATTTACCTATTTATATAACAGATCGTATGGTGGGTCACAAATTGGGGGAATTCGCACCTACTCTTACTTTCGCGAGACATGCAAGAAACGATAATAAATCTCGTCGCTAA</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||| |||||||||||||||||||||||||| |||||||| |   ||||   | |   |||||||||||||||||||||          |||||||||||||||||  ||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||| |||||||| ||||||||||||||||| ||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6731</Hsp_bit-score>
+      <Hsp_score>29</Hsp_score>
+      <Hsp_evalue>7.20213e-06</Hsp_evalue>
+      <Hsp_query-from>646</Hsp_query-from>
+      <Hsp_query-to>674</Hsp_query-to>
+      <Hsp_hit-from>1026</Hsp_hit-from>
+      <Hsp_hit-to>1054</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>AAAAGTCTTATCCATTTGTAGATGGAACT</Hsp_qseq>
+      <Hsp_hseq>AAAAGTCTTATCCATTTGTAGATGGAACT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|JN044310.1|</Hit_id>
+  <Hit_def>Commelina benghalensis voucher Z465 psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>JN044310</Hit_accession>
+  <Hit_len>1054</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>512.642</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>9.886e-144</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>511</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>363</Hsp_identity>
+      <Hsp_positive>363</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAA</Hsp_qseq>
+      <Hsp_hseq>TTTTATCCTTTTTCCATCCATCATTATTGTATTTATTCTTACCTCCATACTTA-ACTTAGAT-CGAGA---TATTGGACATAGAATGCCAAT----------TAAAAAAAGGAGTAATCTACTGTGACACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCGAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATTTTAACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAAGAACATTTACCTATTTATATAACAGATCGTATGGTGGGTCACAAATTGGGGGAATTCGCACCTACTCTTACTTTCGCGAGACATGCAAGAAACGATAATAAATCTCGTCGCTAA</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||| |||||||||||||||||||||||||| |||||||| |   ||||   | |   |||||||||||||||||||||          |||||||||||||||||  ||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||| |||||||| ||||||||||||||||| ||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6731</Hsp_bit-score>
+      <Hsp_score>29</Hsp_score>
+      <Hsp_evalue>7.20213e-06</Hsp_evalue>
+      <Hsp_query-from>646</Hsp_query-from>
+      <Hsp_query-to>674</Hsp_query-to>
+      <Hsp_hit-from>1026</Hsp_hit-from>
+      <Hsp_hit-to>1054</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>AAAAGTCTTATCCATTTGTAGATGGAACT</Hsp_qseq>
+      <Hsp_hseq>AAAAGTCTTATCCATTTGTAGATGGAACT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|JN044311.1|</Hit_id>
+  <Hit_def>Commelina paludosa voucher Z474 psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>JN044311</Hit_accession>
+  <Hit_len>1054</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.562</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>2.13994e-140</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>511</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAA</Hsp_qseq>
+      <Hsp_hseq>TTTTATCCTTTTTCCATCCATCATTATTGTATTTATTCTTACCTCCATACTTA-ACTTAGAT-CGAGA---TATTGGACATAGAATGCCAAT----------TAAAAAAAGGAGTAATCTACTGTGACACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCGAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATTCGAACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAAGAACATTTACCCATTTATATAACAGATCGTATGGTGGGTCACAAATTGGGGGAATTCGCACCTACTCTTACTTTCGCGAGACATGCAAGAAACGATAATAAATCTCGTCGCTAA</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||| |||||||||||||||||||||||||| |||||||| |   ||||   | |   |||||||||||||||||||||          |||||||||||||||||  ||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||   |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| |||||||||||||| |||||||| |||||||| ||||||||||||||||| ||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6731</Hsp_bit-score>
+      <Hsp_score>29</Hsp_score>
+      <Hsp_evalue>7.20213e-06</Hsp_evalue>
+      <Hsp_query-from>646</Hsp_query-from>
+      <Hsp_query-to>674</Hsp_query-to>
+      <Hsp_hit-from>1026</Hsp_hit-from>
+      <Hsp_hit-to>1054</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>AAAAGTCTTATCCATTTGTAGATGGAACT</Hsp_qseq>
+      <Hsp_hseq>AAAAGTCTTATCCATTTGTAGATGGAACT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|JN044312.1|</Hit_id>
+  <Hit_def>Commelina paludosa voucher Z472 psbA-trnH intergenic spacer region, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>JN044312</Hit_accession>
+  <Hit_len>1054</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.562</Hsp_bit-score>
+      <Hsp_score>271</Hsp_score>
+      <Hsp_evalue>2.13994e-140</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>511</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>409</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>361</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>TTTTCTCTTTTTTCCATTCATCATTATTGTATTTATTCTTACCTTCATACTTAGATCGAGATATTATATTCTATTGGACATAGAATGCCAATCTTTAAAATGTAAAAAAAGGAGTAATCAGCTGTGGCACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCAAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATAGTAACTTGGTCTCGGGCATCTACCATTATACCCAAAATGATTGGCCATACAATCGCTATTCATAATGGAAAGGAACATTTACCTATTTATATAACAGATCGTATGGTAGGTCACAAATTGGGAGAATTCGCGCCTACTCTGACTTTCGCGAGACATGCGAGAAACGATAATAAATCTCGTCGTTAA</Hsp_qseq>
+      <Hsp_hseq>TTTTATCCTTTTTCCATCCATCATTATTGTATTTATTCTTACCTCCATACTTA-ACTTAGAT-CGAGA---TATTGGACATAGAATGCCAAT----------TAAAAAAAGGAGTAATCTACTGTGACACGTTCACTAAAAAAAAACCCTTTTGTAGCTAATCATTTATCGAGAAAAATTGAAAAACTCAACATGAGGGAGGAGAAAGAAATAATTCGAACTTGGTCTCGGGCATCTACCATTATACCCACAATGATTGGCCATACAATCGCTATTCATAATGGAAAAGAACATTTACCCATTTATATAACAGATCGTATGGTGGGTCACAAATTGGGGGAATTCGCACCTACTCTTACTTTCGCGAGACATGCAAGAAACGATAATAAATCTCGTCGCTAA</Hsp_hseq>
+      <Hsp_midline>|||| || ||||||||| |||||||||||||||||||||||||| |||||||| |   ||||   | |   |||||||||||||||||||||          |||||||||||||||||  ||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||   |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||||||||| |||||||||||||| |||||||| |||||||| ||||||||||||||||| ||||||||||||||||||||||| |||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>54.6731</Hsp_bit-score>
+      <Hsp_score>29</Hsp_score>
+      <Hsp_evalue>7.20213e-06</Hsp_evalue>
+      <Hsp_query-from>646</Hsp_query-from>
+      <Hsp_query-to>674</Hsp_query-to>
+      <Hsp_hit-from>1026</Hsp_hit-from>
+      <Hsp_hit-to>1054</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>29</Hsp_align-len>
+      <Hsp_qseq>AAAAGTCTTATCCATTTGTAGATGGAACT</Hsp_qseq>
+      <Hsp_hseq>AAAAGTCTTATCCATTTGTAGATGGAACT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>142013</Statistics_db-num>
+      <Statistics_db-len>255510676</Statistics_db-len>
+      <Statistics_hsp-len>27</Statistics_hsp-len>
+      <Statistics_eff-space>206877939150</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

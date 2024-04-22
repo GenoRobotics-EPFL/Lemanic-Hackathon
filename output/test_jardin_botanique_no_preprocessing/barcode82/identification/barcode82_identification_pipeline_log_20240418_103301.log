@@ -1,0 +1,9 @@
+2024-04-18 10:33:01,832 INFO: Running consensus pipeline... 
+
+2024-04-18 10:33:01,832 INFO: Running identification pipeline with blastn method... 
+
+2024-04-18 10:33:01,832 INFO: Running command: bash -l -c "blastn -query output/test_jardin_botanique_no_preprocessing/barcode82/consensus/barcode82_final_consensus.fasta -db psbA-trnH -out output/test_jardin_botanique_no_preprocessing/barcode82/identification/psbA-trnH.txt -max_target_seqs 20 -outfmt 5"
+2024-04-18 10:33:01,917 INFO: Command 'bash -l -c "blastn -query output/test_jardin_botanique_no_preprocessing/barcode82/consensus/barcode82_final_consensus.fasta -db psbA-trnH -out output/test_jardin_botanique_no_preprocessing/barcode82/identification/psbA-trnH.txt -max_target_seqs 20 -outfmt 5"' took 0.09 seconds to run.
+2024-04-18 10:33:01,917 INFO: BLASTn command for database psbA-trnH took 0.09 seconds.
+2024-04-18 10:33:01,918 INFO: XML files : [('output/test_jardin_botanique_no_preprocessing/barcode82/identification/psbA-trnH.txt', 'psbA-trnH')]
+2024-04-18 10:33:01,920 INFO: Best species for psbA-trnH is Astragalus acutifolius with alignment 94.2665855143031 and evalue 5.5211988e-62

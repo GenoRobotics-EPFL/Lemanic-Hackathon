@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>psbA-trnH</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>e5ca5a4a-2470-4540-a3a0-94ccaca71017 LN:i:817 RC:i:121 XC:f:1.000000</BlastOutput_query-def>
+  <BlastOutput_query-len>817</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>e5ca5a4a-2470-4540-a3a0-94ccaca71017 LN:i:817 RC:i:121 XC:f:1.000000</Iteration_query-def>
+  <Iteration_query-len>817</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MK353562.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 49 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353562</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>828.419</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>582</Hsp_identity>
+      <Hsp_positive>582</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATAAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACCGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||| |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| |||||||||||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MK353563.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 50 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353563</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>828.419</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>582</Hsp_identity>
+      <Hsp_positive>582</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATAAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACCGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||| |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| |||||||||||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MK353565.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 52 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353565</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>828.419</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>582</Hsp_identity>
+      <Hsp_positive>582</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATAAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACCGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||| |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| |||||||||||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MK353568.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 55 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353568</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>828.419</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>582</Hsp_identity>
+      <Hsp_positive>582</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATAAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACCGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||| |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| |||||||||||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MK353571.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 58 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353571</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>828.419</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>582</Hsp_identity>
+      <Hsp_positive>582</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATAAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACCGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||| |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| |||||||||||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MK353572.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 59 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353572</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>828.419</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>582</Hsp_identity>
+      <Hsp_positive>582</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATAAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACCGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||| |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| |||||||||||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MK353574.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 61 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353574</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>828.419</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>582</Hsp_identity>
+      <Hsp_positive>582</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATAAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACCGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||| |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| |||||||||||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MK353566.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 53 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353566</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>822.879</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>581</Hsp_identity>
+      <Hsp_positive>581</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAATAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATAAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACCGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | |||||||||||||| |||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||| |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| |||||||||||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MK353573.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 60 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353573</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>822.879</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>581</Hsp_identity>
+      <Hsp_positive>581</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTGTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATAAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACCGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | ||||||||||| |||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||| |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| |||||||||||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MK353575.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 62 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353575</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>822.879</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>581</Hsp_identity>
+      <Hsp_positive>581</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATAAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATCAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACCGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||| |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| |||||| |||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| |||||||||||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|MK353580.1|</Hit_id>
+  <Hit_def>Chrysanthemum x morifolium clone CFREF 67 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353580</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>822.879</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>581</Hsp_identity>
+      <Hsp_positive>581</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATGTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATAAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACCGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| ||||    |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||| |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| |||||||||||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MK353581.1|</Hit_id>
+  <Hit_def>Chrysanthemum x morifolium clone CFREF 68 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353581</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>822.879</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>581</Hsp_identity>
+      <Hsp_positive>581</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATCAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACCGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||  |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| |||||||||||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|MK353564.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 51 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353564</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>817.339</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>580</Hsp_identity>
+      <Hsp_positive>580</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATTTGAATATGAATGTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATAAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACCGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| ||||||||||| |||||| ||||    |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||| |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| |||||||||||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MK353567.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 54 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353567</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>817.339</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>580</Hsp_identity>
+      <Hsp_positive>580</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATAAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATCAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAAGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACCGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||| |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| |||||| |||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| || ||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| |||||||||||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MK353569.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 56 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353569</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>817.339</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>580</Hsp_identity>
+      <Hsp_positive>580</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATCAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACAGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||  |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| ||||||| |||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MK353570.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 57 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353570</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>817.339</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>580</Hsp_identity>
+      <Hsp_positive>580</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATCAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACAGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||  |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| ||||||| |||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|MK353576.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 63 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353576</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>817.339</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>580</Hsp_identity>
+      <Hsp_positive>580</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATCAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACAGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||  |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| ||||||| |||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MK353577.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 64 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353577</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>817.339</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>580</Hsp_identity>
+      <Hsp_positive>580</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATCAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACAGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||  |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| ||||||| |||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|MK353578.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 65 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353578</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>817.339</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>580</Hsp_identity>
+      <Hsp_positive>580</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATCAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACAGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||  |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| ||||||| |||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MK353579.1|</Hit_id>
+  <Hit_def>Chrysanthemum indicum clone CFREF 66 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MK353579</Hit_accession>
+  <Hit_len>726</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>817.339</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>158</Hsp_query-from>
+      <Hsp_query-to>803</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>721</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>580</Hsp_identity>
+      <Hsp_positive>580</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>648</Hsp_align-len>
+      <Hsp_qseq>AAAGAAAGCCAGCTATTCTTTTTCAAAAAGAAATCAAAGATTATTCTTCTTCCTATATAATTTTCATGTATGTGAATACGAATCCATCTTCGTCTTTCTCCGTAACCATTCTTCTCATTTACGATCAACATCTTCTGGAACCTTTCTTGAACGAATATATTTCTATGGAAAAATCGAACATCTTGTAGAAGTCTTTGCTAAGG-CTTTTCAGGCCAATCTATGGTTGTTCAAGGATCTTTTCATGCATTATGTTAGGTATCAAGGAAAATCTATTCTTGCTTC-AAAGGGACGTTTCTTTTAATGAATAAATGGAAATATTACTTTGTCCATTTCTGGCAATGTCATTTTTACCTGTGGTTTCAACCAGAAAGGATCTATATAAACCAATTATCCAATCATTCCCTCGACCTTCTGGGCTATCTTTCAAGTGTGCGGCTAAACCCTTTAATGGTACGCAGTCAAATGTTAGAAAATTCATTTCTAATCGATAATGCTATTAAGAAGTTCGATACTATTGTTCCAATTATTTCTCTGATTGGATCATTGGTTAAAGCGAATTTTTGTAACGTATTAGGGCATCCTATTAGTAAGGCGGTTTGGACCGATTTATCAGATTCTGATATTATTGAACGATTTGGGCGTATAT</Hsp_qseq>
+      <Hsp_hseq>AAAGAAAGTTAGTTCTTCTTTTTCAAAAAGAAAAAACAGATTATTCTTCTTCCTATATACTTTTCATGTATGTGAATATGAATCTGGCTTCCTCTTTCTCCGTAACCAGTCTTCTCACTTACGATCAACATCTTCTGGAGCCCTTATTGAACGAATCAATTTCTATGGAAAAATAGAGCATCTTGCAGAAGTCTTTG-TCAGGTCTTTTCAAGCAAATTTATGGTTGTTCAAAGATCCTTTCATGCATTATGTTAGGTATCAAGGAAAATCCATTCTTGCTTCAAAAGGGACGTTTCTTTTGATGAATAAATGGAAATATTACTTTGTCAATTTCTGGAAATATTATTTTTACCTGTGGCCTCAACCAGGAAGGATTTATATAAACCAATTATCCAATCATTCCCTTGACTTTCTGGGTTATCGTTCAAGTGTGCGGCTAAATCCTTCAACGGTACGCAGTCAAATGCTAGAAAATGCATTTCTAATCGATAATGCTATTAAGAAGTTTGATACTCTTGTTCCAATTATGCCTCTGATTGGATCACTGGCTAAATCCAAATTTTGTAACGCATTGGGGCATCCTATTGGCAAGGCGATTTGGACAGATTTATCAGATTCTGATATTATTGAGCGCTTTGGGCGTATAT</Hsp_hseq>
+      <Hsp_midline>||||||||  || | ||||||||||||||||||  | |||||||||||||||||||||| |||||||||||||||||| |||||   |||| |||||||||||||||| |||||||| ||||||||||||||||||||| || || ||||||||||  |||||||||||||||| || ||||||| ||||||||||| | ||| ||||||| || ||| ||||||||||||| |||| ||||||||||||||||||||||||||||||||| ||||||||||| ||||||||||||||||| ||||||||||||||||||||||||||| |||||||| ||| | ||||||||||||||  |||||||| |||||| ||||||||||||||||||||||||||||| ||| ||||||| |||| |||||||||||||||||| |||| || |||||||||||||||| |||||||| ||||||||||||||||||||||||||||||| |||||| |||||||||||||  |||||||||||||| ||| |||| | || |||||||||| ||| |||||||||||| | |||||| ||||||| |||||||||||||||||||||||||| || |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>66534</Statistics_db-num>
+      <Statistics_db-len>34277752</Statistics_db-len>
+      <Statistics_hsp-len>25</Statistics_hsp-len>
+      <Statistics_eff-space>25830606384</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

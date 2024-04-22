@@ -1,0 +1,7 @@
+Input name: barcode80
+Databases used: psbA-trnH, matK, rbcL, ITS
+
+Best species for psbA-trnH is Hedera helix with alignment 97.39134773713886 and evalue 2.5547999999999997e-123
+Best species for matK is None with alignment 0 and evalue inf
+Best species for rbcL is None with alignment 0 and evalue inf
+Best species for ITS is None with alignment 0 and evalue inf

@@ -1,0 +1,7 @@
+Input name: barcode90
+Databases used: psbA-trnH, matK, rbcL, ITS
+
+Best species for psbA-trnH is Isolona zenkeri with alignment 89.28571428571429 and evalue 2.53866e-63
+Best species for matK is None with alignment 0 and evalue inf
+Best species for rbcL is None with alignment 0 and evalue inf
+Best species for ITS is None with alignment 0 and evalue inf

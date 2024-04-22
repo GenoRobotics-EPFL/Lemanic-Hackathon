@@ -1,0 +1,7 @@
+Input name: barcode91
+Databases used: psbA-trnH, matK, rbcL, ITS
+
+Best species for psbA-trnH is Heliconia collinsiana with alignment 96.07156225769364 and evalue 3.476600057358333e-39
+Best species for matK is Trillium grandiflorum with alignment 86.58536585365853 and evalue 2.11258e-15
+Best species for rbcL is None with alignment 0 and evalue inf
+Best species for ITS is Musa basjoo with alignment 92.70924517830683 and evalue 3.548733543912045e-17

@@ -9,6 +9,7 @@ dependencies:
   - minimap2
   - nanofilt
   - racon
+  - miniasm
   - pip:
     - biopython==1.79
     - matplotlib==3.7.1

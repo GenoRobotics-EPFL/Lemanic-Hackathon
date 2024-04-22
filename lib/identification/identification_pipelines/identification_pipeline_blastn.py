@@ -17,7 +17,7 @@ def check_blast_db(db_name, logger, windows: bool = False):
     command = f"blastdbcmd -db {db_name} -info"
     return run_bash_command(command, logger, windows)
 
-def identification_pipeline_blastn(input_name: str, logger, expedition_name: str = None, input_path: str = None, output_dir: str = None,  database: str = None, download: bool = False, windows: bool = False) -> list[tuple[str, str]]:
+def identification_pipeline_blastn(input_name: str, logger, expedition_name: str = None, input_path: str = None, output_dir: str = None,  database: set = None, download: bool = False, windows: bool = False) -> list[tuple[str, str]]:
     """
     Run the BLASTN identification pipeline.
     Works as follows : 
@@ -31,7 +31,7 @@ def identification_pipeline_blastn(input_name: str, logger, expedition_name: str
         input_name (str): The name of the input.
         expedition_name (str, optional): The name of the expedition. Defaults to None.
         input_path (str, optional): The path to the input file. If None, use the default path (assets/output/consensus/{input_name}/{input_name}_final_consensus.fasta). Defaults to None.
-        database (str, optional): The database to use for identification. If None, use all databases. Defaults to None.
+        database (set, optional): a set with the database(s) to use for identification. If None, use all databases. Defaults to None.
         download (bool, optional): Whether to download the gene sequences if the database is not available. Defaults to False.
 
     Returns:
@@ -39,8 +39,7 @@ def identification_pipeline_blastn(input_name: str, logger, expedition_name: str
     """
     total_time_taken_blastn = 0
 
-    databases = {"ITS", "matK", "psbA-trnH", "rbcL"} if database is None else {database}
-
+    databases = {"ITS", "matK", "psbA-trnH", "rbcL"} if database is None else database
     if download : 
         for curr_db in databases:
             result, _ = check_blast_db(curr_db, logger, windows)

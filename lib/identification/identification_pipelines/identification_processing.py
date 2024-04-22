@@ -102,7 +102,7 @@ def get_best_species_from_xml(input_xml: str) -> tuple[str, tuple[int, int]] :
     input_xml (str): The path to the input XML file containing blastn results.
 
     Returns:
-    tuple[str, tuple[int, int]]: A tuple containing the best species name and a tuple of two integers representing the start and end positions of the best species in the input XML file.
+    tuple[str, tuple[int, int]]: A tuple containing the best species name and a tuple of two integers representing the start and end positions of the best species in the input XML file??? no i think it's evalue and alignment score
     """
     results = parse_blastn_xml(input_xml)
     species = separate_by_species(results)
