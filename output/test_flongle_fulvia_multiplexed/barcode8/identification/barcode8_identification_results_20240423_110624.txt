@@ -1,0 +1,7 @@
+Input name: barcode8
+Databases used: rbcL, matK, psbA-trnH, ITS
+
+Best species for rbcL is None with alignment 0 and evalue inf
+Best species for matK is Margaritaria discoidea with alignment 92.87215516723714 and evalue 1.934375e-26
+Best species for psbA-trnH is Artemisia sp. with alignment 94.53551912568308 and evalue 1.83953e-74
+Best species for ITS is S.media (L.) with alignment 95.2127659574468 and evalue 1.40687e-78

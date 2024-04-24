@@ -1,4 +1,0 @@
-Input name: barcode80
-Databases used: rbcL
-
-Best species for rbcL is None with alignment 0 and evalue inf

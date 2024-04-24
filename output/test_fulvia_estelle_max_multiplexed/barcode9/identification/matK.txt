@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>matK</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>f2a2cfac-2dcd-47a6-85f5-7f5501bf98ab LN:i:933 RC:i:620 XC:f:1.000000</BlastOutput_query-def>
+  <BlastOutput_query-len>933</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>f2a2cfac-2dcd-47a6-85f5-7f5501bf98ab LN:i:933 RC:i:620 XC:f:1.000000</Iteration_query-def>
+  <Iteration_query-len>933</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|OQ929512.1|</Hit_id>
+  <Hit_def>Solanum lycopersicum isolate 1QA maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>OQ929512</Hit_accession>
+  <Hit_len>873</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1485.83</Hsp_bit-score>
+      <Hsp_score>804</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>933</Hsp_query-to>
+      <Hsp_hit-from>842</Hsp_hit-from>
+      <Hsp_hit-to>8</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>828</Hsp_identity>
+      <Hsp_positive>828</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>838</Hsp_align-len>
+      <Hsp_qseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAAAAGGATTTGAAT-AAGATTT</Hsp_qseq>
+      <Hsp_hseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAAGAG--TTTGAACCAAGATTT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||  ||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|OQ391067.1|</Hit_id>
+  <Hit_def>UNVERIFIED: Solanum peruvianum voucher Peru18149 maturase K-like gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>OQ391067</Hit_accession>
+  <Hit_len>847</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1474.75</Hsp_bit-score>
+      <Hsp_score>798</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>925</Hsp_query-to>
+      <Hsp_hit-from>830</Hsp_hit-from>
+      <Hsp_hit-to>5</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>820</Hsp_identity>
+      <Hsp_positive>820</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>829</Hsp_align-len>
+      <Hsp_qseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAAAAGGATTTGAA</Hsp_qseq>
+      <Hsp_hseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAAGAG--TTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|OQ391073.1|</Hit_id>
+  <Hit_def>UNVERIFIED: Solanum peruvianum voucher Peru170277 maturase K-like gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>OQ391073</Hit_accession>
+  <Hit_len>853</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1474.75</Hsp_bit-score>
+      <Hsp_score>798</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>925</Hsp_query-to>
+      <Hsp_hit-from>830</Hsp_hit-from>
+      <Hsp_hit-to>5</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>820</Hsp_identity>
+      <Hsp_positive>820</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>829</Hsp_align-len>
+      <Hsp_qseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAAAAGGATTTGAA</Hsp_qseq>
+      <Hsp_hseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAAGAG--TTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|OQ391077.1|</Hit_id>
+  <Hit_def>UNVERIFIED: Solanum peruvianum voucher Peru170520 maturase K-like gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>OQ391077</Hit_accession>
+  <Hit_len>853</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1474.75</Hsp_bit-score>
+      <Hsp_score>798</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>925</Hsp_query-to>
+      <Hsp_hit-from>830</Hsp_hit-from>
+      <Hsp_hit-to>5</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>820</Hsp_identity>
+      <Hsp_positive>820</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>829</Hsp_align-len>
+      <Hsp_qseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAAAAGGATTTGAA</Hsp_qseq>
+      <Hsp_hseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAAGAG--TTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MH722363.1|</Hit_id>
+  <Hit_def>Solanum lycopersicum voucher WP001 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MH722363</Hit_accession>
+  <Hit_len>818</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1474.75</Hsp_bit-score>
+      <Hsp_score>798</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>912</Hsp_query-to>
+      <Hsp_hit-from>815</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>811</Hsp_identity>
+      <Hsp_positive>811</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>816</Hsp_align-len>
+      <Hsp_qseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCG</Hsp_qseq>
+      <Hsp_hseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|OQ391068.1|</Hit_id>
+  <Hit_def>UNVERIFIED: Solanum peruvianum voucher Peru18267 maturase K-like gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>OQ391068</Hit_accession>
+  <Hit_len>821</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1472.9</Hsp_bit-score>
+      <Hsp_score>797</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>917</Hsp_query-to>
+      <Hsp_hit-from>821</Hsp_hit-from>
+      <Hsp_hit-to>2</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>814</Hsp_identity>
+      <Hsp_positive>814</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>821</Hsp_align-len>
+      <Hsp_qseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAAAAG</Hsp_qseq>
+      <Hsp_hseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAAGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|OQ391066.1|</Hit_id>
+  <Hit_def>UNVERIFIED: Solanum peruvianum voucher Peru18104 maturase K-like gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>OQ391066</Hit_accession>
+  <Hit_len>841</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1469.21</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>912</Hsp_query-to>
+      <Hsp_hit-from>815</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>810</Hsp_identity>
+      <Hsp_positive>810</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>816</Hsp_align-len>
+      <Hsp_qseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCG</Hsp_qseq>
+      <Hsp_hseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|OQ391069.1|</Hit_id>
+  <Hit_def>UNVERIFIED: Solanum peruvianum voucher Peru18628 maturase K-like gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>OQ391069</Hit_accession>
+  <Hit_len>814</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1467.36</Hsp_bit-score>
+      <Hsp_score>794</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>912</Hsp_query-to>
+      <Hsp_hit-from>814</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>809</Hsp_identity>
+      <Hsp_positive>809</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>815</Hsp_align-len>
+      <Hsp_qseq>AAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCG</Hsp_qseq>
+      <Hsp_hseq>AAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCG</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|HQ619840.1|</Hit_id>
+  <Hit_def>Solanum lycopersicum isolate LegMedMO_116 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>HQ619840</Hit_accession>
+  <Hit_len>837</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1461.82</Hsp_bit-score>
+      <Hsp_score>791</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>917</Hsp_query-to>
+      <Hsp_hit-from>823</Hsp_hit-from>
+      <Hsp_hit-to>4</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>812</Hsp_identity>
+      <Hsp_positive>812</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>821</Hsp_align-len>
+      <Hsp_qseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAAAAG</Hsp_qseq>
+      <Hsp_hseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCGCTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACCGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAAGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MK089980.1|</Hit_id>
+  <Hit_def>UNVERIFIED: Solanum lycopersicum maturase K-like (matK) gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MK089980</Hit_accession>
+  <Hit_len>842</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1450.74</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>914</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>836</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>811</Hsp_identity>
+      <Hsp_positive>811</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>822</Hsp_align-len>
+      <Hsp_qseq>CAAGAAAG-TCGAAGTATATACTTTATTCGATATAAAGTC--TTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGA-----TTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAA</Hsp_qseq>
+      <Hsp_hseq>CAAGAAAGNTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACNCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAA</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>emb|FN668840.1|</Hit_id>
+  <Hit_def>Solanum lycopersicum chloroplast partial matK gene for maturase K, specimen voucher MIB:zpl:01693</Hit_def>
+  <Hit_accession>FN668840</Hit_accession>
+  <Hit_len>846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1448.89</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>933</Hsp_query-to>
+      <Hsp_hit-from>846</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>814</Hsp_identity>
+      <Hsp_positive>814</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>827</Hsp_align-len>
+      <Hsp_qseq>AAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAAAAGGATTTGAAT-AAGATTT</Hsp_qseq>
+      <Hsp_hseq>AAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCGCTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACCGGTTTACTAATGGGATGCCCTAATACGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAAGAG--TTTGAACCAAGATTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||  ||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|KJ652181.1|</Hit_id>
+  <Hit_def>Solanum tuberosum maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>KJ652181</Hit_accession>
+  <Hit_len>876</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1439.66</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>917</Hsp_query-to>
+      <Hsp_hit-from>824</Hsp_hit-from>
+      <Hsp_hit-to>5</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>808</Hsp_identity>
+      <Hsp_positive>808</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>821</Hsp_align-len>
+      <Hsp_qseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAAAAG</Hsp_qseq>
+      <Hsp_hseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCGCTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATACGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTCTCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTGAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCAAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGACTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAAGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|HQ619841.1|</Hit_id>
+  <Hit_def>Solanum tuberosum isolate LegMedMO_117 maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>HQ619841</Hit_accession>
+  <Hit_len>837</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1439.66</Hsp_bit-score>
+      <Hsp_score>779</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>917</Hsp_query-to>
+      <Hsp_hit-from>823</Hsp_hit-from>
+      <Hsp_hit-to>4</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>808</Hsp_identity>
+      <Hsp_positive>808</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>821</Hsp_align-len>
+      <Hsp_qseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAAAAG</Hsp_qseq>
+      <Hsp_hseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCGCTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATACGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTCTCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTGAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCAAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGACTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAAGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|OQ391075.1|</Hit_id>
+  <Hit_def>UNVERIFIED: Solanum peruvianum voucher Peru170399 maturase K-like gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>OQ391075</Hit_accession>
+  <Hit_len>800</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1437.81</Hsp_bit-score>
+      <Hsp_score>778</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>913</Hsp_query-to>
+      <Hsp_hit-from>800</Hsp_hit-from>
+      <Hsp_hit-to>1</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>795</Hsp_identity>
+      <Hsp_positive>795</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>802</Hsp_align-len>
+      <Hsp_qseq>ATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGA</Hsp_qseq>
+      <Hsp_hseq>ATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCA--TAGCGA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|OQ391070.1|</Hit_id>
+  <Hit_def>UNVERIFIED: Solanum peruvianum voucher Peru170065 maturase K-like gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>OQ391070</Hit_accession>
+  <Hit_len>808</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1434.12</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>123</Hsp_query-from>
+      <Hsp_query-to>925</Hsp_query-to>
+      <Hsp_hit-from>808</Hsp_hit-from>
+      <Hsp_hit-to>5</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>798</Hsp_identity>
+      <Hsp_positive>798</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>807</Hsp_align-len>
+      <Hsp_qseq>TTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAAAAGGATTTGAA</Hsp_qseq>
+      <Hsp_hseq>TTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAAGAG--TTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MH285777.1|</Hit_id>
+  <Hit_def>Solanum tuberosum isolate STM maturase K (matK) gene, partial cds; chloroplast</Hit_def>
+  <Hit_accession>MH285777</Hit_accession>
+  <Hit_len>844</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1434.12</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>933</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>828</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>814</Hsp_identity>
+      <Hsp_positive>814</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>831</Hsp_align-len>
+      <Hsp_qseq>GTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGA----TTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAAAAGGATTTGAAT-AAGATTT</Hsp_qseq>
+      <Hsp_hseq>GTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCGCTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATACGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTCTCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTGAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCAAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGACTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAAGAG--TTTGAACCAAGATTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||  ||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>dbj|LC617159.1|</Hit_id>
+  <Hit_def>Solanum japonense P3327 chloroplast matK gene for maturase K, partial cds</Hit_def>
+  <Hit_accession>LC617159</Hit_accession>
+  <Hit_len>837</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1428.58</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>917</Hsp_query-to>
+      <Hsp_hit-from>823</Hsp_hit-from>
+      <Hsp_hit-to>4</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>806</Hsp_identity>
+      <Hsp_positive>806</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>821</Hsp_align-len>
+      <Hsp_qseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAAAAG</Hsp_qseq>
+      <Hsp_hseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCGCTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACCGGTTTACTAATGGGATGCCCTAATACGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTGAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTTATCAAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGGTCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGACTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAAGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>emb|FN668841.1|</Hit_id>
+  <Hit_def>Solanum tuberosum chloroplast partial matK gene for maturase K, specimen voucher MIB:zpl:01694</Hit_def>
+  <Hit_accession>FN668841</Hit_accession>
+  <Hit_len>846</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1426.73</Hsp_bit-score>
+      <Hsp_score>772</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>933</Hsp_query-to>
+      <Hsp_hit-from>846</Hsp_hit-from>
+      <Hsp_hit-to>23</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>810</Hsp_identity>
+      <Hsp_positive>810</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>827</Hsp_align-len>
+      <Hsp_qseq>AAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAAAAGGATTTGAAT-AAGATTT</Hsp_qseq>
+      <Hsp_hseq>AAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCGCTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACCGGTTTACTAATGGGATGCCCTAATACGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTGAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCAAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGACTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAAGAG--TTTGAACCAAGATTT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||    ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||  ||||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|OQ391047.1|</Hit_id>
+  <Hit_def>UNVERIFIED: Solanum montanum voucher Peru170074 maturase K-like gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>OQ391047</Hit_accession>
+  <Hit_len>830</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1424.89</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>925</Hsp_query-to>
+      <Hsp_hit-from>830</Hsp_hit-from>
+      <Hsp_hit-to>5</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>811</Hsp_identity>
+      <Hsp_positive>811</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>829</Hsp_align-len>
+      <Hsp_qseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAAAAGGATTTGAA</Hsp_qseq>
+      <Hsp_hseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCGCTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACCGGTTTACTAATGGGATGCCCTAATACGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTGAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCAAAAGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGACTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGCGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGACGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAAGAG--TTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||    |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|OQ391064.1|</Hit_id>
+  <Hit_def>UNVERIFIED: Solanum paposanum voucher Peru18123 maturase K-like gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>OQ391064</Hit_accession>
+  <Hit_len>859</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1424.89</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>101</Hsp_query-from>
+      <Hsp_query-to>925</Hsp_query-to>
+      <Hsp_hit-from>830</Hsp_hit-from>
+      <Hsp_hit-to>5</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>811</Hsp_identity>
+      <Hsp_positive>811</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>829</Hsp_align-len>
+      <Hsp_qseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCACTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACTGGTTTACTAATGGGATGCCCTAATCCGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTTAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCCAAGGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGACAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGGCTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGTGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTT----GAAAAGGAGTAACCGGGCTTCTTTGAAGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAACTAGCGAAAAGGATTTGAA</Hsp_qseq>
+      <Hsp_hseq>CAAGAAAGTCGAAGTATATACTTTATTCGATATAAAGTCTTTTTTTTGGAAGATCCGCTATAATAATGAAAAAGATTTCTGCATATACGCCCAAATCGGTCAATAATATCAGAATCTGATAAATCGGACCAAACCGGTTTACTAATGGGATGCCCTAATACGGTACAAAAGTGTGCTTTAGCTAATGATCCAATCAAAGGAATAATTGGAACAAGGGTATCGAACTTCTTAATTGGATTATTGATTAGAAATGAATTTTCTAACATTTGACTACGTACCATTGAATGATTTAGTCGCACACTTGAAAGATAGCCCATAAAGTCACGGGAATGGTTGGATAATTGGTTTATATGGATCCTTCCTGTGTGAAAGTACATAGAAAAATGACATTGCCAAAAATTGACAAGGTAAAATTTCCATTTATTCATCAAAAGAAACGTCCCTTTTGAAGCCAGAATTGATTTTCCTTCATACCTAACATAATGCATGAAAGGATCCTTGAATAACCATAGGGTAACCTGAAAATCCTTAGCAAAGACTTCTACAAGACGTTCTATTTTTCCATAGAAATATATTCGTTCAAGAAGGGCTCCAAAAGATGTTGATCGTAAATGAGAAGATTGGTTCCGTAGAAAGACGAAAGCGGATTCGCATTCATATACATAAGAATTATATAAGAAGAAGAAGAATCTTTGATTTTTTTTTGAAAAGGAGTAACCGGGCTTCTTTGACGTAATAAGACTATTCAAATTACAATATTCGTGGAGAAAGAATCGTAATAAATGTAAAGAAGAGGCATCTTTTACCCAA-TAGCGAAGAG--TTTGAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||    |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||  ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>121340</Statistics_db-num>
+      <Statistics_db-len>110193972</Statistics_db-len>
+      <Statistics_hsp-len>26</Statistics_hsp-len>
+      <Statistics_eff-space>97084492724</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

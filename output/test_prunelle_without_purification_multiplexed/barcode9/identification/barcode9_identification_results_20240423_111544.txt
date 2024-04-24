@@ -1,0 +1,5 @@
+Input name: barcode9
+Databases used: matK, ITS
+
+Best species for matK is Abutilon indicum with alignment 82.0 and evalue 1.91358e-98
+Best species for ITS is Tilia cordata with alignment 99.53703703703704 and evalue 0.0

@@ -7,101 +7,135 @@ import os.path as ospath
 
 
 
-
 def generate_weighted_sequence_variant(sequence, weights=[0.25, 0.25, 0.25, 0.25]):
     """
-    flips an initial sequence as it could happen when using the MinIon tool
-    :param sequence: sequence of interest [Seq]
-    :param weights: probability of each sequence version (initial sequence, reverse complement, complement, reverse initial) [list of 4 [float]]
-    :return: randomly reversed sequence [Seq]
-    """
-    #4 different outputs : 3'->5'/5'->3' and fwd/rev
-    variants = [sequence, sequence.reverse_complement(), sequence.complement(), sequence.reverse_complement().complement()]
-    # Random weighted choice
-    selected_variant = random.choice(variants, weights=weights)
+    Flips an initial sequence as it could happen when using the MinIon tool
 
-    return selected_variant
+    Arguments:
+    sequence (Seq): sequence of interest
+    weights(list of 4 float): probability of each sequence version (initial sequence, reverse complement, complement, reverse initial)
 
-def break_sequence_with_probability(sequence, break_prob_function):
+    Returns:
+        selected_variant(Seq): randomly reversed sequence
+        variant_description(str): string indicating which variant is selected
     """
-    simulates breakages in the sequence, which could happen using the MinIon tool
-    :param sequence: sequence of interest [Seq]
-    :param break_prob_funtion: probability function used as weight for the breakages [function]
-    :return: final sequence after breakages
+    variants = ["initial sequence", "reverse complement", "complement", "reverse initial"]
+    variant_sequences = [sequence, sequence.reverse_complement(), sequence.complement(), sequence[::-1]]
+    
+    selected_variant_index = random.choices(range(len(variants)), weights=weights, k=1)[0]
+    selected_variant = variant_sequences[selected_variant_index]
+    variant_description = variants[selected_variant_index]
+
+    return selected_variant, variant_description
+
+
+
+def break_sequence_with_probability(sequence, break_prob_function, nbreaks = 2):
+    """
+    Simulates breakages in the sequence, which could happen using the MinIon tool
+
+    Arguments:
+        sequence(Seq): sequence of interest
+        break_prob_funtion(function): probability function used as weight for the breakages
+
+    Returns:
+        final_sequence (Seq): final sequence after breakages
+        break_info (dict): dictionary containing information about the breakages
     """
     broken_sequence = []
-    nbreaks=2 #Max 2 breakages 
+    break_info = {'number_of_breaks': 0, 'part_taken': ''}
+    
     for i, base in enumerate(sequence):
         # Computes the breakage probability
         break_prob = break_prob_function(i, len(sequence)) / 10
 
-        #Checks if sequence breaks at this iteration
+        # Checks if sequence breaks at this iteration
         if random.random() <= break_prob:
-            if nbreaks > 0 :
+            if nbreaks > 0:
                 broken_sequence.append('N')
-                nbreaks-=1   #Breakage marker is 'N'
+                nbreaks -= 1   # Breakage marker is 'N'
+                break_info['number_of_breaks'] += 1
         else:
             broken_sequence.append(base)
+
     if broken_sequence.count('N') == 2:  # If 2 breakages, take the middle part
         start_index = broken_sequence.index('N')
         end_index = len(broken_sequence) - broken_sequence[::-1].index('N') - 1
         final_sequence = broken_sequence[start_index + 1:end_index]
+        break_info['part_taken'] = 'middle'
     elif broken_sequence.count('N') == 1:  # If 1 breakage, take the biggest part
         n_index = broken_sequence.index('N')
         if n_index < len(broken_sequence) - n_index - 1:
             final_sequence = broken_sequence[n_index + 1:]
+            break_info['part_taken'] = 'end'
         else:
             final_sequence = broken_sequence[:n_index]
+            break_info['part_taken'] = 'start'
     else:  # If 0 breakages, take full sequence
         final_sequence = broken_sequence
+        break_info['part_taken'] = 'full sequence'
 
-    return Seq(''.join(final_sequence)) 
+    return final_sequence, break_info
+
 
 def break_prob_function(position, sequence_length):
     """
     Example of probability function usable for the previous function
-    :param position: position in sequence [int]
-    :param sequence_length: [int]
-    :return: probability at a specific position in sequence [float]
+
+    Arguments:
+        position(int): position in sequence
+        sequence_length(int)
+    Returns:
+        probability at a specific position in sequence(float)
     """
     max_prob = 0.5  # Max probability at start and end of sequence
     return max_prob * (position / sequence_length)
 
-def mutation(base):
+def mutate(base):
     """
     Simulates substitution mutation
-    :param base: [char]
-    :return: muted base [char]
+
+    Arguments:
+        base(char)
+
+    Returns:
+        muted base (char)
     """
     # Bases list
     bases = ['A', 'T', 'C', 'G']
-
+    bases.remove(base)
     # Randomly selected new base
-    new_base = base
-    while new_base == base:
-        new_base = random.choice(bases)
-
-    return new_base
+    return random.choice(bases)
 
 
 def assign_quality_scores(sequence, mutation_probability=0.1,mutation_mean = 16,mutation_sd = 3,basic_mean = 48,basic_sd = 3):
     """
     Assigns fake scores for each base, following a different normal law if base is mutated or not
-    :param sequence: sequence of interest [Seq]
-    :param mutation_probability: [float]
-    :param mutation_mean: mean of normal law associated with mutation [int]
-    :param mutation_sd: standard deviation of normal law associated with mutation [int]
-    :param mutation_mean: mean of normal law associated with no-change bases [int]
-    :param mutation_mean: standard deviation of normal law associated with no-change bases [int]
-    :return: quality score of sequence (in base 64 characters -> ASCII)
+    
+    Arguments:
+        sequence(Seq): sequence of interest
+        mutation_probability(float)
+        mutation_mean(int): mean of normal law associated with mutation
+        mutation_sd(int): standard deviation of normal law associated with mutation
+        basic_mean(int): mean of normal law associated with no-change bases
+        mutation_mean(int): standard deviation of normal law associated with no-change bases
+    
+    Returns:
+        quality score of sequence (in base 64 characters -> ASCII)
+        nb_mutations(int): number of mutations
+        mutations_positions(array of ints): positions of mutations
     """
     quality_scores = []
     base64_table = "!°#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
-    for base in sequence:
+    nb_mutations=0
+    mutations_positions= []
+    for i, base in enumerate(sequence):
         # Computes score for each base depending on mutation
         if random.random() < mutation_probability:
             # If mutation needed
-            base = mutation(base)
+            base = mutate(base)
+            nb_mutations+=1
+            mutations_positions.append(i+1)
             quality_score = np.random.normal(mutation_mean, mutation_sd)
         else:
             # If no mutation needed
@@ -110,7 +144,8 @@ def assign_quality_scores(sequence, mutation_probability=0.1,mutation_mean = 16,
         quality_score = max(min(quality_score, 93), 0)
         base64_score = base64_table[int(round(quality_score))]
         quality_scores.append(base64_score)
-    return ''.join(quality_scores)
+    return ''.join(quality_scores), nb_mutations, mutations_positions
+
 
 def multiplex(folder_paths: list, dst: str):
     """

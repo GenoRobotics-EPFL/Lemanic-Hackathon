@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>psbA-trnH</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>e720ab5c-9696-49a5-8571-34ed680081d5 LN:i:807 RC:i:433 XC:f:1.000000</BlastOutput_query-def>
+  <BlastOutput_query-len>807</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>e720ab5c-9696-49a5-8571-34ed680081d5 LN:i:807 RC:i:433 XC:f:1.000000</Iteration_query-def>
+  <Iteration_query-len>807</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|KF113733.1|</Hit_id>
+  <Hit_def>Sedum oreades isolate sed_2 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113733</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>580.968</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>3.29409e-165</Hsp_evalue>
+      <Hsp_query-from>152</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>603</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>500</Hsp_identity>
+      <Hsp_positive>500</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>588</Hsp_align-len>
+      <Hsp_qseq>GGCC-TCGGGCTCCCGGGCGCAACCTCGCGCGGCTGGCGAGGAGACCT-GCGCTCTTCG-CCTGTCCAAACTAACCAAATCCGGCGCGGATAGCGCCAAGGAATCAAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGG-GTTGCAGGGCCTTGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGC-CCAACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTT-AAGAGGCCTTCGGCCCGGAACTTAGCGCGTCGCGGCGTC-ACCCATCC-TTGCTCGGAAAAGACCTTAGCGGA-T-CG-CTACTGCGCCGCCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>GGCCATAGGGCTCCACAGCGCAACCCCGATCGGATGGCGAGTAGACCTTTGGTTC-TCGAACT-TCGAATCTAACAAACCCCGGCGCGGACAGCGCCAAGGAATCAAAACAAAAAGAACTTGACCCTCCAACCCGTTGATCGGAATGGGAGGGCCTTGTTCGTTCA-AAAATATCATAACGACTCTCGGCAACGGATATCTCGGCTCTTGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCATTGCGATGCCCACATACAAGTATG-GGGGCGAATCCTGGCCTCCCGTTAGCTCCAACTCGCGGATGGCTTAAAATCGAGCCTTGAGAAGGG-AAAACGTTGCGACAAGTGGTGGTTGAAG-GGCTATTGCCTTAGAACTTAGCACGTCTAGACCTTTACCC-TCTGTTGCTCTAAAATGACCTAATCGGAGTGCGTCATC-GTGCTGCCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>|||| | |||||||   |||||||| ||  ||| ||||||| ||||||   | || |||  || || || ||||| ||  |||||||||| ||||||||||||||||||| | |||  ||||||||||| |||||||||||||  | | ||||||||||  |  || |||||| |||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| ||| |||| ||| |||||||||| ||||||||||| ||| ||||||||||||||||||||||  |||||| | || ||  ||||||| |||||||||||||||| ||| |||  | | |   ||||||||| ||||  | | |  |||| ||  ||||||  ||| ||||| | |||| | || |  | | || ||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|KF113687.1|</Hit_id>
+  <Hit_def>Rhodiola bupleuroides isolate bu_3 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113687</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.863</Hsp_bit-score>
+      <Hsp_score>256</Hsp_score>
+      <Hsp_evalue>5.7512e-133</Hsp_evalue>
+      <Hsp_query-from>229</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>429</Hsp_identity>
+      <Hsp_positive>429</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>511</Hsp_align-len>
+      <Hsp_qseq>CCGGCGCGGATAGCGCCAAGGAATCAAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGGTTG-CAGGGCCTT--GTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCGGCCCG-GAACTTAGCGCGTCGCGGC-GTCACCCATC-CTTGCTCGGAAA-AG-ACCTTAGCGGATCGCTACT-GC-GCCGCCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>CCGGCGCGGATCGCGCCAAGGAATCGAAACCGGAAGAGCTTGGCTCGGTGGCCCGTT-CTCGGGCTGCCAAGGCCTTAGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACGTATCGTGTTGCCCCCATACA-GTATTGGGGGTGAAGCTTGGCCTCCCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACGGTTAG-ACGTCGCGACAAGTGGTGGTTACGAGGCCTTGTGCCTTTGAGCTTTGCGCGTCGCTGCCGTCGTCC-TCTCTCTCTCGAAATTATAACCCGAACGGAGCA-TCCTTGATGCTTCCAGCATTGCGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||| ||||  |||| ||||| | |   | ||||||  ||||| || || ||||||  |||| |    |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| | |  | | ||||||||| || | ||  |||| ||| ||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||  |  |||||||||||||||||||||| ||||||||  |||   || ||| ||||||||| || |||  || || ||  |||| ||  |  |||  | |||| |  | || |  ||  ||||||| | |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|KF113723.1|</Hit_id>
+  <Hit_def>Rhodiola sinuata isolate si_1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113723</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>470.169</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>7.43964e-132</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>459</Hsp_identity>
+      <Hsp_positive>459</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>556</Hsp_align-len>
+      <Hsp_qseq>GGCGAGGAGACCTGCGCTCTTCGCCTG-TCCAAACTAACCAAATCCGGCGCGGATAGCGCCAAGGAATC-AAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGGTTG-CAGGGCC-T-TGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCGGCC-CGGAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAA--AAGACCTTAGCGGATCGCTACTGCGCCG---CCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>GGTGATGAGCCTTGCGCCCATCG-CTGATCGAAACGAATGAACCCCGGCGCGGATCGCGCCAAGGAATCGAAATCGA-AAGAGCCTGGCTCGGTGGCTCGTT-CTCGGGCTGCCAGGGCCATAGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACGTATTGTGTTGCCCCCATACATGTATTCGGGGCGAAGCTTGGCCTCCCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACGGTTAG-ACGTCGCGACAAGTGGTGGTTACGAGGCCTTGTGCCTTCGAGCTTTGCGTGTCGCTGCCGTCGTCTGTCTCT-CTCGAAATTAAAACCCGAACGGAGCA-TCCT-CGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>|| || ||| | ||||| | ||| ||| || |||| ||  ||  ||||||||||| ||||||||||||| ||| ||| ||| || || | |   | | ||||  ||||| || ||||||| |  |||| |    |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| | | || | ||||||||| || | || ||||||||| ||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||  |  |||||||||||||||||||||| ||||||||  |||   || ||| ||| ||||| || |||  |  ||  | |||| ||  || |||  | |||| |  | || ||  |   ||||||| | |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|KF113689.1|</Hit_id>
+  <Hit_def>Rhodiola chrysanthemifolia isolate ch_3 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113689</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.323</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>2.67577e-131</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>727</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>604</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>458</Hsp_identity>
+      <Hsp_positive>458</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>555</Hsp_align-len>
+      <Hsp_qseq>GGCGAGGAGACCTGCGCTCTTCGCCTG-TCCAAACTAACCAAATCCGGCGCGGATAGCGCCAAGGAATC-AAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGGTTG-CAGGGCC-T-TGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCGGCC-CGGAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAA--AAGACCTTAGCGGATCGCTACTGCGCCG---CCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGA</Hsp_qseq>
+      <Hsp_hseq>GGTGATGAGCCTTGCGCCCATCG-CTGATCGAAACGAATGAACCCCGGCGCGGATCGCGCCAAGGAATCGAAATCGA-AAGAGCCTGGCTCGGTGGCTCGTT-CTCGGGCTGCCAGGGCCATAGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACGTATTGTGTTGCCCCCATACATGTATTCGGGGCGAAGCTTGGCCTCCCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACGGTTAG-ACGTCGCGACAAGTGGTGGTTACGAGGCCTTGTGCCTTCGAGCTTTGCGTGTCGCTGCCGTCGTCTGTCTCT-CTCGAAATTAAAACCCGAACGGAGCA-TCCT-CGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGACTACCCGCTGA</Hsp_hseq>
+      <Hsp_midline>|| || ||| | ||||| | ||| ||| || |||| ||  ||  ||||||||||| ||||||||||||| ||| ||| ||| || || | |   | | ||||  ||||| || ||||||| |  |||| |    |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| | | || | ||||||||| || | || ||||||||| ||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||  |  |||||||||||||||||||||| ||||||||  |||   || ||| ||| ||||| || |||  |  ||  | |||| ||  || |||  | |||| |  | || ||  |   ||||||| | ||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|KF113721.1|</Hit_id>
+  <Hit_def>Rhodiola serrata isolate ser_1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113721</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>468.323</Hsp_bit-score>
+      <Hsp_score>253</Hsp_score>
+      <Hsp_evalue>2.67577e-131</Hsp_evalue>
+      <Hsp_query-from>229</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>510</Hsp_align-len>
+      <Hsp_qseq>CCGGCGCGGATAGCGCCAAGGAATCAAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGGTTG-CAGGGCCTT--GTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCGGCCCG-GAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAAA-AG-ACCTTAGCGGATCGCTACT-GC-GCCGCCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>CCGGCGCGGATCGCGCCAAGGAATCGAAACCGGAAGAGCTTGGCTCGGTGGCCCGTT-CTCGGGCTGCCAAGGCCTTAGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACGTATCGTGTTGCCCCCATACATGTATTGGGGGTGAAGCTTGGCCTCCCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACGGCTAG-ACGTCGCGACAAGTGGTGGTTACGAGGCCTTGTGCCTTTGAGCTTTGCGCGTCGCTGCCGTCGTCCCTCTCT-CTCGAAATTATAACCCGAACGGAGCA-TCCTTGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||| ||||  |||| ||||| | |   | ||||||  ||||| || || ||||||  |||| |    |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| | |  | | ||||||||| || | ||  |||| ||| ||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||  |  |||||||||||||||||||||| ||||||||  |||   || ||| ||||||||| || |||  || ||  | |||| ||  |  |||  | |||| |  | || |  |   ||||||| | |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|KF113684.1|</Hit_id>
+  <Hit_def>Rhodiola alterna isolate alte_1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113684</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.089</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>1.6104e-128</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>606</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>454</Hsp_identity>
+      <Hsp_positive>454</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>551</Hsp_align-len>
+      <Hsp_qseq>GAGACCTGCGCTCTTCGCCTG-TCCAAACTAACCAAATCCGGCGCGGATAGCGCCAAGGAATC-AAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGGTTG-CAGGGCC-T-TGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCG-GCCCG-GAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAA--AAGACCTTAGCGGATCGCTACTGCGCCG---CCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>GAGCCTTGCGCCCATCG-CTGATCGAAACGAATGAACCCCGGCGCGGATCGCGCCAAGGAATCGAAACCGA-AAGAGCCTGGCTCGGTGGCTCGTT-CTCGAGCTGCCAGGGCCATAGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACGTATTGTGTTGCCCCCATACATGTATTCGGGGCGAAGCTTGGCCTCCCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACGGTTAG-ACGTCGCGACAAGTGGTGGTTACGAGGCCTTTGTGCCTTTGAGCTTTGCGTGTCGCTGCCGTCGTCTGTCTCT-CTCGAAATTAAAACCCGAACGGAGCA-TCCT-CGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGAATACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>||| | ||||| | ||| ||| || |||| ||  ||  ||||||||||| ||||||||||||| ||| ||| ||| || || | |   | | ||||  ||| | || ||||||| |  |||| |    |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| | | || | ||||||||| || | || ||||||||| ||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||  |  |||||||||||||||||||||| |||||||| | |||   || ||| ||| ||||| || |||  |  ||  | |||| ||  || |||  | |||| |  | || ||  |   ||||||| | ||||||||||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|KF113719.1|</Hit_id>
+  <Hit_def>Rhodiola sacra var. sacra isolate sa_1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113719</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.089</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>1.6104e-128</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>457</Hsp_identity>
+      <Hsp_positive>457</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>556</Hsp_align-len>
+      <Hsp_qseq>GGCGAGGAGACCTGCGCTCTTCGCCTG-TCCAAACTAACCAAATCCGGCGCGGATAGCGCCAAGGAATC-AAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGGTTG-CAGGGCC-T-TGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCGGCCCG-GAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAAAAG--ACCTTAGCGGATCGCTACTGCGCCG---CCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>GGTGATGAGCCTTGCGCCCATCG-CTGATCGAAACGAATGAACCCCGGCGCGGATCGCGCCAAGGAATCGAAATCGA-AAGAGCCTGGCTCGGTGGCTCGTT-CTCGGGCTGCCAGGGCCATAGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCCTTAGGCCGAGGGCACGTCTGCCTGGGCGTCACGTATTGTGTTGCCCCCATACATGTATTCGGGGCGAAGCTTGGCCTCCCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAACCTCGAGACGGTTAG-ACGTCGCGACAAGTGGTGGTTACGAGGCCTTGTGCCTTTGAGCTTTGCGTGTCGCTGCCGTCGTCTGTCTCT-CTCGAAATTGAAACCCGAACGGAGCA-TCCT-CGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGAATACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>|| || ||| | ||||| | ||| ||| || |||| ||  ||  ||||||||||| ||||||||||||| ||| ||| ||| || || | |   | | ||||  ||||| || ||||||| |  |||| |    |||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| | | || | ||||||||| || | || ||||||||| ||||||||||||||||||| ||||||||||||||||||||| || ||||| |||||  |  |||||||||||||||||||||| ||||||||  |||   || ||| ||| ||||| || |||  |  ||  | |||| ||  |  |||  | |||| |  | || ||  |   ||||||| | ||||||||||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|KF113722.1|</Hit_id>
+  <Hit_def>Rhodiola sexifolia isolate se_1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113722</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.089</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>1.6104e-128</Hsp_evalue>
+      <Hsp_query-from>192</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>453</Hsp_identity>
+      <Hsp_positive>453</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>550</Hsp_align-len>
+      <Hsp_qseq>GAGACCTGCGCTCTTCGCCTG-TCCAAACTAACCAAATCCGGCGCGGATAGCGCCAAGGAATC-AAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGGTTG-CAGGGCC-T-TGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCGGCCCG-GAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAA--AAGACCTTAGCGGATCGCTACTGCGCCG---CCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>GAGCCTTGCGCCCATCG-CTGATCGAAACGAATGAACCCCGGCGCGGATCGCGCCAAGGAATCGAAACCGA-AAGAGCCTGGCTCGGTGGCTCGTT-CTCGAGCTGCCAGGGCCATAGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACGTATTGTGTTGCCCCCATACATGTATTCGGGGCGAAGCTTGGCCTCCCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACGGTTAG-ACGTCGCGACAAGTGGTGGTTACGAGGCCTTGTGCCTTTGAGCTTTGCGTGTCGCTGCCGTCGTCTGTCTCT-CTCGAAATTAAAACCCGAACGGAGCA-TCCT-CGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGAATACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>||| | ||||| | ||| ||| || |||| ||  ||  ||||||||||| ||||||||||||| ||| ||| ||| || || | |   | | ||||  ||| | || ||||||| |  |||| |    |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| | | || | ||||||||| || | || ||||||||| ||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||  |  |||||||||||||||||||||| ||||||||  |||   || ||| ||| ||||| || |||  |  ||  | |||| ||  || |||  | |||| |  | || ||  |   ||||||| | ||||||||||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|KF113691.1|</Hit_id>
+  <Hit_def>Rhodiola crenulata isolate cr_2 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113691</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>457.243</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>5.79203e-128</Hsp_evalue>
+      <Hsp_query-from>229</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>426</Hsp_identity>
+      <Hsp_positive>426</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>511</Hsp_align-len>
+      <Hsp_qseq>CCGGCGCGGATAGCGCCAAGGAATC-AAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGGTTG-CAGGGCCTT--GTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCGGCCCG-GAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAAA-AG-ACCTTAGCGGATCGCTACT-GC-GCCGCCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>CCGGCGCGGATCGCGCCAAGGAATCGAAATCG-GAAGAGCTTGGCTCGGTGGCCCGTT-CTCGGGCCGCCAAGGCCTTAGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACGTATCGTGTTGCCCCCATACATGTATTGGGGGTGAAGCTTGGCCTCCCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACGGTTAG-ACGTCGCGACAAGTGGTGGTTACGAGGCCTTGCGCCTTTGAGCTTTGCGCGTCGCTGCCGTCGTCCCTCTCT-CTCGAAATTATAACCCGAACGGAGCA-TCCTTGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGAGTACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||| ||| || |||| ||||| | |   | ||||||  |||||  | || ||||||  |||| |    |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| | |  | | ||||||||| || | ||  |||| ||| ||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||  |  |||||||||||||||||||||| ||||||||  |||   || ||| ||||||||| || |||  || ||  | |||| ||  |  |||  | |||| |  | || |  |   ||||||| | ||||||||||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|KF113730.1|</Hit_id>
+  <Hit_def>Rhodiola wallichiana var. wallichiana isolate wa_1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113730</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>455.396</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>2.08318e-127</Hsp_evalue>
+      <Hsp_query-from>229</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>604</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>510</Hsp_align-len>
+      <Hsp_qseq>CCGGCGCGGATAGCGCCAAGGAATCAAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGGTTG-CAGGGCCTT--GTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCGGCCCG-GAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAAA-AG-ACCTTAGCGGATCGCTACT-GC-GCCGCCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>CCGGCGCGGATCGCGCCAAGGAATCGAAACCGGAAGAGCTTGGGTCGGTGGCCCGTT-CTCGGGCTGCCAAGGCCTTAGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACGTATCGTGTTGCCCCCATACATGTATT-GGGGCGAAGCTTGGCCTCCCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACGGTTAG-ACGTCGCGACAAGTGGTGGTTACGAGGCCTTGTGCCTTTGAGCTTTGCGCGTCGCATCCGTCGTCCCTCTCT-CTCGAAATTATAACCCGAACGGAGCA-TCCTTGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGAGTACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||| ||||  |||| |||||   |   | ||||||  ||||| || || ||||||  |||| |    |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| | |  | | ||||||||| || | ||  |||||||| ||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||  |  |||||||||||||||||||||| ||||||||  |||   || ||| |||||||||  | |||  || ||  | |||| ||  |  |||  | |||| |  | || |  |   ||||||| | ||||||||||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|KF113732.1|</Hit_id>
+  <Hit_def>Sedum obtrullatum isolate sed_1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113732</Hit_accession>
+  <Hit_len>603</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>453.549</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>7.49246e-127</Hsp_evalue>
+      <Hsp_query-from>220</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>603</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>430</Hsp_identity>
+      <Hsp_positive>430</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>518</Hsp_align-len>
+      <Hsp_qseq>TAACCAAATCCGGCGCGGATAGCGCCAAGGAATCAAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGGTTGC-AGGGCCTTGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGC-CCAACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTT-AAGAGGCCTTCGGCCCG-GAACTTAGCGCGTCGCGGCGTCACCCATCC-TTGCTCGGAAAAGACCTTAGCGGA-TC-GCTACTGCGC-CGCC-AGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>TAACGAACCCCGGCGCAAATAGTGCCAAGGAATAAAAACCAAAAGAACTTTACCCTTCAACCTGTTGGACGGGATGCTAGGGCCTTGTTTGA--GTAAAAT--CATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCAAAGCCTTTAGGTCGAGGGCACGTCTGCCTGGGCGTCATTCGTTGCGATGCCCACATACAAAGTTGTGGGGTGAAACTTGGCCTCCCGTTAGCTCCAACTCGCGGATGGCTTAAATATGAGCCTCAAGATGGAAAAAT-GTCTTGACAAGTGGTGGTTGAAG-GGCAT-CAGCCTTAGAACTTAGCATGTCAAGACCTTTCCCCTTTATCTCTCTAAAAAGAACTAAAAGGAGTCCGTTAAA-CGTTCTTCTAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>|||| ||  |||||||  |||| |||||||||| ||||| | |||  ||| ||||| | ||| ||||  |||| ||| |||||||||| |||   ||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||| |  |||||||||| ||| |||   || |||| ||| ||||||||||||| ||| ||||||||||||||||||||| | |||||||  || |||||||  |||  |||||||||||||| ||| ||| | | |||   |||||||||  |||  | | |  ||| |   |  |||  |||||| || |  ||| || | ||   ||  |  | |||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|KF113693.1|</Hit_id>
+  <Hit_def>Rhodiola dumulosa isolate du_1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113693</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.703</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>2.69477e-126</Hsp_evalue>
+      <Hsp_query-from>229</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>606</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>513</Hsp_align-len>
+      <Hsp_qseq>CCGGCGCGGATAGCGCCAAGGAATC-AAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGGTTGC-AGGGCC-T-TGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCG-GCCCG-GAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAAA-AG-ACCTTAGCGGATCGCTACTGCGCCG---CCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>CCGGCGCGGATCGCGCCAAGGAATCGAAACCGA-AAGAGCTTGGCTCGGTGGCCCTTTTTTCGGGCTGCCATGGCCATAGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACGTATTGTGTTGCCCCCATACATGTATTGGGGGTGAAGCTTGGCCTCCCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACGGTTAG-ACGTCGCGACAAGTGGTGGTTACGAGGCCT-CGTGCCTTTGAGCGTTGCGTGTCGCTGCCGTCGTCCCTCTCT-CTCGAAATTATAACCCGAACGGAGCA-TCCT-CGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||| ||| ||| ||| ||||| | |   | ||| ||  ||||| ||| | |||| |  |||| |    |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| | | || | ||||||||| || | ||  |||| ||| ||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||  |  |||||||||||||||||||||| ||||||| || |||   || | | ||| ||||| || |||  || ||  | |||| ||  |  |||  | |||| |  | || ||  |   ||||||| | |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|KF113697.1|</Hit_id>
+  <Hit_def>Rhodiola gannanica isolate ga_1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113697</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.703</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>2.69477e-126</Hsp_evalue>
+      <Hsp_query-from>229</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>606</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>513</Hsp_align-len>
+      <Hsp_qseq>CCGGCGCGGATAGCGCCAAGGAATC-AAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGGTTGC-AGGGCC-T-TGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCG-GCCCG-GAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAAA-AG-ACCTTAGCGGATCGCTACTGCGCCG---CCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>CCGGCGCGGATCGCGCCAAGGAATCGAAACCGA-AAGAGCTTGGCTCGGTGGCCCTTTTTTCGGGCTGCCATGGCCATAGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACGTATTGTGTTGCCCCCATACATGTATTGGGGGTGAAGCTTGGCCTCCCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACGGTTAG-ACGTCGCGACAAGTGGTGGTTACGAGGCCT-CGTGCCTTTGAGCGTTGCGTGTCGCTGCCGTCGTCCCTCTCT-CTCGAAATTATAACCCGAACGGAGCA-TCCT-CGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||| ||||||||||||| ||| ||| ||| ||||| | |   | ||| ||  ||||| ||| | |||| |  |||| |    |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| | | || | ||||||||| || | ||  |||| ||| ||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||  |  |||||||||||||||||||||| ||||||| || |||   || | | ||| ||||| || |||  || ||  | |||| ||  |  |||  | |||| |  | || ||  |   ||||||| | |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|KF113709.1|</Hit_id>
+  <Hit_def>Rhodiola ovatisepala var. chingii isolate ov_ch_1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113709</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.01</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.4859e-125</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>606</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>456</Hsp_identity>
+      <Hsp_positive>456</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>557</Hsp_align-len>
+      <Hsp_qseq>GGCGAGGAGACCTGCGCTCTTCGCCTG-TCCAAACTAACCAAATCCGGCGCGGATAGCGCCAAGGAATC-AAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGG-TTGCAGGGCC-T-TGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCC-CCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCGGCCCG-GAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAA--AAGACCTTAGCGGATCGCTACTGCGCCG---CCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>GGTGATGAGCCTTGCGCCCCTCG-CTGATCGAAACGAATGAACCCCGGCGCGGATCGCGCCAAGGAATCGAAACCGA-AAGAGCCTGGCTCGGTGGCTCGTT-CTCGGGCTACCAGGGCCATAGGTCT-A-TTCGAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACGTATTGTGTTGCCACCCATACATGTATTCGGGGCCAAGCTTGGCCTCCCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACGGTTAG-ACGTCGCGACAAGTGGTGGTTACGAGGCCTTGTGCCTTTGAGCTTTGCGTGTCGCTGCCGTCGTCTGTCTCT-CTCGAAATTAAAACCCGAACGGAGCA-TCCT-CGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>|| || ||| | ||||| | ||| ||| || |||| ||  ||  ||||||||||| ||||||||||||| ||| ||| ||| || || | |   | | ||||  ||||| |  ||||||| |  |||| |     ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| | | || | |||| ||||| || | || |||||| || ||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||  |  |||||||||||||||||||||| ||||||||  |||   || ||| ||| ||||| || |||  |  ||  | |||| ||  || |||  | |||| |  | || ||  |   ||||||| | |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|KF113725.1|</Hit_id>
+  <Hit_def>Rhodiola smithii isolate sm_1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113725</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.01</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.4859e-125</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>456</Hsp_identity>
+      <Hsp_positive>456</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>557</Hsp_align-len>
+      <Hsp_qseq>GGCGAGGAGACCTGCGCTCTTCGCCTG-TCCAAACTAACCAAATCCGGCGCGGATAGCGCCAAGGAATC-AAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGGTTGC-AGGGCC-T-TGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCGGCCCG-GAACTTAGCGCGTCGCGGC-GTC-ACCCATCCTTGCTCGGAAAAG--ACCTTAGCGGATCGCTACTGCGCCG---CCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>GGTGATGAGACTTGCGCCCATC-ACTGATCGAAACGAATGAACCCCAGCGCGGATTGCGCCAAGGAATCGAAATCGA-AAGAGCTTGGCTCGGTTGCCCGTT-CTCGGGTTGCTAGGGCCATGGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGCCTGCCTGGGCGTCACGTATTGTGTTGCCCCCATACATGTATTGGGGGCGAAGCTTGGCCTCCCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACGGTTAG-ACGTCGCGACAAGTGGTGGTCACGAGGCCTTGTGCCTTTGAGCTTTGCGTGTCGCTGCCGTTGACCCACTCT--CTCGAATTTTTAACCCGAACGGAGCA-TCCT-CGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>|| || ||||| ||||| | ||  ||| || |||| ||  ||  || |||||||| ||||||||||||| ||| ||| ||| ||||| | |     ||||||  ||||||||| |||||| |  |||| |    |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| |||||||||||||||| |||||||||||||| | | || | ||||||||| || | ||  |||||||| ||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||  |  |||||||||||||||||||| | ||||||||  |||   || ||| ||| ||||| || ||  |||||  ||  |||| |      |||  | |||| |  | || ||  |   ||||||| | |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|KF113728.1|</Hit_id>
+  <Hit_def>Rhodiola tibetica isolate ti_2 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113728</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.01</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.4859e-125</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>455</Hsp_identity>
+      <Hsp_positive>455</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>556</Hsp_align-len>
+      <Hsp_qseq>GGCGAGGAGACCTGCGCTCTTCGCCTG-TCCAAACTAACCAAATCCGGCGCGGATAGCGCCAAGGAATC-AAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGGTTG-CAGGGCC-T-TGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCGGCCCG-GAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAAA-AG-ACCTTAGCGGATCGCTACTGCGCCG---CCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>GGTGATGAGCCTTGCGCCCATCG-CTGATCGAAACGAATGAACCCCGGCGCGGATCGCGCCAAGGAATCGAAACCGA-AAGAGCTTGGCTCGGTGGCCCGTT-CTCGGGGTGCCAGGGCCATAGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACGTATTGTGTTGCCCCCATACATGTATTGGGTGTGAAGCTTGGCCTCCCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACGGTTAG-ACGTCGCGACAAGTGGTGGTTGCGAGGCCTTGTGCCTTTGAGCGTTGCGTGTCGCTGCCGTCGTCCCTCTCT-CTCGAAATTATAACCCGAACGGAGCA-TCCT-CGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGAATACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>|| || ||| | ||||| | ||| ||| || |||| ||  ||  ||||||||||| ||||||||||||| ||| ||| ||| ||||| | |   | ||||||  ||||| || ||||||| |  |||| |    |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| | | || | ||||||||| || | ||  || | ||| ||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||  |  |||||||||||||||||||||  ||||||||  |||   || | | ||| ||||| || |||  || ||  | |||| ||  |  |||  | |||| |  | || ||  |   ||||||| | ||||||||||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|KF113729.1|</Hit_id>
+  <Hit_def>Rhodiola tieghemii isolate tieg_1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113729</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.01</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>3.4859e-125</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>606</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>456</Hsp_identity>
+      <Hsp_positive>456</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>557</Hsp_align-len>
+      <Hsp_qseq>GGCGAGGAGACCTGCGCTCTTCGCCTG-TCCAAACTAACCAAATCCGGCGCGGATAGCGCCAAGGAATC-AAAACGAGAAGTGCTTGACCCTCCGACCCGTTGATCGGG-TTGCAGGGCC-T-TGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCC-CCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCGGCCCG-GAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAA--AAGACCTTAGCGGATCGCTACTGCGCCG---CCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>GGTGATGAGCCTTGCGCCCCTCG-CTGATCGAAACGAATGAACCCCGGCGCGGATCGCGCCAAGGAATCGAAACCGA-AAGAGCCTGGCTCGGTGGCTCGTT-CTCGGGCTACCAGGGCCATAGGTCT-A-TTCGAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACGTATTGTGTTGCCACCCATACATGTATTCGGGGCCAAGCTTGGCCTCCCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACGGTTAG-ACGTCGCGACAAGTGGTGGTTACGAGGCCTTGTGCCTTTGAGCTTTGCGTGTCGCTGCCGTCGTCTGTCTCT-CTCGAAATTAAAACCCGAACGGAGCA-TCCT-CGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>|| || ||| | ||||| | ||| ||| || |||| ||  ||  ||||||||||| ||||||||||||| ||| ||| ||| || || | |   | | ||||  ||||| |  ||||||| |  |||| |     ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| | | || | |||| ||||| || | || |||||| || ||||||||||||||||||| ||||||||||||||||||||| |||||||| |||||  |  |||||||||||||||||||||| ||||||||  |||   || ||| ||| ||||| || |||  |  ||  | |||| ||  || |||  | |||| |  | || ||  |   ||||||| | |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|KF113686.1|</Hit_id>
+  <Hit_def>Rhodiola brevipetiolata isolate br_1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113686</Hit_accession>
+  <Hit_len>606</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.163</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>1.25375e-124</Hsp_evalue>
+      <Hsp_query-from>229</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>103</Hsp_hit-from>
+      <Hsp_hit-to>606</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>425</Hsp_identity>
+      <Hsp_positive>425</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>512</Hsp_align-len>
+      <Hsp_qseq>CCGGCGCGGATAGCGCCAAGGAATCAAAAC-GAGAAGTGCTTGACCCTCCGACCCGTTGATCGGGTTG-CAGGGCC-T-TGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCGGCCCG-GAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAA-AAGA-CCTTAGCGGATCGCTACTGCGCCG---CCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>CCGGCGCGGAAAGCGCCAAGGAATCAAAACCGA-AAGAGCTTGGCTCGGTGGCCCGTT-CTTGGGTTGCCAGGGCCATAGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACATATTGTGTTGCCCCCATACATGTATTGGGGGTGAAGCTTGGCCTACCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACTGTTAG-ACGTCGCGATAAGTGGTGGTTACAAGGCCTTGTGCCTTTGAGCGTTGCGTGTCGCTGCCGTCGCCCCTCTCT-CTCGAAATAATAACCCGAAGGGAGCA-TCCT-CGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>|||||||||| ||||||||||||||||||| || ||| ||||| | |   | ||||||  | |||||| ||||||| |  |||| |    |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||   | || | ||||||||| || | ||  |||| ||| |||||||| |||||||||| ||||||||||||||||||||| |||||||| ||| |  |  ||||||||| ||||||||||||  |||||||  |||   || | | ||| ||||| || ||| ||| ||  | |||| || || | ||  |  ||| |  | || ||  |   ||||||| | |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|KF113700.1|</Hit_id>
+  <Hit_def>Rhodiola himalensis isolate hi_1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113700</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.163</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>1.25375e-124</Hsp_evalue>
+      <Hsp_query-from>229</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>427</Hsp_identity>
+      <Hsp_positive>427</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>514</Hsp_align-len>
+      <Hsp_qseq>CCGGCGCGGATAGCGCCAAGGAATCAAAAC-GAGAAGTGCTTGACCCTC--CGACCCGTTGATCGGGTTG-CAGGGCC-T-TGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCATGCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCGGCCCG-GAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAAA-AGA-CCTTAGCGGATCGCTACTGCGCCG---CCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>CCGGCGCGGATCGCGCCAAGGAATCAAAACCGA-AAGAGCTT-A-GCTCGGTGGCCCGTT-CTCGGGTTGCCAGGGCCATAGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACATATTGTGTTGCCCCCATACATGTATTGGGGGCGAAGCTTGGCCTACCGTGAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACTGTT-AAACGTCGCGATAAGTGGTGGTTACAAGGCCTTGTGCCTTTGAGCGTTGCGTGTCGCTGCCGTCGTCCCTCTCT-CTCGAAATTATAACCCGAAGGGAGCA-TCCT-CGATGTTTCCAGCATTGCGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>||||||||||| |||||||||||||||||| || ||| |||| |  |||   | ||||||  |||||||| ||||||| |  |||| |    |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||   | || | ||||||||| || | ||  |||||||| |||||||| |||||||||| ||||||||||||||||||||| |||||||| ||| |   ||||||||||| ||||||||||||  |||||||  |||   || | | ||| ||||| || |||  || ||  | |||| ||  | | ||  |  ||| |  | || ||  |   ||||||| | |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|KF113701.1|</Hit_id>
+  <Hit_def>Rhodiola hobsonii isolate hob_1 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>KF113701</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>442.47</Hsp_bit-score>
+      <Hsp_score>239</Hsp_score>
+      <Hsp_evalue>1.62183e-123</Hsp_evalue>
+      <Hsp_query-from>186</Hsp_query-from>
+      <Hsp_query-to>728</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>605</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>456</Hsp_identity>
+      <Hsp_positive>456</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>558</Hsp_align-len>
+      <Hsp_qseq>GGCGAGGAGACCTGCGCTCTTCGCCTG-TCCAAACTAACCAAATCCGGCGCGGATAGCGCCAAGGAATCAAAAC-GAGAAGTGCTTGAC-CCTCCGACCCGTTGATCGGGTTG-CAGGGCC-T-TGTCTGACCATAAAATAACATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAATCATCGAGTCTTTGAACGCAAGTTGCGCCCGAAGCCTTTAGGCCGAGGGCACGTCTGCCTGGGCGTCATGCACTGCGATGCCCCCATGCAAGCAT-GCGGGGCGAATCTTGGCCTCCCGTGAGCCC-AACTCGCGGATGGCTTAAAAAAGAGCCTCGGGACGGAAAAAACGTCGCGACAAGTGGTGGTTAAGAGGCCTTCG-GCCCG-GAACTTAGCGCGTCGCGGC-GTCACCCATCCTTGCTCGGAAA-AG-ACCTTAGCGGATCGCTACT-GC-GCCGCCAGCATCGTGACCCCAGGTCAGGCGGGACTACCCGCTGAG</Hsp_qseq>
+      <Hsp_hseq>GGTGATGAGCCTTGCGCCCATCG-CTGATCGAAACGAATGAACCCCGGCGCGGATCGCGCCAAGGAATCGAAACTGA-AAGAGCTTGGCTCGGTGGA-CCGTT-CTCGGGCTGCCAGGGCCATAGGTCT-A-TTCAAAATACCATAACGACTCTCGGCAACGGATATCTCGGCTCTCGCATCGATGAAGAACGTAGCAAAATGCGATACTTGGTGTGAATTGCAGAATCCCGTGAACCATCGAGTTTTTGAACGCAAGTTGCGCCCGAAGCCATTAGGCCGAGGGCACGTCTGCCTGGGCGTCACGTATTGTGTTGCCCCCATACATGTATTGCGGGT-GAAGCTTGGCCTCCCGTTAGCCCAAACTCGCGGATGGCTTAAAAACGAGCCTCGAGACGGTTAG-ACGTCGCGACAAGTGGTGGTTGTGAGGCCT-CGTGCCTTTGAGCGTTGCGTGTCGCTGCCGTCGTCCCTCTCT-CTCGAAATTATAACCCGAACGGAGCA-TCCTCGATGCTTCCAGCATTGCGACCCCAGGTCAGGCGGGATAACCCGCTGAG</Hsp_hseq>
+      <Hsp_midline>|| || ||| | ||||| | ||| ||| || |||| ||  ||  ||||||||||| ||||||||||||| |||| || ||| ||||| | |    || |||||  ||||| || ||||||| |  |||| |    |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| |||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| | | || | ||||||||| || | || |||||  ||| ||||||||||||| ||||| ||||||||||||||||||||| |||||||| |||||  |  |||||||||||||||||||||  ||||||| || |||   || | | ||| ||||| || |||  || ||  | |||| ||  |  |||  | |||| |  | || |  ||  ||||||| | |||||||||||||||||||  ||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>66534</Statistics_db-num>
+      <Statistics_db-len>34277752</Statistics_db-len>
+      <Statistics_hsp-len>25</Statistics_hsp-len>
+      <Statistics_eff-space>25504462364</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,4 @@
+Input name: barcode80
+Databases used: psbA-trnH
+
+Best species for psbA-trnH is Hedera helix with alignment 97.39134773713886 and evalue 2.5547999999999997e-123

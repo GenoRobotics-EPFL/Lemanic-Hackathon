@@ -1,0 +1,6 @@
+Input name: barcode7
+Databases used: matK, ITS, rbcL
+
+Best species for matK is Helminthotheca echioides with alignment 80.2020202020202 and evalue 1.44386e-95
+Best species for ITS is Viburnum opulus with alignment 98.40079960019989 and evalue 0.0
+Best species for rbcL is None with alignment 0 and evalue inf

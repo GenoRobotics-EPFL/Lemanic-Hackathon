@@ -1,0 +1,7 @@
+Input name: barcode10
+Databases used: matK, psbA-trnH, ITS, rbcL
+
+Best species for matK is Margaritaria discoidea with alignment 79.68503937007874 and evalue 3.07879e-110
+Best species for psbA-trnH is Pyrus pyrifolia with alignment 87.02830188679245 and evalue 4.24848e-129
+Best species for ITS is Spiraea prunifolia with alignment 94.54545454545455 and evalue 0.0
+Best species for rbcL is None with alignment 0 and evalue inf

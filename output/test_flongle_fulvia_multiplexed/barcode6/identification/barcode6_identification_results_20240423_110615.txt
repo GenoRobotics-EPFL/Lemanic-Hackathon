@@ -1,0 +1,7 @@
+Input name: barcode6
+Databases used: rbcL, matK, psbA-trnH, ITS
+
+Best species for rbcL is None with alignment 0 and evalue inf
+Best species for matK is Ficus altissima with alignment 99.73958333333334 and evalue 0.0
+Best species for psbA-trnH is Hoya macgillivrayi with alignment 78.58220211161388 and evalue 6.53564e-118
+Best species for ITS is None with alignment 0 and evalue inf

@@ -1,0 +1,7 @@
+Input name: barcode8
+Databases used: matK, psbA-trnH, ITS, rbcL
+
+Best species for matK is None with alignment 0 and evalue inf
+Best species for psbA-trnH is Prunus laurocerasus with alignment 93.62880886426593 and evalue 3.4342e-148
+Best species for ITS is None with alignment 0 and evalue inf
+Best species for rbcL is None with alignment 0 and evalue inf

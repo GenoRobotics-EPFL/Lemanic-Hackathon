@@ -1,0 +1,6 @@
+Input name: barcode2
+Databases used: rbcL, ITS, psbA-trnH
+
+Best species for rbcL is None with alignment 0 and evalue inf
+Best species for ITS is Salvia sclarea with alignment 91.26637554585153 and evalue 3.6729e-83
+Best species for psbA-trnH is Sedum oreades with alignment 85.03401360544217 and evalue 3.29409e-165

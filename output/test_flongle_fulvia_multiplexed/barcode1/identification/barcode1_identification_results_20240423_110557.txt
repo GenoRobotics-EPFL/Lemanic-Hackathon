@@ -1,0 +1,6 @@
+Input name: barcode1
+Databases used: rbcL, ITS, psbA-trnH
+
+Best species for rbcL is Echeveria agavoides with alignment 99.85994397759103 and evalue 0.0
+Best species for ITS is Woodfordia fruticosa with alignment 91.97183098591549 and evalue 0.0
+Best species for psbA-trnH is Macrosolen tricolor with alignment 92.04545454545455 and evalue 0.0

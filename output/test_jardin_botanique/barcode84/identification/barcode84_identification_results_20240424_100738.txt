@@ -1,0 +1,4 @@
+Input name: barcode84
+Databases used: psbA-trnH
+
+Best species for psbA-trnH is Allium ursinum with alignment 99.48186528497409 and evalue 0.0

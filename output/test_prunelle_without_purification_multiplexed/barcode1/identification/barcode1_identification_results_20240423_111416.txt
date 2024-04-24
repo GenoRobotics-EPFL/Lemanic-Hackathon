@@ -1,0 +1,6 @@
+Input name: barcode1
+Databases used: psbA-trnH, ITS, rbcL
+
+Best species for psbA-trnH is Ulmus pumila with alignment 94.16097736255838 and evalue 3.5093415e-84
+Best species for ITS is Berberis barandana with alignment 94.3923541247485 and evalue 2.70314e-68
+Best species for rbcL is None with alignment 0 and evalue inf

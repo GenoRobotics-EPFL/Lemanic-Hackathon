@@ -80,7 +80,7 @@ def run_expedition(test_name: str, expedition_folder: str, logger: logging.Logge
     
 
 def main():
-    run_expedition("test_jardin_botanique_on_all_genes","expedition_jardin_botanique")
+    run_expedition("test_jardin_botanique_new","expedition_jardin_botanique_new")
 
 if __name__ == "__main__":
     main()

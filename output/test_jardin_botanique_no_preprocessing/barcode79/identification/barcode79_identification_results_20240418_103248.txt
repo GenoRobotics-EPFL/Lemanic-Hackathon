@@ -1,4 +1,0 @@
-Input name: barcode79
-Databases used: psbA-trnH
-
-Best species for psbA-trnH is Eleutherococcus henryi with alignment 91.30299764970252 and evalue 1.8914e-121

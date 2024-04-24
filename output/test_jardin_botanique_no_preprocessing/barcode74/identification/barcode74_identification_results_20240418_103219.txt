@@ -1,4 +1,0 @@
-Input name: barcode74
-Databases used: ITS
-
-Best species for ITS is Eperua duckeana with alignment 85.53846153846155 and evalue 1.10371e-88
