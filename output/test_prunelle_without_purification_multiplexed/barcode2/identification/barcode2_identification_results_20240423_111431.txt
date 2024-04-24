@@ -1,0 +1,6 @@
+Input name: barcode2
+Databases used: matK, ITS, rbcL
+
+Best species for matK is Margaritaria cyanosperma with alignment 78.80574931304164 and evalue 6.6238e-46
+Best species for ITS is Nicotiana benthamiana with alignment 83.38720020520714 and evalue 7.08705e-59
+Best species for rbcL is None with alignment 0 and evalue inf

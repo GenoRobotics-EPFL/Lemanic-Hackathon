@@ -1,0 +1,7 @@
+Input name: barcode3
+Databases used: matK, psbA-trnH, ITS, rbcL
+
+Best species for matK is Sida spinosa with alignment 91.3839136722661 and evalue 1.087185e-22
+Best species for psbA-trnH is Eleutherococcus brachypus with alignment 89.89560629066357 and evalue 1.7266034775000001e-124
+Best species for ITS is Hedera helix with alignment 96.69440998924998 and evalue 0.0
+Best species for rbcL is None with alignment 0 and evalue inf

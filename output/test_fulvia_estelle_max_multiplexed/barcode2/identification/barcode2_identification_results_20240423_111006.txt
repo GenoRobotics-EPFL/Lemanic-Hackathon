@@ -1,0 +1,4 @@
+Input name: barcode2
+Databases used: ITS
+
+Best species for ITS is Physochlaina orientalis with alignment 84.55671128968663 and evalue 1.50569027e-76

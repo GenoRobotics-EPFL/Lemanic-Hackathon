@@ -1,9 +1,0 @@
-2024-04-18 10:32:02,893 INFO: Running consensus pipeline... 
-
-2024-04-18 10:32:02,893 INFO: Running identification pipeline with blastn method... 
-
-2024-04-18 10:32:02,893 INFO: Running command: bash -l -c "blastn -query output/test_jardin_botanique_no_preprocessing/barcode68/consensus/barcode68_final_consensus.fasta -db ITS -out output/test_jardin_botanique_no_preprocessing/barcode68/identification/ITS.txt -max_target_seqs 20 -outfmt 5"
-2024-04-18 10:32:03,141 INFO: Command 'bash -l -c "blastn -query output/test_jardin_botanique_no_preprocessing/barcode68/consensus/barcode68_final_consensus.fasta -db ITS -out output/test_jardin_botanique_no_preprocessing/barcode68/identification/ITS.txt -max_target_seqs 20 -outfmt 5"' took 0.25 seconds to run.
-2024-04-18 10:32:03,142 INFO: BLASTn command for database ITS took 0.25 seconds.
-2024-04-18 10:32:03,142 INFO: XML files : [('output/test_jardin_botanique_no_preprocessing/barcode68/identification/ITS.txt', 'ITS')]
-2024-04-18 10:32:03,144 INFO: Best species for ITS is Solanum nigrum with alignment 90.47619047619048 and evalue 0.0

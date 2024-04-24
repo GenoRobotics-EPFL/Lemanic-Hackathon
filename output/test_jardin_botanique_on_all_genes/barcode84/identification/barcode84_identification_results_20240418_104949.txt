@@ -1,7 +1,0 @@
-Input name: barcode84
-Databases used: psbA-trnH, matK, rbcL, ITS
-
-Best species for psbA-trnH is Allium ursinum with alignment 99.48186528497409 and evalue 0.0
-Best species for matK is Gymnadenia orchidis with alignment 93.78109452736318 and evalue 3.14118e-170
-Best species for rbcL is None with alignment 0 and evalue inf
-Best species for ITS is Paris polyphylla with alignment 92.87531806615776 and evalue 9.67839e-159

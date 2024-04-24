@@ -1,0 +1,4 @@
+Input name: barcode91
+Databases used: psbA-trnH
+
+Best species for psbA-trnH is Heliconia collinsiana with alignment 96.07156225769364 and evalue 3.476600057358333e-39

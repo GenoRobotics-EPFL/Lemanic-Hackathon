@@ -1,0 +1,7 @@
+Input name: barcode4
+Databases used: ITS, rbcL, matK, psbA-trnH
+
+Best species for ITS is Ficus natalensis with alignment 91.33924812797389 and evalue 0.0
+Best species for rbcL is None with alignment 0 and evalue inf
+Best species for matK is Diospyros ehretioides with alignment 94.70884658454648 and evalue 5.775915e-77
+Best species for psbA-trnH is Ficus carica with alignment 88.88218260932271 and evalue 1.3939785714285715e-135

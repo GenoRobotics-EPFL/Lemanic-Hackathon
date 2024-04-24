@@ -1,7 +1,0 @@
-Input name: barcode76
-Databases used: psbA-trnH, matK, rbcL, ITS
-
-Best species for psbA-trnH is Alstroemeria pallida with alignment 93.5432793807178 and evalue 3.85632582302e-59
-Best species for matK is Guianodendron praeclarum with alignment 96.67037449017427 and evalue 5.283600000000001e-26
-Best species for rbcL is None with alignment 0 and evalue inf
-Best species for ITS is Actaea japonica with alignment 93.86445063694268 and evalue 6.3318674807500005e-65

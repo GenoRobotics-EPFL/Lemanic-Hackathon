@@ -1,0 +1,7 @@
+Input name: barcode3
+Databases used: ITS, rbcL, matK, psbA-trnH
+
+Best species for ITS is Dioscorea banzhuana with alignment 88.30242510699001 and evalue 0.0
+Best species for rbcL is Cymbopogon goeringii with alignment 98.58156028368793 and evalue 0.0
+Best species for matK is Phyllostachys bambusoides with alignment 94.1678520625889 and evalue 0.0
+Best species for psbA-trnH is Vitex negundo with alignment 87.9957507082153 and evalue 0.0

@@ -1,0 +1,7 @@
+Input name: barcode10
+Databases used: rbcL, matK, psbA-trnH, ITS
+
+Best species for rbcL is None with alignment 0 and evalue inf
+Best species for matK is Margaritaria cyanosperma with alignment 81.32427843803056 and evalue 5.11178e-123
+Best species for psbA-trnH is UNVERIFIED: Holmskioldia with alignment 82.02995008319468 and evalue 1.19716e-129
+Best species for ITS is Solanum nigrum with alignment 88.09869375907112 and evalue 0.0

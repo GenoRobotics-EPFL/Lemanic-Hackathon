@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>psbA-trnH</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>ddeb3dc7-c845-48ff-97e0-d1befea19fcb LN:i:637 RC:i:730 XC:f:0.500000</BlastOutput_query-def>
+  <BlastOutput_query-len>637</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>ddeb3dc7-c845-48ff-97e0-d1befea19fcb LN:i:637 RC:i:730 XC:f:0.500000</Iteration_query-def>
+  <Iteration_query-len>637</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|FJ493314.1|</Hit_id>
+  <Hit_def>Solanum lycopersicum photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>FJ493314</Hit_accession>
+  <Hit_len>587</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>885.665</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>575</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>527</Hsp_identity>
+      <Hsp_positive>527</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>547</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTC------TTTTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCG--AAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTTTTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATCGAAAAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATGTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATCTTTTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTG-AAATAATAATCAAAATAATAATATCATTGAACTAAGAAAGAAGAGAAATATTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||      |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| | |||||||| ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>emb|HE966826.1|</Hit_id>
+  <Hit_def>Solanum lycopersicum chloroplast DNA containing psbA-trnH IGS, specimen voucher MIB:ZPL:03992</Hit_def>
+  <Hit_accession>HE966826</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>808.106</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>601</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>479</Hsp_identity>
+      <Hsp_positive>479</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>496</Hsp_align-len>
+      <Hsp_qseq>TGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTC-----TTTTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCG--AAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGG</Hsp_qseq>
+      <Hsp_hseq>TGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTTTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATCGAAAAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATGTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATCTTTTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTG-AAATAATAATCAAAATAATAATATCATTGAACTAAGAAAGAAGAGAAATATTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| | |||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|HQ856112.1|</Hit_id>
+  <Hit_def>Solanum lycopersicum isolate RGO340 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ856112</Hit_accession>
+  <Hit_len>481</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>778.56</Hsp_bit-score>
+      <Hsp_score>421</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>597</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>481</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>465</Hsp_identity>
+      <Hsp_positive>465</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>483</Hsp_align-len>
+      <Hsp_qseq>GCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTC------TTTTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCG--AAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGG</Hsp_qseq>
+      <Hsp_hseq>GCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTTTTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATCGAAAAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATGTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATCTTTTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTG-AAATAATAATCAAAATAATAATATCATTGAACTAAGAAAGAAGAGAAATATTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||      |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| | |||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|HQ856111.1|</Hit_id>
+  <Hit_def>Solanum bulbocastanum isolate Spooner4 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ856111</Hit_accession>
+  <Hit_len>549</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>741.627</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>547</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>500</Hsp_identity>
+      <Hsp_positive>500</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>543</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTC-TTTTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCG--AAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATT-GTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCTAGCTGCTATCGGAGCTCCATCTACAAATGGATAAGATCCCAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTTCTTTATTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATCGAAAAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGAT-------------TGAGTATTCGA-TTTTTATTTTCTATTTATTTAAAATTGTAGAAATATAACTTGTTCCTCTTGTTGCTAATGTTACTATATCTTTTTTATTTCATTTCACAAAAAATACAATTTTTACTTCATATTCTTATCTTTG-AAATAATAATCAAAATAATAATATCATTGAAATAAGAAAGAAGATAAATATTCGAACTTGAATCTTTTGTTTTCGAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGGGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||| ||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||| |||||||||||| ||||||||||||||||||||||||||||| ||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||             ||||||||| | ||||||||||||||||||| ||||||||||||||||||| ||||||||||||| ||||||||||||||||  |||||||||||||||||||||||| |||||| ||||||||||||||| |||| ||||||||||||||||||||||||||||||| |||||| | ||| |||| |||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||| |||||||||||||||||||||||||||||| ||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|OQ310627.1|</Hit_id>
+  <Hit_def>UNVERIFIED: Solanum iopetalum voucher Miriam Jimenez 30105 (MEXU, US) psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>OQ310627</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>734.24</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>557</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>502</Hsp_identity>
+      <Hsp_positive>502</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>547</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTC------TTTTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCG--AAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCCAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTTTTTTTCTTTATTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATCGAAAAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGAT-------------TGAGTATTCGA-TTTTTATTTTCTATTTATTTAAAATTGTAGAAATATAACTTGTTCCTCTTGTTGCTAATGTTACTATATCTTTTTTATTTCATTTCACAAAAAATACAATTTTTACTTCATATTCTTATCTTTG-AAATAATAATCAAAATAATAATATCATTGAAATAAGAAAGAAGATAAATATTCGAACTTGAATCTTTTGTTTTCGAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||      |||||||||||| ||||||||||||||||||||||||||||| ||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||             ||||||||| | ||||||||||||||||||| ||||||||||||||||||| ||||||||||||| ||||||||||||||||  |||||||||||||||||||||||| |||||| ||||||||||||||| |||| ||||||||||||||||||||||||||||||| |||||| | ||| |||| |||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|HQ216188.1|</Hit_id>
+  <Hit_def>Solanum chilense isolate Tu199 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; plastid</Hit_def>
+  <Hit_accession>HQ216188</Hit_accession>
+  <Hit_len>492</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>723.16</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>611</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>474</Hsp_identity>
+      <Hsp_positive>474</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>508</Hsp_align-len>
+      <Hsp_qseq>CTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTC------TTTTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCG--AAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAA-GAAG-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAA</Hsp_qseq>
+      <Hsp_hseq>CTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTTTTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATCGAAAAAGAAAGAGAGAGTATTTGCTTGCATTTATTCATGAT-------------TGAGTATTCTA-TTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATCTTTTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATCTTTG-AAATAATAATCAAAATAATAATATCATTGAACTAARAAAGAAGAGAAATATTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||      |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||  |||||||||||| |||||||||||||||||||||||||             ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||||||||||||||||||||||||||  ||| |||||||| ||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|FJ493315.1|</Hit_id>
+  <Hit_def>Solanum tuberosum photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>FJ493315</Hit_accession>
+  <Hit_len>571</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>721.314</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>559</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>498</Hsp_identity>
+      <Hsp_positive>498</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>545</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTC----TTTTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCG--AAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCATGCTGCATTCGAAGCTCCATCTACAAATGGATAAGATCCCAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTTTTTCTTTATTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATCGAAAAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGAT-------------TGAGTATTCGA-TTTTTATTTTCTATTTATTTAAAATTGTAGAAATATAACTTGTTCCTCTTGTTGCTAATGTTACTATATCTTTTTTATTTCATTTCACAAAAAATACAATTTTTACTTCATATTCTTATCTTTG-AAATAATAATCAAAATAATAATATCATTGAAATAAGAAAGAAGATAAATATTCGAACTTGAATCTTTTGTTTTCGAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| |||||||  |||||  ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||    |||||||||||| ||||||||||||||||||||||||||||| ||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||             ||||||||| | ||||||||||||||||||| ||||||||||||||||||| ||||||||||||| ||||||||||||||||  |||||||||||||||||||||||| |||||| ||||||||||||||| |||| ||||||||||||||||||||||||||||||| |||||| | ||| |||| |||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|JX511984.1|</Hit_id>
+  <Hit_def>Solanum nigrum PsbA (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>JX511984</Hit_accession>
+  <Hit_len>550</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>704.694</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>550</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>496</Hsp_identity>
+      <Hsp_positive>496</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTCTTTTTTTC-----TTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCG--AAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCCAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAACCATTTTCTTGTTCTATCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTCTTTTTTTTATTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATAGAAAAAGAAGGAGAGGGTATTTGC-----------C-TG-CATTTATTCATGATTGAGTATTCGA-TTTTGATTTTCTATTTATTGAAAATTGTAGAAATCTAACTTGTTCCTCTTGTTGCTAATGTTATTATATCTTTTTTATTTCATTTCACAAAAAATACAATTTTGACTTCATATTCTTATCTTTG-AAATAATAATCGAAATAATAATATCATTGAAATAAGAAAGAAGAGAAATATTCGAACTTGAATCTTTTGTTTTCGAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| |||||||||||||| || ||||||||||||||||||||||||||||||     |||| ||||||||||||||||||||||||||||| |||||||||||||||| |  |||||| ||||||||||||||           | ||  |||||||||||||||||||||| | |||| ||||||||||||||||||||||||||||| |||| ||||||||||||| ||||||||| ||||||  |||||||||||||||||||||||| |||||||||||||||||||||| |||| ||||||||||| ||||||||||||||||||| |||||| | |||||||| |||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|KX346985.2|</Hit_id>
+  <Hit_def>Solanum nigrum voucher S-LKui-01 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>KX346985</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>704.694</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>561</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>496</Hsp_identity>
+      <Hsp_positive>496</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTCTTTTTTTC-----TTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCG--AAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCCAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAACCATTTTCTTGTTCTATCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTCTTTTTTTTATTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATAGAAAAAGAAGGAGAGGGTATTTGC-----------C-TG-CATTTATTCATGATTGAGTATTCGA-TTTTGATTTTCTATTTATTGAAAATTGTAGAAATCTAACTTGTTCCTCTTGTTGCTAATGTTATTATATCTTTTTTATTTCATTTCACAAAAAATACAATTTTGACTTCATATTCTTATCTTTG-AAATAATAATCGAAATAATAATATCATTGAAATAAGAAAGAAGAGAAATATTCGAACTTGAATCTTTTGTTTTCGAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| |||||||||||||| || ||||||||||||||||||||||||||||||     |||| ||||||||||||||||||||||||||||| |||||||||||||||| |  |||||| ||||||||||||||           | ||  |||||||||||||||||||||| | |||| ||||||||||||||||||||||||||||| |||| ||||||||||||| ||||||||| ||||||  |||||||||||||||||||||||| |||||||||||||||||||||| |||| ||||||||||| ||||||||||||||||||| |||||| | |||||||| |||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|KX346986.2|</Hit_id>
+  <Hit_def>Solanum nigrum voucher S-LKui-02 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>KX346986</Hit_accession>
+  <Hit_len>574</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>704.694</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>561</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>496</Hsp_identity>
+      <Hsp_positive>496</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTCTTTTTTTC-----TTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCG--AAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCCAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAACCATTTTCTTGTTCTATCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTCTTTTTTTTATTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATAGAAAAAGAAGGAGAGGGTATTTGC-----------C-TG-CATTTATTCATGATTGAGTATTCGA-TTTTGATTTTCTATTTATTGAAAATTGTAGAAATCTAACTTGTTCCTCTTGTTGCTAATGTTATTATATCTTTTTTATTTCATTTCACAAAAAATACAATTTTGACTTCATATTCTTATCTTTG-AAATAATAATCGAAATAATAATATCATTGAAATAAGAAAGAAGAGAAATATTCGAACTTGAATCTTTTGTTTTCGAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| |||||||||||||| || ||||||||||||||||||||||||||||||     |||| ||||||||||||||||||||||||||||| |||||||||||||||| |  |||||| ||||||||||||||           | ||  |||||||||||||||||||||| | |||| ||||||||||||||||||||||||||||| |||| ||||||||||||| ||||||||| ||||||  |||||||||||||||||||||||| |||||||||||||||||||||| |||| ||||||||||| ||||||||||||||||||| |||||| | |||||||| |||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|KX346987.2|</Hit_id>
+  <Hit_def>Solanum nigrum voucher S-LKui-03 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>KX346987</Hit_accession>
+  <Hit_len>574</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>704.694</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>561</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>496</Hsp_identity>
+      <Hsp_positive>496</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTCTTTTTTTC-----TTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCG--AAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCCAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAACCATTTTCTTGTTCTATCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTCTTTTTTTTATTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATAGAAAAAGAAGGAGAGGGTATTTGC-----------C-TG-CATTTATTCATGATTGAGTATTCGA-TTTTGATTTTCTATTTATTGAAAATTGTAGAAATCTAACTTGTTCCTCTTGTTGCTAATGTTATTATATCTTTTTTATTTCATTTCACAAAAAATACAATTTTGACTTCATATTCTTATCTTTG-AAATAATAATCGAAATAATAATATCATTGAAATAAGAAAGAAGAGAAATATTCGAACTTGAATCTTTTGTTTTCGAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| |||||||||||||| || ||||||||||||||||||||||||||||||     |||| ||||||||||||||||||||||||||||| |||||||||||||||| |  |||||| ||||||||||||||           | ||  |||||||||||||||||||||| | |||| ||||||||||||||||||||||||||||| |||| ||||||||||||| ||||||||| ||||||  |||||||||||||||||||||||| |||||||||||||||||||||| |||| ||||||||||| ||||||||||||||||||| |||||| | |||||||| |||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|KX346988.2|</Hit_id>
+  <Hit_def>Solanum nigrum voucher S-LKui-04 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>KX346988</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>704.694</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>496</Hsp_identity>
+      <Hsp_positive>496</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTCTTTTTTTC-----TTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCG--AAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCCAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAACCATTTTCTTGTTCTATCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTCTTTTTTTTATTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATAGAAAAAGAAGGAGAGGGTATTTGC-----------C-TG-CATTTATTCATGATTGAGTATTCGA-TTTTGATTTTCTATTTATTGAAAATTGTAGAAATCTAACTTGTTCCTCTTGTTGCTAATGTTATTATATCTTTTTTATTTCATTTCACAAAAAATACAATTTTGACTTCATATTCTTATCTTTG-AAATAATAATCGAAATAATAATATCATTGAAATAAGAAAGAAGAGAAATATTCGAACTTGAATCTTTTGTTTTCGAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| |||||||||||||| || ||||||||||||||||||||||||||||||     |||| ||||||||||||||||||||||||||||| |||||||||||||||| |  |||||| ||||||||||||||           | ||  |||||||||||||||||||||| | |||| ||||||||||||||||||||||||||||| |||| ||||||||||||| ||||||||| ||||||  |||||||||||||||||||||||| |||||||||||||||||||||| |||| ||||||||||| ||||||||||||||||||| |||||| | |||||||| |||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|KX346989.2|</Hit_id>
+  <Hit_def>Solanum nigrum voucher S-LKui-07 PsbA (psbA) gene, partial cds; and psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>KX346989</Hit_accession>
+  <Hit_len>561</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>704.694</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>496</Hsp_identity>
+      <Hsp_positive>496</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTCTTTTTTTC-----TTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCG--AAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCCAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAACCATTTTCTTGTTCTATCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTCTTTTTTTTATTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATAGAAAAAGAAGGAGAGGGTATTTGC-----------C-TG-CATTTATTCATGATTGAGTATTCGA-TTTTGATTTTCTATTTATTGAAAATTGTAGAAATCTAACTTGTTCCTCTTGTTGCTAATGTTATTATATCTTTTTTATTTCATTTCACAAAAAATACAATTTTGACTTCATATTCTTATCTTTG-AAATAATAATCGAAATAATAATATCATTGAAATAAGAAAGAAGAGAAATATTCGAACTTGAATCTTTTGTTTTCGAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| |||||||||||||| || ||||||||||||||||||||||||||||||     |||| ||||||||||||||||||||||||||||| |||||||||||||||| |  |||||| ||||||||||||||           | ||  |||||||||||||||||||||| | |||| ||||||||||||||||||||||||||||| |||| ||||||||||||| ||||||||| ||||||  |||||||||||||||||||||||| |||||||||||||||||||||| |||| ||||||||||| ||||||||||||||||||| |||||| | |||||||| |||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MH464302.1|</Hit_id>
+  <Hit_def>Solanum chenopodioides voucher Abbott 22545 psbA-trnH intergenic spacer, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>MH464302</Hit_accession>
+  <Hit_len>568</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>702.847</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>554</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>492</Hsp_identity>
+      <Hsp_positive>492</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>541</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTCTTTTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCG--AAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATTGTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCCAGCCTAGTCTATAGAAGGTTTTGAAAAGAAAGGAGCAATAACCATTTTCTTGTTCTATCAAGAGGGTGCTATTGCTCCTTTCTTTTT---TTTATTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATAGAAAAAGAAGGAGAGGGTATTTGC-----------C-TG-CATTTATTCATGATTGAGTATTCGA-TTTTGATTTTCTATTTATTGAAAATTGTAGAAATCTAACTTGTTCCTCTTGTTGCTAATGTTATTATATCTTTTTTATTTCATTTCACAAAAAATACAATTTTGACTTCATATTCTTATCTTTG-AAATAATAATCGAAATAATAATATCATTGAAATAAGAAAGAAGAGAAATATTCGAACTTGAATCTTTTGTTTTCGAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||| |||||||||||||| || |||||||||||||||||||||||||||   |||| ||||||||||||||||||||||||||||| |||||||||||||||| |  |||||| ||||||||||||||           | ||  |||||||||||||||||||||| | |||| ||||||||||||||||||||||||||||| |||| ||||||||||||| ||||||||| ||||||  |||||||||||||||||||||||| |||||||||||||||||||||| |||| ||||||||||| ||||||||||||||||||| |||||| | |||||||| |||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|HQ856102.1|</Hit_id>
+  <Hit_def>Solanum limoncochaense isolate LB2391 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ856102</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>701.001</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>552</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>495</Hsp_identity>
+      <Hsp_positive>495</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTCTT------TTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCGAAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATT-GTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCCAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTATCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTCTTTTTCTTTATTAATTTACTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATCGAAA--AAGA-A-GG-A-AAGGTT--A-TT-TGCCTG-CATTTATTCATGATTGAGTATTCGA-TTTTTATTTTCTATTTATTTAAAATTGTAGAAATATAACTTGTTCCTCTTGTTGCTAATGTTACTATATCTTTTTTATTTCATTTCACAAAAAATATAATTTTGACCTCATATTCTTATCTTTG-AAATAATAATCGAAATAATAATATCATTGAAATAAGAAAGAAGAGAAATATTCGAACTTGAACCTTTTGTTTTCGAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||      |||||||||| |||||| |||||||||||||||||||||| |||||||||||||||||||||  |||| | || |   | ||  | || | | ||  |||||||||||||||||||||| | ||||||||||||||||||| ||||||||||||||||||| ||||||||||||| ||||||||||||||||  |||||||||||||||||||||||| ||||||||| |||||||||||| |||| ||||||||||| ||||||||||||||||||| |||||| | |||||||| |||||||||||| ||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|HQ856103.1|</Hit_id>
+  <Hit_def>Solanum limoncochaense isolate LB2466 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ856103</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>701.001</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>552</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>495</Hsp_identity>
+      <Hsp_positive>495</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTCTT------TTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCGAAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATT-GTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCCAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTATCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTCTTTTTCTTTATTAATTTACTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATCGAAA--AAGA-A-GG-A-AAGGTT--A-TT-TGCCTG-CATTTATTCATGATTGAGTATTCGA-TTTTTATTTTCTATTTATTTAAAATTGTAGAAATATAACTTGTTCCTCTTGTTGCTAATGTTACTATATCTTTTTTATTTCATTTCACAAAAAATATAATTTTGACCTCATATTCTTATCTTTG-AAATAATAATCGAAATAATAATATCATTGAAATAAGAAAGAAGAGAAATATTCGAACTTGAACCTTTTGTTTTCGAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||      |||||||||| |||||| |||||||||||||||||||||| |||||||||||||||||||||  |||| | || |   | ||  | || | | ||  |||||||||||||||||||||| | ||||||||||||||||||| ||||||||||||||||||| ||||||||||||| ||||||||||||||||  |||||||||||||||||||||||| ||||||||| |||||||||||| |||| ||||||||||| ||||||||||||||||||| |||||| | |||||||| |||||||||||| ||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|HQ856109.1|</Hit_id>
+  <Hit_def>Solanum brevifolium isolate LB1029 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ856109</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>701.001</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>552</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>495</Hsp_identity>
+      <Hsp_positive>495</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTCTT------TTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCGAAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATT-GTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCCAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTATCAAGAAGGTGCTATTGCTCCTTTCTTTTTTTCTTTTTCTTTATTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATCGAAA--AAGA-A-GG-A---GAGGGTA-TT-TTCCTG-CATTTATTCATGATTGAGTATTCTA-TTTTTATTTTCTATTTATTTAAAATTGTAGAAATAGAACTTGTTCCTCTTGTTGCTAATGTTACTATATCTTTTTTATTTCATTTCACAAAAAAGATAATTTTGACTTCATATTCTTATCTTTG-AAATAATAATCGAAATAATAATATCATTGAAATAAGAAAGAAGAGAAATATTCGAATTTGAATCTTTTGTTTTCGAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||| ||||||||||||||||||||      |||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||  |||| | || |   |   | | || ||| ||  |||||||||||||||||||||||| ||||||||||||||||||| ||||||||||||||| ||| ||||||||||||| ||||||||||||||||  |||||||||||||||||||||| | |||||||||||||||||||||| |||| ||||||||||| ||||||||||||||||||| |||||| | |||||||| |||||| ||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|HQ856097.1|</Hit_id>
+  <Hit_def>Solanum phaseoloides isolate LB693 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ856097</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>695.461</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>552</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>494</Hsp_identity>
+      <Hsp_positive>494</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTCTT------TTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCGAAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATT-GTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCCAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTATCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTCTTTTTCTTTATTAATTTACTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATCGAAA--AAGA-A-GG-A-AAG--GGTA-TT-TGCCTG-CATTTATTCATGATTGAGTATTCGA-TTTTGATTTTCTATTTATTTCAAATTGTAGAAATATAACTTGTTCCTCTTGTTGCTAATGTTACTATATCTTTTTTATTTCATTTCACAAAAAATAGAATTTTGACTTCATATTCTTATCTTTG-AAATAATAATCGAAATAATAATATCATTGAAATAAGAAAGAAGAGAAATATTCGAACTTGAATCTTTTGTTTTCGAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||      |||||||||| |||||| |||||||||||||||||||||| |||||||||||||||||||||  |||| | || |   |   | | || | | ||  |||||||||||||||||||||| | |||| ||||||||||||||  |||||||||||||||||| ||||||||||||| ||||||||||||||||  |||||||||||||||||||||||| |||||||||||||||||||||| |||| ||||||||||| ||||||||||||||||||| |||||| | |||||||| |||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|HQ856098.1|</Hit_id>
+  <Hit_def>Solanum phaseoloides isolate LB1727 photosystem II protein D1 (psbA) gene, partial cds; psbA-trnH intergenic spacer, complete sequence; and tRNA-His (trnH) gene, partial sequence; chloroplast</Hit_def>
+  <Hit_accession>HQ856098</Hit_accession>
+  <Hit_len>554</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>695.461</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>105</Hsp_query-from>
+      <Hsp_query-to>637</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>552</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>494</Hsp_identity>
+      <Hsp_positive>494</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>546</Hsp_align-len>
+      <Hsp_qseq>CCGCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTCTT------TTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCGAAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAACTTGAATCTTTTGTTTTCTAATTTAAATAATGTAAAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCGGTGGATT-GTGAAT</Hsp_qseq>
+      <Hsp_hseq>CCTCTAGACCTAGCTGCTATCGAAGCTCCATCTACAAATGGATAAGATCCCAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTATCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTCTTTTTCTTTATTAATTTACTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATCGAAA--AAGA-A-GG-A-AAG--GGTA-TT-TGCCTG-CATTTATTCATGATTGAGTATTCGA-TTTTGATTTTCTATTTATTTCAAATTGTAGAAATATAACTTGTTCCTCTTGTTGCTAATGTTACTATATCTTTTTTATTTCATTTCACAAAAAATAGAATTTTGACTTCATATTCTTATCTTTG-AAATAATAATCGAAATAATAATATCATTGAAATAAGAAAGAAGAGAAATATTCGAACTTGAATCTTTTGTTTTCGAATTTAAATAATGT-AAAAATGGAATGTAAGTAGGCGAGGGGGCGGATGTAGCCAAGTGGATCAAGGCAGTGGATTTGTGAAT</Hsp_hseq>
+      <Hsp_midline>|| ||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||||||      |||||||||| |||||| |||||||||||||||||||||| |||||||||||||||||||||  |||| | || |   |   | | || | | ||  |||||||||||||||||||||| | |||| ||||||||||||||  |||||||||||||||||| ||||||||||||| ||||||||||||||||  |||||||||||||||||||||||| |||||||||||||||||||||| |||| ||||||||||| ||||||||||||||||||| |||||| | |||||||| |||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>emb|HG963710.1|</Hit_id>
+  <Hit_def>Solanum lycopersicum chloroplast DNA containing psbA-trnH IGS, specimen voucher NPL0334</Hit_def>
+  <Hit_accession>HG963710</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>693.614</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>536</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>429</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>414</Hsp_identity>
+      <Hsp_positive>414</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>430</Hsp_align-len>
+      <Hsp_qseq>GCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTC-AGAGGGTGCTATTGCTCCTTTC-----TTTTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGAC-TTTTTGTTTACATTATCG--AAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATTTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATC--TTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTGAAAATAATAATCAAAATAATAATATCATTGAACTAAGAA-G-AGAGAAATGTTCGAA</Hsp_qseq>
+      <Hsp_hseq>GCTATCGAAGCTCCATCTACAAATGGATAAGATCCTAGCCTAGTCTATAGGAGGTTTTGAAAAGAAAGGAGCAATAATCATTTTCTTGTTCTGTCAAGAGGGTGCTATTGCTCCTTTCTTTTTTTTTTTTCTTTACTAATTTCCTAGTATTTTACTGACATAGACTTTTTTGTTTACATTATCGAAAAAGAAAGAGAGGGTATTTGCTTGCATTTATTCATGATATTTATTCATGATTGAGTATTCTATGTTTTATTTTCTATTTATTGAAAATTGTAGAAATATAACGTGTTCCTCTTGTTACTAATGTTACTATATCTTTTTTATTTCATTTCACAAAAAATAAAATTTTGACTTCATATTCTTATTTTTG-AAATAATAATCAAAATAATAATATCATTGAACTAAGAAAGAAGAGAAATATTCGAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||     |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| | |||||||| ||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>66534</Statistics_db-num>
+      <Statistics_db-len>34277752</Statistics_db-len>
+      <Statistics_hsp-len>24</Statistics_hsp-len>
+      <Statistics_eff-space>20033413768</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

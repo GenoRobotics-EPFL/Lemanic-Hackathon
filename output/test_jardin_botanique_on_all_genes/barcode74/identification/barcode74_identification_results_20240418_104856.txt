@@ -1,7 +1,0 @@
-Input name: barcode74
-Databases used: psbA-trnH, matK, rbcL, ITS
-
-Best species for psbA-trnH is Rhamnus parvifolia with alignment 86.05442176870748 and evalue 3.12533e-81
-Best species for matK is Sida spinosa with alignment 96.64804469273743 and evalue 1.32529e-79
-Best species for rbcL is None with alignment 0 and evalue inf
-Best species for ITS is Eperua duckeana with alignment 85.53846153846155 and evalue 1.10371e-88

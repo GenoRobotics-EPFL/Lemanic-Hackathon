@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.15.0+</BlastOutput_version>
+  <BlastOutput_reference>Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb Miller (2000), &quot;A greedy algorithm for aligning DNA sequences&quot;, J Comput Biol 2000; 7(1-2):203-14.</BlastOutput_reference>
+  <BlastOutput_db>psbA-trnH</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>cd396308-d4f5-4daa-b668-f1896b221619 LN:i:1094 RC:i:1652 XC:f:1.000000</BlastOutput_query-def>
+  <BlastOutput_query-len>1094</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>1</Parameters_sc-match>
+      <Parameters_sc-mismatch>-2</Parameters_sc-mismatch>
+      <Parameters_gap-open>0</Parameters_gap-open>
+      <Parameters_gap-extend>0</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1</Iteration_query-ID>
+  <Iteration_query-def>cd396308-d4f5-4daa-b668-f1896b221619 LN:i:1094 RC:i:1652 XC:f:1.000000</Iteration_query-def>
+  <Iteration_query-len>1094</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|MH091335.1|</Hit_id>
+  <Hit_def>Artemisia annua isolate AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH091335</Hit_accession>
+  <Hit_len>693</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>458</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|MH091340.1|</Hit_id>
+  <Hit_def>Artemisia argyi isolate AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH091340</Hit_accession>
+  <Hit_len>695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>459</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|MH091348.1|</Hit_id>
+  <Hit_def>Artemisia sieberi isolate AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>MH091348</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>457</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gb|MH092832.1|</Hit_id>
+  <Hit_def>Artemisia rutifolia isolate AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH092832</Hit_accession>
+  <Hit_len>693</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>458</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MH094656.1|</Hit_id>
+  <Hit_def>Artemisia sp. AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH094656</Hit_accession>
+  <Hit_len>696</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>459</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTACG--ATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTGGGGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||  |||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|MH094666.1|</Hit_id>
+  <Hit_def>Artemisia sp. AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH094666</Hit_accession>
+  <Hit_len>674</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>439</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MH095575.1|</Hit_id>
+  <Hit_def>Artemisia campestris isolate AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH095575</Hit_accession>
+  <Hit_len>694</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>456</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MH100668.1|</Hit_id>
+  <Hit_def>Artemisia verlotiorum isolate AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>MH100668</Hit_accession>
+  <Hit_len>660</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>439</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MH100676.1|</Hit_id>
+  <Hit_def>Artemisia indica isolate AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH100676</Hit_accession>
+  <Hit_len>692</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>457</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MH100692.1|</Hit_id>
+  <Hit_def>Artemisia austriaca isolate AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH100692</Hit_accession>
+  <Hit_len>693</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>457</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|MH100697.1|</Hit_id>
+  <Hit_def>Artemisia chamaemelifolia isolate AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>MH100697</Hit_accession>
+  <Hit_len>655</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>441</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MH102416.1|</Hit_id>
+  <Hit_def>Artemisia sp. AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>MH102416</Hit_accession>
+  <Hit_len>648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>434</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTACG--ATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTGGGGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||  |||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|MH102418.1|</Hit_id>
+  <Hit_def>Artemisia sp. AD-G internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>MH102418</Hit_accession>
+  <Hit_len>685</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>449</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTACG--ATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTGGGGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||  |||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MH102417.1|</Hit_id>
+  <Hit_def>Artemisia sp. AD-C internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH102417</Hit_accession>
+  <Hit_len>693</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>457</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|MH102420.1|</Hit_id>
+  <Hit_def>Artemisia sp. AD-E internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH102420</Hit_accession>
+  <Hit_len>693</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>458</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MH107243.1|</Hit_id>
+  <Hit_def>Artemisia vulgaris isolate AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH107243</Hit_accession>
+  <Hit_len>691</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>456</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|MH113802.1|</Hit_id>
+  <Hit_def>Artemisia herba-alba isolate AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH113802</Hit_accession>
+  <Hit_len>690</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>456</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MH161337.1|</Hit_id>
+  <Hit_def>Artemisia tournefortiana isolate AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH161337</Hit_accession>
+  <Hit_len>691</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>455</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|MH161338.1|</Hit_id>
+  <Hit_def>Artemisia biennis isolate AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence</Hit_def>
+  <Hit_accession>MH161338</Hit_accession>
+  <Hit_len>677</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>455</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MH161339.1|</Hit_id>
+  <Hit_def>Artemisia maritima isolate AD-H internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence</Hit_def>
+  <Hit_accession>MH161339</Hit_accession>
+  <Hit_len>691</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.964</Hsp_bit-score>
+      <Hsp_score>151</Hsp_score>
+      <Hsp_evalue>1.83953e-74</Hsp_evalue>
+      <Hsp_query-from>440</Hsp_query-from>
+      <Hsp_query-to>620</Hsp_query-to>
+      <Hsp_hit-from>457</Hsp_hit-from>
+      <Hsp_hit-to>277</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>GTGCGGGGGCTA--CGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAGAAGGCTTCGGGGCGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTCACTACGTTCTTCATCGATGCGAGAGCCGAGATATCCGTTGTCGAGAGTCGTTTG</Hsp_qseq>
+      <Hsp_hseq>GTG-GGGGGCGACGCGATGCGTGACGCCCAGGCAGACGTGCCCTCGGCCAAAAGGCTTCGGG-CGCAACTTGCGTTCAAAAACTCGATGGTTCACGGGATTCTGCAATTCACACCAAGTATCGCATTTTGCTACGTTCTTCATCGATGCGTGAGCCGAGATATCCGTTGCCGAGAGTCGTTTG</Hsp_hseq>
+      <Hsp_midline>||| |||||| |  |||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||| |||||||||||||||||| |||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>66534</Statistics_db-num>
+      <Statistics_db-len>34277752</Statistics_db-len>
+      <Statistics_hsp-len>25</Statistics_hsp-len>
+      <Statistics_eff-space>34864795738</Statistics_eff-space>
+      <Statistics_kappa>0.46</Statistics_kappa>
+      <Statistics_lambda>1.28</Statistics_lambda>
+      <Statistics_entropy>0.85</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

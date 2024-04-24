@@ -1,0 +1,7 @@
+Input name: barcode6
+Databases used: matK, psbA-trnH, ITS, rbcL
+
+Best species for matK is Phyllanthus myrtifolius with alignment 94.5898551665909 and evalue 1.766075e-31
+Best species for psbA-trnH is UNVERIFIED: Clerodendrum with alignment 96.01772064758106 and evalue 8.498303992e-24
+Best species for ITS is Berberis alpicola with alignment 96.1215714618221 and evalue 4.435333333333333e-59
+Best species for rbcL is None with alignment 0 and evalue inf

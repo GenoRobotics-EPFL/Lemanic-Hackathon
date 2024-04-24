@@ -1,0 +1,4 @@
+Input name: barcode1
+Databases used: ITS
+
+Best species for ITS is Salvia sclarea with alignment 79.15057915057915 and evalue 9.56805e-89

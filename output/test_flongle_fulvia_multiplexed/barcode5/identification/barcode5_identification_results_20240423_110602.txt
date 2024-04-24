@@ -1,0 +1,6 @@
+Input name: barcode5
+Databases used: rbcL, ITS, psbA-trnH
+
+Best species for rbcL is None with alignment 0 and evalue inf
+Best species for ITS is None with alignment 0 and evalue inf
+Best species for psbA-trnH is None with alignment 0 and evalue inf

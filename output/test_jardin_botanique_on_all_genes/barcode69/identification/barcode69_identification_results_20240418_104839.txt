@@ -1,7 +1,0 @@
-Input name: barcode69
-Databases used: psbA-trnH, matK, rbcL, ITS
-
-Best species for psbA-trnH is UNVERIFIED: Holmskioldia with alignment 81.47512864493997 and evalue 2.47791e-121
-Best species for matK is Margaritaria discoidea with alignment 83.5820895522388 and evalue 2.94157e-115
-Best species for rbcL is None with alignment 0 and evalue inf
-Best species for ITS is Solanum nigrum with alignment 86.39240506329115 and evalue 0.0
