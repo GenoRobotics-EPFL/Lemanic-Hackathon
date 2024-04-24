@@ -24,9 +24,9 @@ The project revolves around DNA sequence clustering. This can be used for 2 purp
 
 ## The datasets
 
-The datasets used are the sequencing results of two Genorobotics expeditions:
-- [An expedition to Lausanne's botanical garden](data/expedition_jardin_botanique/) consisting of 27 samples of 14 various species and the 4 barcoding genes. The fastq reads are not multiplexed by genes and the DNA was collected using Genorobotics' lower fidelity microneedle patches.
-- [A summer expedition to ?](data/summer_expedition/) consisting of 12 samples of 12 different plants. The reads are multiplexed by genes and the DNA was collected with a higher fidelity Qiagen DNeasy kit.
+The datasets used are the sequencing results of multiple Genorobotics expeditions, more information by the method of extraction for each expedition can be found in the associated `general_info.csv` file:
+- *demultiplexed data*: Every sample contains reads from only one species and one gene. The only demultiplexed expedition is the one [ to Lausanne's botanical garden](data/expedition_jardin_botanique/) consisting of 10 samples of 5 different species and the 4 barcoding genes.
+- *multiplexed data*: Every sample contains reads from only one species but up to 4 different genes. All of the remaning expeditions are multiplexed (i.e the [summer expedition](data/summer_expedition/) consisting of 12 samples of 12 different plants)
 
 ### data organization
 - Each sub-folder represents a sample and spells out the sample's species, genes sequenced and barcode used.
@@ -35,9 +35,9 @@ The datasets used are the sequencing results of two Genorobotics expeditions:
 
 ### data generation
 
-To explore the effect of the number of reads and the rate of sequencing errors on the clustering methods we will develop, fake fastq databases can be generated from a reference sequence.
+- To explore the effect of the number of reads and the rate of sequencing errors on the clustering methods we will develop, fake fastq databases can be generated from a reference sequence.
 
-Additionally, real demultiplexed fastq files can be joined together while keeping track of their file of origin, to simulate the effect of multiplexing on real data.
+- Additionally, real demultiplexed fastq files can be joined together while keeping track of their file of origin, to simulate the effect of multiplexing on real data.
 
 ## Setup
 
