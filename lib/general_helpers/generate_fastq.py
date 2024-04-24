@@ -4,7 +4,9 @@ from Bio.Seq import Seq
 import numpy as np
 import os
 import os.path as ospath
-
+import numpy as np
+import scipy.stats
+import matplotlib.pyplot as plt
 
 
 def generate_weighted_sequence_variant(sequence, weights=[0.25, 0.25, 0.25, 0.25]):
@@ -19,7 +21,7 @@ def generate_weighted_sequence_variant(sequence, weights=[0.25, 0.25, 0.25, 0.25
         selected_variant(Seq): randomly reversed sequence
         variant_description(str): string indicating which variant is selected
     """
-    variants = ["initial sequence", "reverse complement", "complement", "reverse initial"]
+    variants = ["initial_sequence", "reverse_complement", "complement", "reverse_initial"]
     variant_sequences = [sequence, sequence.reverse_complement(), sequence.complement(), sequence[::-1]]
     
     selected_variant_index = random.choices(range(len(variants)), weights=weights, k=1)[0]
@@ -30,7 +32,37 @@ def generate_weighted_sequence_variant(sequence, weights=[0.25, 0.25, 0.25, 0.25
 
 
 
-def break_sequence_with_probability(sequence, break_prob_function, nbreaks = 2, take_longest= False):
+def break_prob_function(position, sequence_length):
+    """
+    Example of probability function usable for the previous function
+
+    Arguments:
+        position(int): position in sequence
+        sequence_length(int)
+    Returns:
+        probability at a specific position in sequence(float)
+    """
+    max_prob = 0.5  # Max probability at start and end of sequence
+    return max_prob * (position / sequence_length)
+
+def bimodal_distribution(position,sequence_length):
+    """
+    Probability density function of a bimodal normal distribution, highest chance is centered around positions at one or two thirds of sequence length
+
+    Parameters
+    ----------
+    position: position in the sequence for which probability of event is calculated
+    sequence_length: length of sequence
+
+    Returns
+    ---------
+    probability of event, between 0 and 1
+    """
+    peaks = [sequence_length/3, 2*sequence_length/3]
+    return 0.5* scipy.stats.norm(peaks[0],sequence_length/15).pdf(position) + 0.5*scipy.stats.norm(peaks[1],sequence_length/15).pdf(position)
+
+
+def break_sequence_with_probability(sequence, break_prob_function = bimodal_distribution, nbreaks = 2, take_longest= False):
     """
     Simulates breakages in the sequence, which could happen using the MinIon tool
 
@@ -55,7 +87,6 @@ def break_sequence_with_probability(sequence, break_prob_function, nbreaks = 2, 
                 new_sequence = new_sequence[:i+break_info["number_of_breaks"]] +"N" +new_sequence[i+break_info["number_of_breaks"]:]
                 nbreaks -= 1   # Breakage marker is 'N'
                 break_info['number_of_breaks'] += 1
-    print(new_sequence)
     broken_parts = new_sequence.split("N")
     if take_longest:
         length_index = lambda index: len(broken_parts[index])
@@ -68,19 +99,6 @@ def break_sequence_with_probability(sequence, break_prob_function, nbreaks = 2, 
     
     return final_seq, break_info
 
-
-def break_prob_function(position, sequence_length):
-    """
-    Example of probability function usable for the previous function
-
-    Arguments:
-        position(int): position in sequence
-        sequence_length(int)
-    Returns:
-        probability at a specific position in sequence(float)
-    """
-    max_prob = 0.5  # Max probability at start and end of sequence
-    return max_prob * (position / sequence_length)
 
 def mutate(base):
     """
@@ -117,7 +135,7 @@ def assign_quality_scores(sequence, mutation_probability=0.1,mutation_mean = 16,
         mutations_positions(array of ints): positions of mutations
     """
     quality_scores = []
-    base64_table = "!°#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+    base64_table = """!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~"""
     nb_mutations=0
     mutations_positions= []
     for i, base in enumerate(sequence):
@@ -171,8 +189,9 @@ def multiplex(folder_paths: list, dst: str):
                 if file.endswith(".fastq"):
                     file_path = ospath.join(root,file)
                     parsers[file_path] = list(SeqIO.parse(file_path, "fastq"))
-    
+
     with open(dst, "a") as writer:
+        print("inside writing")
         while parsers:
             parent_file_path = random.choice(list(parsers.keys()))
             current_list=parsers[parent_file_path]
@@ -181,7 +200,9 @@ def multiplex(folder_paths: list, dst: str):
             seqrecord.description = seqrecord.description + " source=" + parent_file_path
             SeqIO.write(seqrecord, writer, "fastq")
             current_list.pop(index)
+            print("index popped")
             if not current_list:
+                print("list popped")
                 parsers.pop(parent_file_path)
 
 
