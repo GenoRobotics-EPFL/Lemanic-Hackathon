@@ -28,10 +28,12 @@ The datasets used are the sequencing results of multiple Genorobotics expedition
 - *demultiplexed data*: Every sample contains reads from only one species and one gene. The only demultiplexed expedition is the one [ to Lausanne's botanical garden](data/expedition_jardin_botanique/) consisting of 10 samples of 5 different species and the 4 barcoding genes.
 - *multiplexed data*: Every sample contains reads from only one species but up to 4 different genes. All of the remaning expeditions are multiplexed (i.e the [summer expedition](data/summer_expedition/) consisting of 12 samples of 12 different plants)
 
+
 ### data organization
 - Each sub-folder represents a sample and spells out the sample's species, genes sequenced and barcode used.
 - Each subfolder contains a `fastq` file containing the raw reads and a `fasta` file containing the species reference sequences for the genes amplified from the GenBank database
 - Three csv files `general_info.csv`, `primer_info.csv` and `sample_info.csv` contain information about the expedition, the primers used and the species/genes for each sample respectively.
+- The `tomato` folder is the only one to not to follow this organization, it is simply a compilation of sequencings from commercial tomato samples.
 
 ### data generation
 
@@ -165,6 +167,8 @@ Follow these steps:
         - rbcL : 600 to 1000 -> ~90k Sequence, ~80Mo
         - psbA-trnH : 400 to 800 -> ~60k Sequence, ~40Mo
         - ITS: 1000 to 35000
+        
+<u>**Note**</u>: Be sure to search for "Internal Transcribed Spacer" instead of "ITS" to get results
 - Press on Search then Send to (corner top right) > Complete Record > File > Format = Fasta > Create File
 
 <img width = "660" src = images/ncbi1.png>
