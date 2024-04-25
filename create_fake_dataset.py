@@ -23,13 +23,11 @@ def main():
     for id, record in zip(ids,record_parser):
         new_demultiplexed_fastq_path = ospath.join(destination_folder_path, str(id)+".fastq")
         generate_fastq(record.seq, 100, new_demultiplexed_fastq_path)
-    print("left for loop")
+
     if multiplexed:
         multiplex_path=ospath.join(destination_folder_path,"multiplexed.fastq")
         multiplex([destination_folder_path],multiplex_path)
 
-    for record in SeqIO.parse(multiplex_path,"fastq"):
-        print(record)
 
 if __name__ == "__main__":
     main()
