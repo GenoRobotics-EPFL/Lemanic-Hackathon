@@ -177,7 +177,7 @@ Follow these steps:
 #### Creating the BLASTn databases
 - Move the downloaded fasta file to the /db folder of your BLASTn installation directory
 - open a terminal and place yourself in that /db directory using cd commands
-- Use the makeblastdb command-line tool included with BLAST, replacing db_name.fasta by the name of the fasta you downloaded and output_name by the name of the four genes (be careful to respect the capitalization)
+- Use the makeblastdb command-line tool included with BLAST, replacing db_name.fasta by the name of the fasta you downloaded and output_name by the name of the four genes (use exactly these spellings and capitalization: matK, rbcL, psbA-trnH, ITS)
 
 ```bash
 makeblastdb -in <db_name.fasta> -dbtype nucl -parse_seqids -out <output_name>

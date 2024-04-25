@@ -128,6 +128,8 @@ def mutate(base):
     """
     # Bases list
     bases = ['A', 'T', 'C', 'G']
+    if base not in bases:
+        raise ValueError("Invalid base provided. Base must be one of 'A', 'T', 'C', or 'G'.")
     bases.remove(base)
     # Randomly selected new base
     return random.choice(bases)
