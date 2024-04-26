@@ -1,4 +1,5 @@
 import os
+import os.path as ospath
 import logging
 from datetime import datetime
 
@@ -14,6 +15,8 @@ def get_logger(name, output_dir, base_name):
     Returns:
         logging.Logger: The configured logger instance.
     """
+    if not ospath.exists(output_dir):
+        os.makedirs(output_dir)
     # Create a custom logger
     logger = logging.getLogger(name)
     logger.setLevel(logging.INFO)
@@ -80,6 +83,19 @@ def configure_identification_logger(output_dir, base_name):
         logger: The configured identification logger.
     """
     return get_logger("identification", output_dir, base_name)
+
+def configure_demultiplexing_logger(output_dir, base_name):
+    """
+    Configure and return a logger for identification.
+
+    Args:
+        output_dir (str): The directory where the log files will be saved.
+        base_name (str): The name of the input file the logger is associated with.
+
+    Returns:
+        logger: The configured identification logger.
+    """
+    return get_logger("demultiplexing", output_dir, base_name)
 
 def configure_streaming_logger(output_dir, base_name):
     """

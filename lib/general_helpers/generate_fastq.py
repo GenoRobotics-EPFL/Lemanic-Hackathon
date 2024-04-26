@@ -209,7 +209,6 @@ def multiplex(folder_paths: list, dst: str):
                     parsers[file_path] = list(SeqIO.parse(file_path, "fastq"))
 
     with open(dst, "a") as writer:
-        print("inside writing")
         while parsers:
             parent_file_path = random.choice(list(parsers.keys()))
             current_list=parsers[parent_file_path]
@@ -218,9 +217,7 @@ def multiplex(folder_paths: list, dst: str):
             seqrecord.description = seqrecord.description + " source=" + parent_file_path
             SeqIO.write(seqrecord, writer, "fastq")
             current_list.pop(index)
-            print("index popped")
             if not current_list:
-                print("list popped")
                 parsers.pop(parent_file_path)
 
 
