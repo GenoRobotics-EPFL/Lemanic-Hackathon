@@ -6,7 +6,7 @@ import pandas as pd
 import shutil
 
 
-def demultiplexing(input_fastq, reference_paths, output_folder):
+def demultiplexing_allingnment(input_fastq, reference_paths, output_folder):
     """
     Demultiplexing the fastq file containing the reads.
     It saves one fastq file for each gene, demultiplexing the reads.
