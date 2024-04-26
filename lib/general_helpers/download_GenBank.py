@@ -78,9 +78,9 @@ def get_species_from_ids(ids:list):
     
     """
     species_dict= dict()
+    handle = Entrez.efetch(db="nucleotide", id=ids, retmode = "gb", rettype = "gb")
+    records = SeqIO.parse(handle,"genbank")
     for id in ids:
-        handle = Entrez.efetch(db="nucleotide", id=id, retmode = "gb", rettype = "gb")
-        records = SeqIO.parse(handle,"genbank")
         one_record = next(records)
         species_dict[id]=one_record.annotations["organism"]
     return species_dict
