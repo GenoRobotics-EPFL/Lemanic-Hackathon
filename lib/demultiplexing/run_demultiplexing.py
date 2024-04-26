@@ -1,10 +1,21 @@
 from lib.general_helpers.configure_loggers import configure_demultiplexing_logger
 from lib.demultiplexing.demultiplexing_pipelines.demultiplexing_isONclust_pipeline import isONclust_pipeline
 from lib.general_helpers.configure_loggers import *
+from lib.identification.identification import run_identification
+from lib.identification.identification_pipelines.identification_processing import *
+from lib.general_helpers.download_GenBank import *
+from lib.demultiplexing.demultiplexing_helpers import delete_files_except
 import os
 import os.path as ospath
+from logging import getLogger
+from Bio import SeqIO
+from Bio.Align import sam
+from lib.general_helpers.run_command import run_command
+from lib.consensus.consensus import run_consensus_pipeline_80_20_best_sequence
+import pandas as pd
+import shutil
 
-def run_demultiplexing(input_name:str, input_file_path: str, output_folder: str, demultiplexing_method: str ="isONclust", logger = None):
+def run_demultiplexing(input_name:str, input_file_path: str, output_folder: str, demultiplexing_method: str ="complete", logger = None, genes=["matK","rbcL","psbA-trnH","ITS"]):
     
     if logger == None:
         logger = configure_demultiplexing_logger(output_folder, input_name)
@@ -14,39 +25,80 @@ def run_demultiplexing(input_name:str, input_file_path: str, output_folder: str,
         logger.info(f"Running demultiplexing pipeline on {input_file_path} using the {demultiplexing_method} method")
         isONclust_pipeline(input_name,input_file_path,output_folder, logger=logger)
     
+    if demultiplexing_method == "complete":
+        logger.info(f"Running demultiplexing pipeline on {input_file_path} using the {demultiplexing_method} method")
+        isONclust_pipeline(input_name,input_file_path,output_folder, logger=logger)
+        cluster_files = os.listdir(output_folder)
+        for file in cluster_files:
+            if file.endswith(".fastq"):
+                cluster_consensus_output_folder=ospath.join(output_folder,f"{file[:-6]}","consensus")
+                os.makedirs(cluster_consensus_output_folder,exist_ok=True)
+                run_consensus_pipeline_80_20_best_sequence(f"{file[:-6]}",ospath.join(output_folder,file),cluster_consensus_output_folder,logger)
+        
+        for root,dirs,_ in os.walk(output_folder):
+            for dir in dirs:
+                consensus_folder_path = ospath.join(root,dir,"consensus")
+                print(consensus_folder_path)
+                files= os.listdir(consensus_folder_path)
+                for file in files:
+                    if "final_consensus" in file and not ospath.getsize(ospath.join(consensus_folder_path,file))==0:
+                        input_name = ospath.basename(dir)
+                        final_consensus_path = ospath.join(consensus_folder_path)
+                        identification_path = ospath.join(root,dir,"identification")
+                        os.makedirs(identification_path,exist_ok=True)
+                        run_identification(input_name,input_path=final_consensus_path, db=genes,logger=logger,output_dir=identification_path)
+            break
+
+        
+        reference_seq_folder_path= ospath.join(output_folder,"reference_seq")
+        os.makedirs(reference_seq_folder_path)
+        
+        for gene in genes:
+            best_sequence_id= None
+            best_evalue=100
+            best_alignment_score=0
+            for root,dirs,files in os.walk(output_folder):
+                for file in files:
+                    if gene in file:
+                        current_best_id,current_best_evalue,current_best_alignment_score =get_best_seqid_from_blastn_xml(ospath.join(root,file))
+                        print("current best evalue:", current_best_evalue)
+                        if current_best_evalue < best_evalue or (current_best_evalue == best_evalue and current_best_alignment_score > best_alignment_score):
+                            best_evalue=current_best_evalue
+                            best_sequence_id=current_best_id
+                            best_alignment_score=current_best_alignment_score
+            
+            download_sequence_from_id([best_sequence_id],ospath.join(reference_seq_folder_path,f"{gene}.fasta"))
+        
+        reference_paths=[]
+        ref_files= os.listdir(reference_seq_folder_path)
+        for ref_file in ref_files:
+            if ref_file.endswith(".fasta"):
+                reference_paths.append(ospath.join(reference_seq_folder_path,ref_file))
+        demultiplexing_alignment(input_file_path,reference_paths,output_folder,logger)
     
-from logging import getLogger
-from Bio import SeqIO
-from Bio.Align import sam
-from lib.general_helpers.run_command import run_command
-import pandas as pd
-import shutil
+    
 
 
-def demultiplexing_allingnment(input_fastq, reference_paths, output_folder):
+def demultiplexing_alignment(input_fastq, reference_paths, output_folder,logger):
     """
     Demultiplexing the fastq file containing the reads.
-    It saves one fastq file for each gene, demultiplexing the reads.
+    It saves one fastq file for each gene, demultiplexing the reads. CAREFUL SAM =0
 
     Args:
         input_fastq: input fastq file containing the multiplexed reads
         reference_paths: paths with reference sequences for each gene
         output_folder: output folder path for saving each final fastq file
     """
-    logger = getLogger('demultiplexing')
-
     # Get genes' names from the reference paths
     genes = []
     for path in reference_paths:
-        genes.append(path.split('.')[0])
-
-    # Deliting output directiory
-    shutil.rmtree("Alignment", ignore_errors=False)
-
+        genes.append(ospath.basename(path).split('.')[0])
+    print(genes)
     # Create SAM files for each gene
     alignment_paths = []
+    os.makedirs(ospath.join(output_folder,"Alignment"))
     for gene, reference_path in zip(genes, reference_paths):
-        alignment_path = f"Alignment/{gene}.sam"
+        alignment_path = ospath.join(output_folder,f"Alignment/{gene}.sam")
         minimap2_command = f"minimap2 -ax map-ont {reference_path} {input_fastq} > {alignment_path}"
         _, minimap2_time = run_command(minimap2_command, logger, windows=False)
         alignment_paths.append(alignment_path)
@@ -81,7 +133,7 @@ def demultiplexing_allingnment(input_fastq, reference_paths, output_folder):
     # Opening output files for each gene
     output_files = []
     for gene in genes:
-        output_files.append(open(f'{output_folder}/{gene}', 'w'))
+        output_files.append(open(f'{output_folder}/{gene}.fastq', 'w'))
 
     # Saving each read in the correct fastq file
     index = 0
@@ -95,9 +147,17 @@ def demultiplexing_allingnment(input_fastq, reference_paths, output_folder):
         index += 1
 
     # Closing the output files
+ 
     for output_file in output_files:
         output_file.close()
 
     # Deliting output directiory
-    shutil.rmtree("Alignment", ignore_errors=False)
+    files_to_keep=[]
+    for gene in genes:
+        files_to_keep.append(f'{gene}.fastq')
+    for file_to_keep in files_to_keep:
+        print(file_to_keep)
+    delete_files_except(output_folder,files_to_keep)
+    
+    #shutil.rmtree(ospath.join(output_folder,"Alignment"), ignore_errors=False)
 

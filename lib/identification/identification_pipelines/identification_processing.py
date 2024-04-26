@@ -19,7 +19,23 @@ def parse_blastn_xml(input_xml: str) -> list[tuple[str, int, int, int]]:
                 for hsp in alignment.hsps:
                     results.append((alignment.hit_def, hsp.identities/hsp.align_length*100, hsp.expect, hsp.align_length))
         return results
-    
+
+def get_best_seqid_from_blastn_xml(input_xml:str):
+    best_id=None
+    best_evalue=100
+    best_alignment_score=0    
+    with open(input_xml) as file:
+        blast_records = NCBIXML.parse(file)
+        results = []
+        for blast_record in blast_records:
+            for alignment in blast_record.alignments:
+                for hsp in alignment.hsps:
+                    if hsp.expect < best_evalue or (hsp.expect== best_evalue and hsp.identities/hsp.align_length*100 > best_alignment_score):
+                        best_id = alignment.accession
+                        best_evalue= hsp.expect
+                        best_alignment_score = hsp.identities/hsp.align_length*100
+    return (best_id,best_evalue,best_alignment_score)
+
 def separate_by_species(results: list[tuple[str, int, int, int]]) -> dict[str, list[tuple[int, int, int]]] :
     """
     Separates the results by species.

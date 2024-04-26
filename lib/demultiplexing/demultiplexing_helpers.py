@@ -4,6 +4,7 @@ import os
 import os.path as ospath
 from Bio import SeqIO
 import pandas as pd
+import shutil
 
 
 def get_info_on_cluster(fastq_file_path):
@@ -74,14 +75,31 @@ def get_nb_clusters_per_gene(result_df,threshold_percentage=0.01):
     dominating_genes= get_dominating_genes_per_cluster(result_df,threshold_percentage)
     return dominating_genes.value_counts()
 
-def keep_best_clusters(df, demultiplexing_path,threshold_percentage=0.01):
+def keep_best_clusters(df, demultiplexing_folder_path,threshold_percentage=0.01):
 
     total_nb_reads = df.loc[df.cluster=="total","nb_reads"].loc[0]
-    print(total_nb_reads)
+    keep_files=[]
     for i in range(len(df)):
-        print(df.loc[i,"nb_reads"])
-        if df.loc[i,"nb_reads"]<= total_nb_reads*threshold_percentage:
+        if df.loc[i,"nb_reads"]>= total_nb_reads*threshold_percentage:
             cluster_number = df.loc[i,"cluster"]
-            print(ospath.join(demultiplexing_path,f"{cluster_number}.fastq"))
-            os.remove(ospath.join(demultiplexing_path,f"{cluster_number}.fastq"))
+            keep_files.append(f"{cluster_number}.fastq")
+    for root,dirs,files in os.walk(demultiplexing_folder_path):
+        for file in files:
+            if file.endswith(".log"):
+                keep_files.append(file)
+    delete_files_except(demultiplexing_folder_path,keep_files)
         
+def delete_files_except(folder_path, keep_files):
+    # Get a list of all files and directories in the folder
+    for root, dirs, files in os.walk(folder_path, topdown=False):
+        for name in files:
+            file_path = os.path.join(root, name)
+            # Check if the file is not in the list of files to keep
+            if name not in keep_files and ".log" not in name:
+                # Delete the file
+                os.remove(file_path)
+
+        for name in dirs:
+            dir_path = os.path.join(root, name)
+            # Delete the directory and its contents
+            shutil.rmtree(dir_path)

@@ -17,23 +17,16 @@ import pandas as pd
 def run_test_demultiplexing():
     input_multiplex_path = ospath.join("data","fake_multiplexed")
     output_multiplex_path = ospath.join("output","test_on_fake_multiplex")
-    if not ospath.exists(output_multiplex_path):
-        os.makedirs(output_multiplex_path)
+    if ospath.exists(output_multiplex_path):
+        shutil.rmtree(output_multiplex_path)
+    os.makedirs(output_multiplex_path)
     logger = get_logger("demultiplexing",output_multiplex_path,"test_on_fake_multiplex")
 
     for root,dirs,files in os.walk(input_multiplex_path):
         for file in files:
             if file.endswith(".fastq"):
-                run_demultiplexing(file[:-6],ospath.join(root,file),ospath.join(output_multiplex_path,file[:-6]))
-    """
-    for root,dirs,files in os.walk(output_multiplex_path)      :
-        for dir in dirs:
-            print(dir)
-            df = get_info_on_clustering(ospath.join(root,dir))
-            print(df)
-            print(get_nb_clusters_per_gene(df))
-        break
-    """
+                run_demultiplexing(file[:-6],ospath.join(root,file),ospath.join(output_multiplex_path,file[:-6]), genes=["rbcL","ITS"])
+
 
 run_test_demultiplexing()
 
