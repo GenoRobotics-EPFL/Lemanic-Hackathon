@@ -173,6 +173,3 @@ def evaluation_of_isoncluster(input_folder="output/test_on_fake_multiplex_just_i
     final = pd.DataFrame.from_dict(evaluation_dictionary)
     final.index = names_of_species
     return final
-
-
-evaluation_of_isoncluster(input_folder="../../output/test_on_fake_multiplex_just_isonclust")
