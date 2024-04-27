@@ -31,7 +31,7 @@ def isONclust_pipeline(input_file_path: str, output_folder: str, logger):
     logger.info(f"Running command: {clustering_command}...")
     run_command(clustering_command,logger)
     info_df = get_info_on_clustering(output_folder)
-    keep_best_clusters(info_df,output_folder)
+    # keep_best_clusters(info_df,output_folder)
 
 
     

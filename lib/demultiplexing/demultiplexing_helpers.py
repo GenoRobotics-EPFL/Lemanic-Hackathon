@@ -143,3 +143,36 @@ def delete_files_except(folder_path, keep_files):
             dir_path = os.path.join(root, name)
             # Delete the directory and its contents
             shutil.rmtree(dir_path)
+
+
+def evaluation_of_isoncluster(input_folder="output/test_on_fake_multiplex_just_isonclust"):
+    # Get the list of directories in input folder
+    list_of_directories = os.listdir(input_folder)
+
+    evaluation_dictionary = {'total_nb_reads': [], 'nb_of_non_clustered_reads': [], 'number_of_clusters': [],
+                             'avg_cluster_accuracy': []}
+
+    names_of_species = []
+
+    # Iterating on the directories
+    for directory in list_of_directories:
+        if directory.endswith("_mutiplexed"):
+            final_df = get_info_on_clustering(input_folder + "/" + directory)
+            final_df['dominating_gene'] = get_dominating_genes_per_cluster(final_df)
+            final_df.drop(final_df[final_df['dominating_gene'].isna()].index, inplace=True)
+            for index, row in final_df.iterrows():
+                final_df.loc[index, 'accuracy'] = row[row['dominating_gene']] / row['nb_reads']
+
+            evaluation_dictionary['total_nb_reads'].append(final_df['nb_reads'].iloc[0])
+            evaluation_dictionary['nb_of_non_clustered_reads'].append(final_df['nb_reads'].iloc[0] -
+                                                                      final_df['nb_reads'].iloc[1:].sum())
+            evaluation_dictionary['number_of_clusters'].append(len(final_df) - 1)
+            evaluation_dictionary['avg_cluster_accuracy'].append(final_df['accuracy'].iloc[1:].mean())
+            names_of_species.append(directory.split("_")[0])
+
+    final = pd.DataFrame.from_dict(evaluation_dictionary)
+    final.index = names_of_species
+    return final
+
+
+evaluation_of_isoncluster(input_folder="../../output/test_on_fake_multiplex_just_isonclust")

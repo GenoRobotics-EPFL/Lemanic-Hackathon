@@ -23,12 +23,12 @@ def run_demultiplexing(input_name:str, input_file_path: str, output_folder: str,
     
     if demultiplexing_method == "isONclust":
         logger.info(f"Running demultiplexing pipeline on {input_file_path} using the {demultiplexing_method} method")
-        isONclust_pipeline(input_name,input_file_path,output_folder, logger=logger)
+        isONclust_pipeline(input_file_path,output_folder, logger=logger)
     
     if demultiplexing_method == "complete":
         logger.info(f"Running demultiplexing pipeline on {input_file_path} using the {demultiplexing_method} method")
         logger.info(f"Launching first step: isONclust")
-        isONclust_pipeline(input_name,input_file_path,output_folder, logger=logger)
+        isONclust_pipeline(input_file_path,output_folder, logger=logger)
         cluster_files = os.listdir(output_folder)
         for file in cluster_files:
             if file.endswith(".fastq"):
