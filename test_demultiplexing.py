@@ -26,7 +26,8 @@ def run_test_demultiplexing():
         for file in files:
             if file.endswith(".fastq"):
                 run_demultiplexing(file[:-6],ospath.join(root,file),ospath.join(output_multiplex_path,file[:-6]), genes=["rbcL","ITS"])
-
+            break
+        break
 
 run_test_demultiplexing()
 

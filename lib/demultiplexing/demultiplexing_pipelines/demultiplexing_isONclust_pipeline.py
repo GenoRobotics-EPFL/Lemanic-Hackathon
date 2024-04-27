@@ -6,7 +6,16 @@ import os.path as ospath
 from Bio import SeqIO
 import pandas as pd
 
-def isONclust_pipeline(input_name: str, input_file_path: str, output_folder: str, logger):
+def isONclust_pipeline(input_file_path: str, output_folder: str, logger):
+    """
+    pipeline for clustering reads from a multiplexed fastq file using isONclust tool. Turns one fastq files into multiple ones, named arbitrarily using integers starting at 0.
+
+    Parameters
+    ----------
+    input_name: name of test to include in logger
+    input_file_path(str): path to fastq file to demultiplex
+    logger(Logging.logger): logger 
+    """
     
     if not ospath.exists(output_folder):
         os.makedirs(output_folder)
@@ -23,7 +32,7 @@ def isONclust_pipeline(input_name: str, input_file_path: str, output_folder: str
     run_command(clustering_command,logger)
     info_df = get_info_on_clustering(output_folder)
     keep_best_clusters(info_df,output_folder)
-    
+
 
     
     
