@@ -156,7 +156,7 @@ def evaluation_of_isoncluster(input_folder="output/test_on_fake_multiplex_just_i
 
     # Iterating on the directories
     for directory in list_of_directories:
-        if directory.endswith("_mutiplexed"):
+        if directory.endswith("_mutiplexed"):  # For every directory that ends with multplexed
             final_df = get_info_on_clustering(input_folder + "/" + directory)
             final_df['dominating_gene'] = get_dominating_genes_per_cluster(final_df)
             final_df.drop(final_df[final_df['dominating_gene'].isna()].index, inplace=True)
@@ -168,7 +168,7 @@ def evaluation_of_isoncluster(input_folder="output/test_on_fake_multiplex_just_i
                                                                       final_df['nb_reads'].iloc[1:].sum())
             evaluation_dictionary['number_of_clusters'].append(len(final_df) - 1)
             evaluation_dictionary['avg_cluster_accuracy'].append(final_df['accuracy'].iloc[1:].mean())
-            names_of_species.append(directory.split("_")[0])
+            names_of_species.append("_".join(directory.split("_")[:-1]))
 
     final = pd.DataFrame.from_dict(evaluation_dictionary)
     final.index = names_of_species
