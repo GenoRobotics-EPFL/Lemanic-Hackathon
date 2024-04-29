@@ -150,7 +150,7 @@ def evaluation_of_isoncluster(input_folder="output/test_on_fake_multiplex_just_i
     list_of_directories = os.listdir(input_folder)
 
     evaluation_dictionary = {'total_nb_reads': [], 'nb_of_non_clustered_reads': [], 'number_of_clusters': [],
-                             'avg_cluster_accuracy': []}
+                             'avg_cluster_accuracy': [], 'percentage_of_non_clustered_reads': []}
 
     names_of_species = []
 
@@ -164,8 +164,14 @@ def evaluation_of_isoncluster(input_folder="output/test_on_fake_multiplex_just_i
                 final_df.loc[index, 'accuracy'] = row[row['dominating_gene']] / row['nb_reads']
 
             evaluation_dictionary['total_nb_reads'].append(final_df['nb_reads'].iloc[0])
+
+            genes_considered = (final_df['dominating_gene']).unique()
+            sum = 0
+            for gene in genes_considered:
+                sum += final_df[gene].iloc[1:].max()
             evaluation_dictionary['nb_of_non_clustered_reads'].append(final_df['nb_reads'].iloc[0] -
-                                                                      final_df['nb_reads'].iloc[1:].sum())
+                                                                      sum)
+            evaluation_dictionary['percentage_of_non_clustered_reads'].append(evaluation_dictionary['nb_of_non_clustered_reads'][-1] / evaluation_dictionary['total_nb_reads'][-1])
             evaluation_dictionary['number_of_clusters'].append(len(final_df) - 1)
             evaluation_dictionary['avg_cluster_accuracy'].append(final_df['accuracy'].iloc[1:].mean())
             names_of_species.append("_".join(directory.split("_")[:-1]))
@@ -173,3 +179,40 @@ def evaluation_of_isoncluster(input_folder="output/test_on_fake_multiplex_just_i
     final = pd.DataFrame.from_dict(evaluation_dictionary)
     final.index = names_of_species
     return final
+
+
+def evaluation_of_two_steps(input_folder="output/test_on_fake_multiplex"):
+    # Get the list of directories in input folder
+    list_of_directories = os.listdir(input_folder)
+
+    evaluation_dictionary = {'total_nb_reads': [], 'nb_of_non_clustered_reads': [], 'number_of_clusters': [],
+                             'avg_cluster_accuracy': [], 'percentage_of_non_clustered_reads': []}
+
+    names_of_species = []
+
+    # Iterating on the directories
+    for directory in list_of_directories:
+        if directory.endswith("_mutiplexed"):  # For every directory that ends with multplexed
+            sam_out = pd.read_csv(input_folder + "/" + directory + "sam_out.csv")
+            evaluation_dictionary['total_nb_reads'].append(len(sam_out))
+            evaluation_dictionary['nb_of_non_clustered_reads'].append((sam_out['unmapped'] == 0).sum())
+            evaluation_dictionary['percentage_of_non_clustered_reads'].append(evaluation_dictionary['nb_of_non_clustered_reads'][-1] / evaluation_dictionary['total_nb_reads'][-1])
+            evaluation_dictionary['number_of_clusters'].append(len((sam_out['mapq_max']).unique()))
+
+            count = 0
+            index = 0
+            for read in SeqIO.parse("../../data/fake_multiplexed/" + directory + ".fastq", "fastq"):
+                if read.description.split('_')[-2] == sam_out.iloc[index]['mapq_max'].split('_')[0]:
+                    count += 1
+                index += 1
+
+            evaluation_dictionary['avg_cluster_accuracy'].append(count / evaluation_dictionary['total_nb_reads'][-1])
+            names_of_species.append("_".join(directory.split("_")[:-1]))
+
+    final = pd.DataFrame.from_dict(evaluation_dictionary)
+    final.index = names_of_species
+    return final
+
+
+evaluation_of_isoncluster("../../output/test_on_fake_multiplex_just_isonclust")
+evaluation_of_two_steps("../../output/test_on_fake_multiplex")

@@ -79,11 +79,9 @@ def run_demultiplexing(input_name:str, input_file_path: str, output_folder: str,
                 reference_paths.append(ospath.join(reference_seq_folder_path,ref_file))
         logger.info("Launching second step: Alignment-based classification")
         demultiplexing_alignment(input_file_path,reference_paths,output_folder,logger)
-    
-    
 
 
-def demultiplexing_alignment(input_fastq, reference_paths, output_folder,logger):
+def demultiplexing_alignment(input_fastq, reference_paths, output_folder, logger):
     """
     Demultiplexing the fastq file containing the reads.
     It saves one fastq file for each gene, demultiplexing the reads. CAREFUL SAM =0
@@ -132,6 +130,8 @@ def demultiplexing_alignment(input_fastq, reference_paths, output_folder,logger)
     # Get the gene with the best map quality score
     sam_out['mapq_max'] = sam_out.iloc[:, 2::3].idxmax(axis=1)
     sam_out['unmapped'] = sam_out.iloc[:, 2::3].max(axis=1)
+
+    sam_out.to_csv(output_folder + "sam_out" + ".csv")
 
     # Opening output files for each gene
     output_files = []
